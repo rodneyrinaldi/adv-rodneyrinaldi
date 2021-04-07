@@ -36,28 +36,27 @@ export default function Home() {
         <div className={styles.grid}>
           <Menu
             url='#'
-            alt='manifesto'
-            pic='/manifesto.png'
-            title='MANIFESTO'
-            description='Princípios definidores para um atendimento personalizado ético, eficiente e sustentável.'
-          />
-
-          <Menu
-            url='#'
-            alt='portfolio'
-            pic='/portfolio.png'
+            alt='representação jurídica'
+            pic='/representation.png'
             title='REPRESENTAÇÃO JURÍDICA'
             description='Atuação em direito civil consumidor, traânsito, família e sucessões. Direito trabalhista e previdenciário.'
           />
 
           <Menu
             url='#'
-            alt='curriculum'
-            pic='/curriculo.png'
+            alt='assessoria empresarial'
+            pic='/advisory.png'
             title='ASSESSORIA EMPRESARIAL'
             description='Contencioso e consultivo digital, contratual e trabalhista. Políticas de privacidade e conformidade.'
           />
 
+          <Menu
+            url='#'
+            alt='manifesto'
+            pic='/manifest.png'
+            title='MANIFESTO'
+            description='Princípios definidores para um atendimento personalizado ético, eficiente e sustentável.'
+          />
 
           <Menu
             url='#'
