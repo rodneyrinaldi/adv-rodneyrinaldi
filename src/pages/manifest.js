@@ -2,10 +2,11 @@ import Head from 'next/head'
 import Link from 'next/link'
 
 import Contact from '../components/contact'
+import Header from '../components/header'
 
 import styles from '../styles/manifesto.module.css'
 
-export default function Manifesto() {
+export default function Manifest() {
   return (
     <div id='toppage' name='toppage' className={styles.container}>
       <Head>
@@ -16,29 +17,28 @@ export default function Manifesto() {
       <Contact showback='yes' />
 
       <main className={styles.main}>
-        <img src="/rr-logo.svg" alt="rodneyrinaldi" className={styles.logo1} />
-        <img src="/rodneyrinaldi.svg" alt="rodneyrinaldi" className={styles.logo2} />
+        <Header />
 
         <h1>MANIFESTO INSTITUCIONAL</h1>
 
         <div className={styles.grid}>
           <p>
-            Com este manifesto dá-se publicidade ao comprometimento primordial em seguir as melhores e possíveis
+            Este manifesto dá-se publicidade ao comprometimento primordial em seguir as melhores e possíveis
             políticas de pesquisa, desenvolvimento, comercialização e suporte a todos os produtos e serviços
             desempenhados isolada ou compartilhadamente.
           </p>
           <p>
             Possuindo como valores essenciais vivenciados em todas as atividades:
-            a) o respeito aos clientes, aos colaboradores e a sociedade;
+            a) o respeito aos clientes, aos colaboradores, a sociedade e aos meios ambientes;
             b) o respeito a aplicabilidade das normas, das leis, das convenções e dos costumes;
             c) o respeito a concorrência legal, ética e justa;
             d) o respeito a precificação justa, sustentável e competitiva.
           </p>
           <p>
             Aplicando como princípios em todas as interações:
-            a) necessáriamente ouvir primeiro a necessidade do cliente antes de sugirir soluções;
-            b) sempre registrar interações e especificações de forma simples e eficiêntes;
-            c) se comprometer com o bom especificado em seu tempo, entregar o ótimo quando possível, e nunca entregar o ruim desjustificado;
+            a) entender primeiro a necessidade do cliente antes de sugirir soluções;
+            b) registrar interações e especificações de forma simples e eficiênte;
+            c) compromisso com a qualidade e tempo, entregas pontuais, e nunca entregar uma má prestação;
             d) fazer primeiro e cobrar depois, sempre que possível trabalhar com provas de conceito primeiramente.
           </p>
         </div>

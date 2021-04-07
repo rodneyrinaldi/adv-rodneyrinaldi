@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 
 import Contact from '../components/contact'
+import Header from '../components/header'
 import Menu from '../components/menu'
 
 import styles from '../styles/index.module.css'
@@ -17,17 +18,7 @@ export default function Home() {
       <Contact showback='no' />
 
       <main className={styles.main}>
-
-        <div className={styles.logo}>
-          <div style={{ display: 'flex' }}>
-            <img src="/rr-logo.svg" alt="rodneyrinaldi" />
-          </div>
-
-          <div style={{ display: 'flex', width: 'auto' }}>
-            <h1>Rodney Rinaldi</h1>
-            <h2>ADVOGADO</h2>
-          </div>
-        </div>
+        <Header />
 
         <code className={styles.code}>
           <h1>{"A todos é assegurado a defesa dos seus direitos e a proteção da sua dignidade, tendo garantido um processo justo e legal"}</h1>
@@ -51,7 +42,7 @@ export default function Home() {
           />
 
           <Menu
-            url='#'
+            url='/manifest'
             alt='manifesto'
             pic='/manifest.png'
             title='MANIFESTO'

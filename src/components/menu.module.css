@@ -48,8 +48,8 @@
 }
 
 .logo {
-  width: 6vw;
-  max-width: 60px;
+  width: 8vw;
+  max-width: 70px;
   margin-top: 8px;
   margin-bottom: 6px;
   opacity: .9;
@@ -81,8 +81,8 @@
     line-height: 1.4;
   }
 
-  .logo3 {
-    width: 12vw;
+  .logo {
+    width: 24vw;
     margin-top: 26px;
     margin-bottom: 6px;
   }
