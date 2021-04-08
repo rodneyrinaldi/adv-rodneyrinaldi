@@ -4,7 +4,7 @@ import Link from 'next/link'
 import Contact from '../components/contact'
 import Header from '../components/header'
 
-import styles from '../styles/manifesto.module.css'
+import styles from '../styles/manifest.module.css'
 
 export default function Manifest() {
   return (
@@ -19,7 +19,10 @@ export default function Manifest() {
       <main className={styles.main}>
         <Header />
 
-        <h1>MANIFESTO INSTITUCIONAL</h1>
+        <div className={styles.title}>
+          <img src='./manifest.png' alt='manifesto' className={styles.logo} />
+          <h1>MANIFESTO INSTITUCIONAL</h1>
+        </div>
 
         <div className={styles.grid}>
           <p>

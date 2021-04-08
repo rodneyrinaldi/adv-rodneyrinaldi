@@ -50,7 +50,7 @@ export default function Home() {
           />
 
           <Menu
-            url='#'
+            url='/editorial'
             alt='editorial'
             pic='/editorial.png'
             title='EDITORIAL'

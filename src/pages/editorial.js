@@ -2,9 +2,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 
 import Contact from '../components/contact'
-import Project from '../components/project'
-
-import data from '../data/posts.json'
+import Header from '../components/header'
 
 import styles from '../styles/editorial.module.css'
 
@@ -19,26 +17,17 @@ export default function Editorial() {
       <Contact showback='yes' />
 
       <main className={styles.main}>
-        <img src="/rr-logo.svg" alt="rodneyrinaldi" className={styles.logo1} />
-        <img src="/rodneyrinaldi.svg" alt="rodneyrinaldi" className={styles.logo2} />
+        <Header />
 
-        <h1>MATERIAIS PUBLICADOS</h1>
+        <div className={styles.title}>
+          <img src='./editorial.png' alt='editorial' className={styles.logo} />
+          <h1>EDITORIAL JURÍDICO</h1>
+        </div>
 
         <div className={styles.grid}>
-          {
-            data.map(function (item) {
-              return (
-                <Project
-                  url={item.url}
-                  alt={item.alt}
-                  pic={item.pic}
-                  title={item.title}
-                  description={item.description}
-                />
-              )
-            })
-          }
+          ...
         </div>
+
       </main>
 
       <session className={styles.midias}>
