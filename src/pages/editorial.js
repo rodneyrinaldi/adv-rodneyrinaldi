@@ -1,12 +1,20 @@
+import React, { useState } from "react";
 import Head from 'next/head'
 import Link from 'next/link'
 
+import { StateContext, AreaContext, ActionContext }
+  from '../contexts/selection'
+
 import Contact from '../components/contact'
 import Header from '../components/header'
+import Selection from '../components/selection'
 
 import styles from '../styles/editorial.module.css'
 
 export default function Editorial() {
+  const [area, setArea] = useState(null)
+  const [action, setAction] = useState(null)
+
   return (
     <div id='toppage' name='toppage' className={styles.container}>
       <Head>
@@ -25,7 +33,11 @@ export default function Editorial() {
         </div>
 
         <div className={styles.grid}>
-          ...
+          <AreaContext.Provider value={setArea}>
+            <ActionContext.Provider value={setAction}>
+              <Selection />
+            </ActionContext.Provider>
+          </AreaContext.Provider>
         </div>
 
       </main>
