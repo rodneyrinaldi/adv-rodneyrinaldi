@@ -26,7 +26,7 @@ export default function Home() {
 
         <div className={styles.grid}>
           <Menu
-            url='#'
+            url='/representation'
             alt='representação jurídica'
             pic='/representation.png'
             title='REPRESENTAÇÃO JURÍDICA'
