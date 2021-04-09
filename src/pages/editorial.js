@@ -1,7 +1,9 @@
 import Head from 'next/head'
+import Link from 'next/link'
 
 import Contact from '../components/contact'
 import Header from '../components/header'
+import Menu from '../components/menu'
 
 import styles from '../styles/editorial.module.css'
 
@@ -19,8 +21,32 @@ export default function Editorial() {
       <main className={styles.main}>
         <Header />
 
-        <div className={styles.title}>
-          <h1>EDITORIAL JURÍDICO</h1>
+        <div className={styles.grid}>
+
+          <Menu
+            url='#'
+            alt='......'
+            pic='/representation.png'
+            title='O DIREITO E A JUSTIÇA'
+            description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam reprehenderit alias architecto corrupti pariatur laboriosam iure dignissimos perspiciatis assumenda. Quidem sint molestias quisquam repudiandae soluta suscipit eaque voluptas commodi porro.'
+          />
+
+          <Menu
+            url='#'
+            alt=''
+            pic='/representation.png'
+            title='A INCONSTITUCIONALIDADE DO TRÂNSITO'
+            description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam reprehenderit alias architecto corrupti pariatur laboriosam iure dignissimos perspiciatis assumenda. Quidem sint molestias quisquam repudiandae soluta suscipit eaque voluptas commodi porro.'
+          />
+
+          <Menu
+            url='#'
+            alt=''
+            pic='/representation.png'
+            title='A IRRACIONALIDADE DA POLÍTICA DAS MINORIAS'
+            description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam reprehenderit alias architecto corrupti pariatur laboriosam iure dignissimos perspiciatis assumenda. Quidem sint molestias quisquam repudiandae soluta suscipit eaque voluptas commodi porro.'
+          />
+
         </div>
 
       </main>
