@@ -26,7 +26,7 @@ export default function Editorial() {
           <Menu
             url='#'
             alt='......'
-            pic='/representation.png'
+            pic='/editorial.png'
             title='O DIREITO E A JUSTIÇA'
             description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam reprehenderit alias architecto corrupti pariatur laboriosam iure dignissimos perspiciatis assumenda. Quidem sint molestias quisquam repudiandae soluta suscipit eaque voluptas commodi porro.'
           />
@@ -34,7 +34,7 @@ export default function Editorial() {
           <Menu
             url='#'
             alt=''
-            pic='/representation.png'
+            pic='/editorial.png'
             title='A INCONSTITUCIONALIDADE DO TRÂNSITO'
             description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam reprehenderit alias architecto corrupti pariatur laboriosam iure dignissimos perspiciatis assumenda. Quidem sint molestias quisquam repudiandae soluta suscipit eaque voluptas commodi porro.'
           />
@@ -42,7 +42,7 @@ export default function Editorial() {
           <Menu
             url='#'
             alt=''
-            pic='/representation.png'
+            pic='/editorial.png'
             title='A IRRACIONALIDADE DA POLÍTICA DAS MINORIAS'
             description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam reprehenderit alias architecto corrupti pariatur laboriosam iure dignissimos perspiciatis assumenda. Quidem sint molestias quisquam repudiandae soluta suscipit eaque voluptas commodi porro.'
           />
