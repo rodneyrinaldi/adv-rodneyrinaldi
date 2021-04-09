@@ -50,13 +50,6 @@
   font-size: 1.1rem;
 }
 
-.logo {
-  width: 8vw;
-  max-width: 30px;
-  margin-right: 10px;
-  opacity: .9;
-}
-
 .footer {
   width: 100%;
   height: 10px;
@@ -111,11 +104,6 @@
 
   .midias a {
     font-size: .7rem;
-  }
-  .logo {
-    width: 10vw;
-    margin-top: 26px;
-    margin-bottom: 6px;
   }
 
   .footer a {

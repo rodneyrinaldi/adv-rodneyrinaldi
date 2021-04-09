@@ -20,7 +20,6 @@ export default function Manifest() {
         <Header />
 
         <div className={styles.title}>
-          <img src='./manifest.png' alt='manifesto' className={styles.logo} />
           <h1>MANIFESTO INSTITUCIONAL</h1>
         </div>
 

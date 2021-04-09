@@ -28,8 +28,7 @@ export default function Doubts() {
         <Header />
 
         <div className={styles.title}>
-          <img src='./editorial.png' alt='editorial' className={styles.logo} />
-          <h1>EDITORIAL JURÍDICO</h1>
+          <h1>DÚVIDAS JURÍDICAS</h1>
         </div>
 
         <div className={styles.grid}>

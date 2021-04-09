@@ -5,9 +5,9 @@ import Contact from '../components/contact'
 import Header from '../components/header'
 import Menu from '../components/menu'
 
-import styles from '../styles/representation.module.css'
+import styles from '../styles/advisory.module.css'
 
-export default function Representation() {
+export default function Advisory() {
 
   return (
     <div id='toppage' name='toppage' className={styles.container}>
@@ -26,40 +26,16 @@ export default function Representation() {
           <Menu
             url='#'
             alt='......'
-            pic='/family.png'
-            title='CAUSAS FAMÍLIA'
-            description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam reprehenderit alias architecto corrupti pariatur laboriosam iure dignissimos perspiciatis assumenda. Quidem sint molestias quisquam repudiandae soluta suscipit eaque voluptas commodi porro.'
-          />
-
-          <Menu
-            url='#'
-            alt='......'
-            pic='/consumer.png'
-            title='CAUSAS CONSUMIDOR'
-            description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam reprehenderit alias architecto corrupti pariatur laboriosam iure dignissimos perspiciatis assumenda. Quidem sint molestias quisquam repudiandae soluta suscipit eaque voluptas commodi porro.'
-          />
-
-          <Menu
-            url='#'
-            alt='......'
-            pic='/doctor.png'
-            title='CAUSAS ERRO MÉDICO'
-            description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam reprehenderit alias architecto corrupti pariatur laboriosam iure dignissimos perspiciatis assumenda. Quidem sint molestias quisquam repudiandae soluta suscipit eaque voluptas commodi porro.'
-          />
-
-          <Menu
-            url='#'
-            alt=' '
-            pic='/house.png'
-            title='CAUSAS IMOBILIÁRIAS'
+            pic='/representation.png'
+            title='CONTENCIOSO'
             description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam reprehenderit alias architecto corrupti pariatur laboriosam iure dignissimos perspiciatis assumenda. Quidem sint molestias quisquam repudiandae soluta suscipit eaque voluptas commodi porro.'
           />
 
           <Menu
             url='#'
             alt=''
-            pic='/traffic.png'
-            title='CAUSAS TRÂNSITO'
+            pic='/representation.png'
+            title='CONSULTIVO'
             description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam reprehenderit alias architecto corrupti pariatur laboriosam iure dignissimos perspiciatis assumenda. Quidem sint molestias quisquam repudiandae soluta suscipit eaque voluptas commodi porro.'
           />
 
@@ -67,7 +43,7 @@ export default function Representation() {
             url='#'
             alt='......'
             pic='/representation.png'
-            title='CAUSAS TRABALHISTAS'
+            title='ADMINISTRATIVO'
             description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam reprehenderit alias architecto corrupti pariatur laboriosam iure dignissimos perspiciatis assumenda. Quidem sint molestias quisquam repudiandae soluta suscipit eaque voluptas commodi porro.'
           />
 
@@ -75,7 +51,15 @@ export default function Representation() {
             url='#'
             alt='......'
             pic='/representation.png'
-            title='CAUSAS PREVIDENCIÁRIAS'
+            title='CONFORMIDADE'
+            description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam reprehenderit alias architecto corrupti pariatur laboriosam iure dignissimos perspiciatis assumenda. Quidem sint molestias quisquam repudiandae soluta suscipit eaque voluptas commodi porro.'
+          />
+
+          <Menu
+            url='#'
+            alt=' '
+            pic='/representation.png'
+            title='PRIVACIDADE'
             description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam reprehenderit alias architecto corrupti pariatur laboriosam iure dignissimos perspiciatis assumenda. Quidem sint molestias quisquam repudiandae soluta suscipit eaque voluptas commodi porro.'
           />
 

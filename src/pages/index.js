@@ -29,12 +29,12 @@ export default function Home() {
             url='/representation'
             alt='representação jurídica'
             pic='/representation.png'
-            title='REPRESENTAÇÃO JURÍDICA'
+            title='REPRESENTAÇÃO JURÍDICAS'
             description='Atuação em direito civil consumidor, traânsito, família e sucessões. Direito trabalhista e previdenciário.'
           />
 
           <Menu
-            url='#'
+            url='/advisory'
             alt='assessoria empresarial'
             pic='/advisory.png'
             title='ASSESSORIA EMPRESARIAL'
