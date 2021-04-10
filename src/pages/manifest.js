@@ -10,7 +10,7 @@ export default function Manifest() {
   return (
     <div id='toppage' name='toppage' className={styles.container}>
       <Head>
-        <title>dev.rodneyrinaldi</title>
+        <title>adv.rodneyrinaldi</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 

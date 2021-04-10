@@ -1,0 +1,87 @@
+import { useState } from 'react';
+import { useRouter } from "next/router"
+import emailjs from 'emailjs-com'
+
+import styles from './email.module.css'
+
+function Email(props) {
+  const router = useRouter()
+
+  const [name, setName] = useState("")
+  const [email, setEmail] = useState("")
+  const [message, setMessage] = useState("")
+
+  // const { query: { service }, } = router
+  const service = 'contact us rodneyrinaldi.com'
+
+  function handleSubmit(e) {
+    e.preventDefault()
+
+    console.log(props.EMAILJS_USER_ID)
+    console.log(props.EMAILJS_TEMPLATE_ID)
+    console.log(props.EMAILJS_USER_ID)
+
+    console.log(process.env.EMAILJS_SERVICE_ID)
+    console.log(process.env.EMAILJS_TEMPLATE_ID)
+    console.log(process.env.EMAILJS_USER_ID)
+
+    const fields = `{name:${name}, email:${email}, message:${message}}`
+    const params = { sitename: service, emailaddress: email, emailmessage: fields }
+
+    emailjs.send(
+      props.EMAILJS_SERVICE_ID,
+      props.EMAILJS_TEMPLATE_ID,
+      params,
+      props.EMAILJS_USER_ID
+    ).then((result) => {
+      console.log(result.text)
+    }, (error) => {
+      console.log(error.text)
+    })
+
+    setName('')
+    setEmail('')
+    setMessage('')
+  }
+
+  return (
+    <>
+      <div className={styles.tierArticles}>
+        <div>
+          <form onSubmit={handleSubmit}>
+            <label htmlFor="contactName">Nome</label>
+            <input type="text" id="contactName"
+              onChange={e => setName(e.target.value)} />
+            <label htmlFor="contactEmail">Email</label>
+            <input type="email" id="contactEmail"
+              onChange={e => setEmail(e.target.value)} />
+            <label htmlFor="contactMessage">Mensagem</label>
+            <textarea id="contactMessage"
+              onChange={e => setMessage(e.target.value)} />
+            <input type="submit" value="E N V I A R" className={styles.goForward} />
+            <p><input type="checkbox" id="myCheck" onclick="" />Concordo com a Política de Privacidade e Proteção de Dados</p>
+          </form>
+        </div>
+      </div>
+    </>
+  )
+}
+
+export async function getServerProps() {
+  console.log(process.env.EMAILJS_SERVICE_ID)
+  console.log(process.env.EMAILJS_TEMPLATE_ID)
+  console.log(process.env.EMAILJS_USER_ID)
+  return {
+    props: {
+      emailjsServiceId: process.env.EMAILJS_SERVICE_ID,
+      emailjsTemplateId: process.env.EMAILJS_TEMPLATE_ID,
+      emailjsUserId: process.env.EMAILJS_USER_ID
+    },
+    query: {
+
+    }
+  }
+}
+
+export default Email
+

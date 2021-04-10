@@ -12,7 +12,7 @@ function Contact(props) {
       <a href={wapp} target='_blank'>
         <img src="/whatsapp.svg" alt="whatsapp" className={styles.icon} target="_blank" />
       </a>
-      <a onClick={() => router.push('/')}>
+      <a onClick={() => router.push('/email')}>
         <img src="/email.svg" alt="whatsapp" className={styles.icon} />
       </a>
       <a href='#toppage'>

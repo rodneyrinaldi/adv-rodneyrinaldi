@@ -1,20 +1,13 @@
-import React, { useState } from "react";
 import Head from 'next/head'
 import Link from 'next/link'
 
-import { StateContext, AreaContext, ActionContext }
-  from '../contexts/selection'
-
 import Contact from '../components/contact'
 import Header from '../components/header'
-import Selection from '../components/selection'
+import EmailComp from '../components/email'
 
-import styles from '../styles/editorial.module.css'
+import styles from '../styles/email.module.css'
 
-export default function Doubts() {
-  const [area, setArea] = useState(null)
-  const [action, setAction] = useState(null)
-
+export default function Email() {
   return (
     <div id='toppage' name='toppage' className={styles.container}>
       <Head>
@@ -28,15 +21,11 @@ export default function Doubts() {
         <Header />
 
         <div className={styles.title}>
-          <h1>DÚVIDAS JURÍDICAS</h1>
+          <h1>FALE CONOSCO</h1>
         </div>
 
         <div className={styles.grid}>
-          <AreaContext.Provider value={setArea}>
-            <ActionContext.Provider value={setAction}>
-              <Selection />
-            </ActionContext.Provider>
-          </AreaContext.Provider>
+          <EmailComp />
         </div>
 
       </main>
