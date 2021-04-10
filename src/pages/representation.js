@@ -27,7 +27,7 @@ export default function Representation() {
             url='#'
             alt='......'
             pic='/family.png'
-            title='CAUSAS FAMÍLIA'
+            title='AÇÕES DE FAMÍLIA'
             description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam reprehenderit alias architecto corrupti pariatur laboriosam iure dignissimos perspiciatis assumenda. Quidem sint molestias quisquam repudiandae soluta suscipit eaque voluptas commodi porro.'
           />
 
@@ -35,7 +35,7 @@ export default function Representation() {
             url='#'
             alt='......'
             pic='/consumer.png'
-            title='CAUSAS CONSUMIDOR'
+            title='AÇÕES DE CONSUMO'
             description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam reprehenderit alias architecto corrupti pariatur laboriosam iure dignissimos perspiciatis assumenda. Quidem sint molestias quisquam repudiandae soluta suscipit eaque voluptas commodi porro.'
           />
 
@@ -43,7 +43,7 @@ export default function Representation() {
             url='#'
             alt='......'
             pic='/doctor.png'
-            title='CAUSAS ERRO MÉDICO'
+            title='AÇÕES MÉDICAS'
             description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam reprehenderit alias architecto corrupti pariatur laboriosam iure dignissimos perspiciatis assumenda. Quidem sint molestias quisquam repudiandae soluta suscipit eaque voluptas commodi porro.'
           />
 
@@ -51,7 +51,7 @@ export default function Representation() {
             url='#'
             alt=' '
             pic='/house.png'
-            title='CAUSAS IMOBILIÁRIAS'
+            title='AÇÕES IMOBILIÁRIAS'
             description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam reprehenderit alias architecto corrupti pariatur laboriosam iure dignissimos perspiciatis assumenda. Quidem sint molestias quisquam repudiandae soluta suscipit eaque voluptas commodi porro.'
           />
 
@@ -59,23 +59,23 @@ export default function Representation() {
             url='#'
             alt=''
             pic='/traffic.png'
-            title='CAUSAS TRÂNSITO'
+            title='AÇÕES DE TRÂNSITO'
             description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam reprehenderit alias architecto corrupti pariatur laboriosam iure dignissimos perspiciatis assumenda. Quidem sint molestias quisquam repudiandae soluta suscipit eaque voluptas commodi porro.'
           />
 
           <Menu
             url='#'
             alt='......'
-            pic='/representation.png'
-            title='CAUSAS TRABALHISTAS'
+            pic='/work.png'
+            title='AÇÕES TRABALHISTAS'
             description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam reprehenderit alias architecto corrupti pariatur laboriosam iure dignissimos perspiciatis assumenda. Quidem sint molestias quisquam repudiandae soluta suscipit eaque voluptas commodi porro.'
           />
 
           <Menu
             url='#'
             alt='......'
-            pic='/representation.png'
-            title='CAUSAS PREVIDENCIÁRIAS'
+            pic='/old.png'
+            title='AÇÕES PREVIDENCIÁRIAS'
             description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam reprehenderit alias architecto corrupti pariatur laboriosam iure dignissimos perspiciatis assumenda. Quidem sint molestias quisquam repudiandae soluta suscipit eaque voluptas commodi porro.'
           />
 

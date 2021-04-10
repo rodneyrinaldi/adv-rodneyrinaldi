@@ -26,7 +26,7 @@ export default function Advisory() {
           <Menu
             url='#'
             alt='......'
-            pic='/representation.png'
+            pic='/judge.png'
             title='CONTENCIOSO'
             description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam reprehenderit alias architecto corrupti pariatur laboriosam iure dignissimos perspiciatis assumenda. Quidem sint molestias quisquam repudiandae soluta suscipit eaque voluptas commodi porro.'
           />
@@ -34,7 +34,7 @@ export default function Advisory() {
           <Menu
             url='#'
             alt=''
-            pic='/representation.png'
+            pic='/lawyer.png'
             title='CONSULTIVO'
             description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam reprehenderit alias architecto corrupti pariatur laboriosam iure dignissimos perspiciatis assumenda. Quidem sint molestias quisquam repudiandae soluta suscipit eaque voluptas commodi porro.'
           />

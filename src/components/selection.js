@@ -130,17 +130,18 @@ const pages = () => {
 
       <div className={styles.oabtext}>
 
-        <div className={styles.areas}><Select
-          id='area'
-          instanceId='area'
-          placeholder='...'
-          options={areaOptions}
-          onChange={handleAreaChange}
-          value={area == null
-            ? ' '
-            : areaOptions[getIndex(area, areaOptions, 'id')]
-          }
-        />
+        <div className={styles.areas}>
+          <Select
+            id='area'
+            instanceId='area'
+            placeholder='Selecione uma area...'
+            options={areaOptions}
+            onChange={handleAreaChange}
+            value={area == null
+              ? ' '
+              : areaOptions[getIndex(area, areaOptions, 'id')]
+            }
+          />
         </div>
       </div>
 
@@ -149,7 +150,7 @@ const pages = () => {
           <Select
             id='action'
             instanceId='action'
-            placeholder='...'
+            placeholder='Selecione uma ação...'
             options={actionOptions}
             onChange={handleActionChange}
             value={action == null
@@ -161,23 +162,29 @@ const pages = () => {
       </div>
 
       <div className={styles.row}>
-        <div className={styles.title}>ARTIGOS</div>
+        <div className={styles.title}>DÚVIDAS</div>
       </div>
 
       <div className={styles.procedures}>
         <div className={styles.proceduresitems}>
           <Accordion>
             {procedureOptions.map((item) => (
-              <AccordionItem key={item.seq}>
-                <AccordionItemHeading>
-                  <AccordionItemButton>
-                    {item.procedure}
-                  </AccordionItemButton>
-                </AccordionItemHeading>
-                <AccordionItemPanel>
-                  {item.valueporc}
-                </AccordionItemPanel>
-              </AccordionItem>
+              <div style={{ paddingBottom: '2px' }}>
+                <AccordionItem key={item.seq}>
+                  <AccordionItemHeading>
+                    <AccordionItemButton>
+                      <div style={{ padding: '10px' }}>
+                        {item.procedure}
+                      </div>
+                    </AccordionItemButton>
+                  </AccordionItemHeading>
+                  <AccordionItemPanel>
+                    <div style={{ padding: '10px', background: '#c1c1c1' }}>
+                      {item.valueporc}
+                    </div>
+                  </AccordionItemPanel>
+                </AccordionItem>
+              </div>
             ))}
           </Accordion>
         </div>

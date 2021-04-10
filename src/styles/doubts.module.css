@@ -8,19 +8,13 @@
 }
 
 .main {
-  padding: 3rem 0;
+  padding: 1rem 0;
   flex: 1;
   flex-wrap: wrap;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.main h1 {
-  padding: 30px 0 20px;
-  text-align: center;
-  font-size: clamp(.4em, .6em + 1vw, 1.4em);
 }
 
 .midias {
@@ -48,6 +42,12 @@
   margin: 0;
   line-height: 1.15;
   font-size: 1.1rem;
+}
+.title h1 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: clamp(.4em, .6em + 1vw, 1.4em);
 }
 
 .footer {
