@@ -42,7 +42,7 @@ export default function Advisory() {
           <Menu
             url='#'
             alt='......'
-            pic='/representation.png'
+            pic='/administrative.png'
             title='ADMINISTRATIVO'
             description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam reprehenderit alias architecto corrupti pariatur laboriosam iure dignissimos perspiciatis assumenda. Quidem sint molestias quisquam repudiandae soluta suscipit eaque voluptas commodi porro.'
           />
@@ -50,7 +50,7 @@ export default function Advisory() {
           <Menu
             url='#'
             alt='......'
-            pic='/representation.png'
+            pic='/compliance.png'
             title='CONFORMIDADE'
             description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam reprehenderit alias architecto corrupti pariatur laboriosam iure dignissimos perspiciatis assumenda. Quidem sint molestias quisquam repudiandae soluta suscipit eaque voluptas commodi porro.'
           />
@@ -58,7 +58,7 @@ export default function Advisory() {
           <Menu
             url='#'
             alt=' '
-            pic='/representation.png'
+            pic='/privacy.png'
             title='PRIVACIDADE'
             description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam reprehenderit alias architecto corrupti pariatur laboriosam iure dignissimos perspiciatis assumenda. Quidem sint molestias quisquam repudiandae soluta suscipit eaque voluptas commodi porro.'
           />

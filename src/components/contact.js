@@ -9,6 +9,9 @@ function Contact(props) {
 
   return (
     <session className={styles.wrapper}>
+      <a onClick={() => router.push('/doubts')}>
+        <img src="/question.svg" alt="dúvidas" className={styles.icon} />
+      </a>
       <a href={wapp} target='_blank'>
         <img src="/whatsapp.svg" alt="whatsapp" className={styles.icon} target="_blank" />
       </a>
