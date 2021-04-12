@@ -28,7 +28,7 @@ export default function Representation() {
             alt='......'
             pic='/family.png'
             title='AÇÕES DE FAMÍLIA'
-            description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam reprehenderit alias architecto corrupti pariatur laboriosam iure dignissimos perspiciatis assumenda. Quidem sint molestias quisquam repudiandae soluta suscipit eaque voluptas commodi porro.'
+            description='Questões familiares como uniões, separações, sucessões, inventários e testamentos.'
           />
 
           <Menu
@@ -36,7 +36,7 @@ export default function Representation() {
             alt='......'
             pic='/consumer.png'
             title='AÇÕES DE CONSUMO'
-            description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam reprehenderit alias architecto corrupti pariatur laboriosam iure dignissimos perspiciatis assumenda. Quidem sint molestias quisquam repudiandae soluta suscipit eaque voluptas commodi porro.'
+            description='Problemas referentes a compras de produtos ou serviços em lojas físicas ou na internet.'
           />
 
           <Menu
@@ -44,7 +44,7 @@ export default function Representation() {
             alt='......'
             pic='/doctor.png'
             title='AÇÕES MÉDICAS'
-            description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam reprehenderit alias architecto corrupti pariatur laboriosam iure dignissimos perspiciatis assumenda. Quidem sint molestias quisquam repudiandae soluta suscipit eaque voluptas commodi porro.'
+            description='Problemas com planos de saúde, com hospitais, com laboratórios e ou erros médicos.'
           />
 
           <Menu
@@ -52,7 +52,7 @@ export default function Representation() {
             alt=' '
             pic='/house.png'
             title='AÇÕES IMOBILIÁRIAS'
-            description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam reprehenderit alias architecto corrupti pariatur laboriosam iure dignissimos perspiciatis assumenda. Quidem sint molestias quisquam repudiandae soluta suscipit eaque voluptas commodi porro.'
+            description='Imóveis na planta, novos ou usados. Compra, venda e locação residencial ou comercial.'
           />
 
           <Menu
@@ -60,7 +60,7 @@ export default function Representation() {
             alt=''
             pic='/traffic.png'
             title='AÇÕES DE TRÂNSITO'
-            description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam reprehenderit alias architecto corrupti pariatur laboriosam iure dignissimos perspiciatis assumenda. Quidem sint molestias quisquam repudiandae soluta suscipit eaque voluptas commodi porro.'
+            description='Suspensões, cassações e crimes de trânsito. Defesas prévias e recursos de multas no JARI e CETRAN..'
           />
 
           <Menu
@@ -68,7 +68,7 @@ export default function Representation() {
             alt='......'
             pic='/work.png'
             title='AÇÕES TRABALHISTAS'
-            description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam reprehenderit alias architecto corrupti pariatur laboriosam iure dignissimos perspiciatis assumenda. Quidem sint molestias quisquam repudiandae soluta suscipit eaque voluptas commodi porro.'
+            description='Contratações, demissões, cálculos e indenizações. Assédio comercial e sexual ou discriminação.'
           />
 
           <Menu
@@ -76,7 +76,7 @@ export default function Representation() {
             alt='......'
             pic='/old.png'
             title='AÇÕES PREVIDENCIÁRIAS'
-            description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam reprehenderit alias architecto corrupti pariatur laboriosam iure dignissimos perspiciatis assumenda. Quidem sint molestias quisquam repudiandae soluta suscipit eaque voluptas commodi porro.'
+            description='Processos administrativo ou judicial, simulações, cálculos e recursos.'
           />
 
           <Menu
@@ -84,7 +84,7 @@ export default function Representation() {
             alt='dúvidas jurídica'
             pic='/doubts.png'
             title='DÚVIDAS JURÍDICAS'
-            description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam reprehenderit alias architecto corrupti pariatur laboriosam iure dignissimos perspiciatis assumenda. Quidem sint molestias quisquam repudiandae soluta suscipit eaque voluptas commodi porro.'
+            description='Tire suas dúvidas em um sistema de perguntas e respostas direcionado.'
           />
 
         </div>

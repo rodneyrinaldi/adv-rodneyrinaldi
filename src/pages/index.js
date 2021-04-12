@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Link from 'next/link'
 
 import Contact from '../components/contact'
 import Header from '../components/header'
@@ -21,7 +20,7 @@ export default function Home() {
         <Header />
 
         <code className={styles.code}>
-          <h1>{"A todos é assegurado a defesa dos seus direitos e a proteção da sua dignidade, tendo garantido um processo justo e legal"}</h1>
+          <h1>{"A injustiça em qualquer lugar é uma ameaça à justiça por toda parte. Martin Luther King"}</h1>
         </code>
 
         <div className={styles.grid}>
@@ -29,8 +28,9 @@ export default function Home() {
             url='/representation'
             alt='representação jurídica'
             pic='/representation.png'
-            title='REPRESENTAÇÃO JURÍDICAS'
-            description='Atuação em direito civil consumidor, traânsito, família e sucessões. Direito trabalhista e previdenciário.'
+            title='REPRESENTAÇÃO JURÍDICA'
+            description='Atuação em direito civil, consumidor, trânsito, família e sucessões. 
+            Direito trabalhista e previdenciário.'
           />
 
           <Menu
@@ -38,7 +38,8 @@ export default function Home() {
             alt='assessoria empresarial'
             pic='/advisory.png'
             title='ASSESSORIA EMPRESARIAL'
-            description='Contencioso e consultivo digital, contratual e trabalhista. Políticas de privacidade e conformidade.'
+            description='Contencioso, consultivo, contratual, digital e trabalhista. 
+            Políticas de privacidade e conformidade.'
           />
 
           <Menu
@@ -46,7 +47,7 @@ export default function Home() {
             alt='manifesto'
             pic='/manifest.png'
             title='MANIFESTO'
-            description='Princípios definidores para um atendimento personalizado ético, eficiente e sustentável.'
+            description='Princípios e fundamentos para um atendimento personalizado, eficiente, ético e sustentável.'
           />
 
           <Menu

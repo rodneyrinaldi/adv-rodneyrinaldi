@@ -28,7 +28,7 @@ export default function Advisory() {
             alt='......'
             pic='/judge.png'
             title='CONTENCIOSO'
-            description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam reprehenderit alias architecto corrupti pariatur laboriosam iure dignissimos perspiciatis assumenda. Quidem sint molestias quisquam repudiandae soluta suscipit eaque voluptas commodi porro.'
+            description='Representação legal contenciosa, mediada e consciliada. Negociações, cobranças e execuções.'
           />
 
           <Menu
@@ -36,23 +36,14 @@ export default function Advisory() {
             alt=''
             pic='/lawyer.png'
             title='CONSULTIVO'
-            description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam reprehenderit alias architecto corrupti pariatur laboriosam iure dignissimos perspiciatis assumenda. Quidem sint molestias quisquam repudiandae soluta suscipit eaque voluptas commodi porro.'
+            description='Consultoria trabalhista e empresarial, negociações, contratos, cobranças e execuções.'
           />
-
-          <Menu
-            url='#'
-            alt='......'
-            pic='/administrative.png'
-            title='ADMINISTRATIVO'
-            description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam reprehenderit alias architecto corrupti pariatur laboriosam iure dignissimos perspiciatis assumenda. Quidem sint molestias quisquam repudiandae soluta suscipit eaque voluptas commodi porro.'
-          />
-
           <Menu
             url='#'
             alt='......'
             pic='/compliance.png'
             title='CONFORMIDADE'
-            description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam reprehenderit alias architecto corrupti pariatur laboriosam iure dignissimos perspiciatis assumenda. Quidem sint molestias quisquam repudiandae soluta suscipit eaque voluptas commodi porro.'
+            description='Elaboração e implantação de políticas de conformidade. Consultoria, suporte e treinamento.'
           />
 
           <Menu
@@ -60,15 +51,24 @@ export default function Advisory() {
             alt=' '
             pic='/privacy.png'
             title='PRIVACIDADE'
-            description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam reprehenderit alias architecto corrupti pariatur laboriosam iure dignissimos perspiciatis assumenda. Quidem sint molestias quisquam repudiandae soluta suscipit eaque voluptas commodi porro.'
+            description='Elaboração e implantação de políticas de privacidade. Consultoria, suporte e treinamento. DPO como serviço.'
           />
+
+          <Menu
+            url='#'
+            alt='......'
+            pic='/administrative.png'
+            title='ADMINISTRATIVO'
+            description='Interações com a administração. Licitações, contratos e licenças.'
+          />
+
 
           <Menu
             url='/doubts'
             alt='dúvidas jurídica'
             pic='/doubts.png'
             title='DÚVIDAS JURÍDICAS'
-            description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam reprehenderit alias architecto corrupti pariatur laboriosam iure dignissimos perspiciatis assumenda. Quidem sint molestias quisquam repudiandae soluta suscipit eaque voluptas commodi porro.'
+            description='Tire suas dúvidas em um sistema de perguntas e respostas direcionado.'
           />
 
         </div>
