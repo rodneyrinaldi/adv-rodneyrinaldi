@@ -7,6 +7,7 @@ import Menu from '../components/menu'
 import styles from '../styles/index.module.css'
 
 export default function Home() {
+  console.log(process.env.EMAILJS_SERVICE_ID)
   return (
     <div id='toppage' name='toppage' className={styles.container}>
       <Head>

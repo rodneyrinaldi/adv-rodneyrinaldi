@@ -17,22 +17,26 @@ function Email(props) {
   function handleSubmit(e) {
     e.preventDefault()
 
-    console.log(props.EMAILJS_USER_ID)
-    console.log(props.EMAILJS_TEMPLATE_ID)
-    console.log(props.EMAILJS_USER_ID)
+    // console.log('props')
+    // console.log(props.emailjsServiceId)
+    // console.log(props.emailjsTemplateId)
+    // console.log(props.emailjsUserId)
 
-    console.log(process.env.EMAILJS_SERVICE_ID)
-    console.log(process.env.EMAILJS_TEMPLATE_ID)
-    console.log(process.env.EMAILJS_USER_ID)
+    // console.log('env')
+    // console.log(process.env.EMAILJS_SERVICE_ID)
+    // console.log(process.env.EMAILJS_TEMPLATE_ID)
+    // console.log(process.env.EMAILJS_USER_ID)
 
     const fields = `{name:${name}, email:${email}, message:${message}}`
     const params = { sitename: service, emailaddress: email, emailmessage: fields }
 
+    //return
+
     emailjs.send(
-      props.EMAILJS_SERVICE_ID,
-      props.EMAILJS_TEMPLATE_ID,
+      process.env.EMAILJS_SERVICE_ID,
+      process.env.EMAILJS_TEMPLATE_ID,
       params,
-      props.EMAILJS_USER_ID
+      process.env.EMAILJS_USER_ID
     ).then((result) => {
       console.log(result.text)
     }, (error) => {
@@ -59,7 +63,7 @@ function Email(props) {
             <textarea id="contactMessage"
               onChange={e => setMessage(e.target.value)} />
             <input type="submit" value="E N V I A R" className={styles.goForward} />
-            <p><input type="checkbox" id="myCheck" onclick="" />Concordo com a Política de Privacidade e Proteção de Dados</p>
+            <p><input type="checkbox" id="myCheck" />Concordo com a Política de Privacidade e Proteção de Dados</p>
           </form>
         </div>
       </div>
@@ -67,10 +71,28 @@ function Email(props) {
   )
 }
 
+export async function getStaticProps() {
+  // console.log('getStaticProps')
+  // console.log(process.env.EMAILJS_SERVICE_ID)
+  // console.log(process.env.EMAILJS_TEMPLATE_ID)
+  // console.log(process.env.EMAILJS_USER_ID)
+  return {
+    props: {
+      emailjsServiceId: process.env.EMAILJS_SERVICE_ID,
+      emailjsTemplateId: process.env.EMAILJS_TEMPLATE_ID,
+      emailjsUserId: process.env.EMAILJS_USER_ID
+    },
+    query: {
+
+    }
+  }
+}
+
 export async function getServerProps() {
-  console.log(process.env.EMAILJS_SERVICE_ID)
-  console.log(process.env.EMAILJS_TEMPLATE_ID)
-  console.log(process.env.EMAILJS_USER_ID)
+  // console.log('getServerProps')
+  // console.log(process.env.EMAILJS_SERVICE_ID)
+  // console.log(process.env.EMAILJS_TEMPLATE_ID)
+  // console.log(process.env.EMAILJS_USER_ID)
   return {
     props: {
       emailjsServiceId: process.env.EMAILJS_SERVICE_ID,

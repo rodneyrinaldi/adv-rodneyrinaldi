@@ -18,6 +18,7 @@ function Contact(props) {
       <a onClick={() => router.push('/doubts')}>
         <img src="/question.svg" alt="dúvidas" className={styles.icon} />
       </a>
+      <br /><br />
       <a href='#toppage'>
         <img src="/top.svg" alt="go top" className={styles.icon} />
       </a>
