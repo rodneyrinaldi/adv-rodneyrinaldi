@@ -19,13 +19,13 @@ export default function Manifest() {
       <main className={styles.main}>
         <Header />
 
-        <div className={styles.title}>
-          <h1>MANIFESTO INSTITUCIONAL</h1>
-        </div>
+        <code className={styles.code}>
+          <h1>{"MANIFESTO"}</h1>
+        </code>
 
         <div className={styles.grid}>
           <p>
-            Este manifesto dá-se publicidade ao comprometimento primordial em seguir as melhores e possíveis
+            Este manifesto dá publicidade ao comprometimento primordial no seguimento das melhores e possíveis
             políticas de pesquisa, desenvolvimento, comercialização e suporte a todos os produtos e serviços
             desempenhados isolada ou compartilhadamente.
           </p>

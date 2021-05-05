@@ -76,6 +76,28 @@
   color: darkred;
 }
 
+.code {
+  max-width: 800px;
+  text-align: center;
+  background: #fafafa;
+  border-radius: 5px;
+  color: rgb(73, 1, 1);
+  padding: 0.75rem;
+  font-size: 1.1rem;
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace;
+}
+.code h1 {
+  margin-top: 0vh;
+  display: block;
+  font-size: 1.2rem;
+}
+.code h2 {
+  margin-top: 2vh;
+  display: none;
+  font-size: 1.2rem;
+}
+
 .grid {
   display: flex;
   align-items: center;

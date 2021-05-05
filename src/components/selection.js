@@ -1,186 +1,106 @@
 import React, { useCallback, useEffect, useState } from 'react'
 import Select, { Props as SelectProps, } from "react-select"
+import makeAnimated from 'react-select/animated';
 import {
   Accordion, AccordionItem, AccordionItemButton,
-  AccordionItemHeading, AccordionItemPanel,
+  AccordionItemHeading, AccordionItemPanel
 } from 'react-accessible-accordion'
 import { v4 as uuidv4 } from 'uuid'
 
-import areaData from '../data/area.json'
-import actionData from '../data/action.json'
-import procedureData from '../data/article.json'
+import tagData from '../data/tag.json'
+import textData from '../data/text.json'
 
 import styles from './selection.module.css'
 
 const pages = () => {
   const [loading, setLoading] = useState(true)
-  const [area, setArea] = useState(null)
-  const [action, setAction] = useState(null)
-  const [areaOptions, setAreaOptions] = useState([])
-  const [actionOptions, setActionOptions] = useState([])
-  const [procedureOptions, setProcedureOptions] = useState([])
+  const [tag, setTag] = useState(null)
+  const [tagOptions, setTagOptions] = useState([])
+  const [textOptions, setTextOptions] = useState([])
 
-  function loadAreas() {
-    if (area == null) {
-      const dataArea = areaData
+  const animatedComponents = makeAnimated()
+
+  function loadTags() {
+    if (tag == null) {
+      const dataTag = tagData
         .map(p => ({
-          "value": p.AREA,
-          "label": p.AREA
+          "value": p.TAG,
+          "label": p.TAG
         }))
-      setAreaOptions(dataArea)
+      setTagOptions(dataTag)
     }
   }
 
-  function loadActions() {
-    if (action == null) {
-      const dataAction = actionData
-        .filter(p => (p.AREA === area))
-        .map(p => ({
-          "value": p.ACTION,
-          "label": p.ACTION
-        }))
-      setActionOptions(dataAction)
-    }
-  }
-
-  function filterAreas() {
-    if (area == null && action == null) {
-      const dataProcedure = procedureData
-        .map(p => ({
-          "seq": uuidv4(),
-          "procedure": <p className="ARTIGO"></p>,
-          "valueporc": 'Valor: ' + String(p.VALOR) + ' \n Porcentagem: ' + String(p.PORC) + ''
-        }
-        ))
-      setProcedureOptions(dataProcedure)
-    }
-  }
-
-  function filterActions() {
-    if (area !== null && action == null) {
-      const dataProcedure = procedureData
+  function filterTexts() {
+    if (tag !== null) {
+      const dataText = textData
         .filter(p => (
-          p.ARTIGO.substring(
-            0, String(area).length
-          ) == String(area)
+          p.TAG === tag
         ))
         .map(p => ({
           "seq": uuidv4(),
-          "procedure": <p className="ARTIGO"></p>,
-          "valueporc": 'Valor: ' + String(p.VALOR) + ' \n Porcentagem: ' + String(p.PORC) + ''
+          "grp": p.GRP,
+          "txt": p.TXT,
+          "lnk": p.LNK
         }
         ))
-      setProcedureOptions(dataProcedure)
+      setTextOptions(dataText)
     }
   }
 
-  function filterProcedures() {
-    if (area !== null && action !== null) {
-      const dataProcedure = procedureData
-        .filter(p => (
-          p.ARTIGO.substring(
-            0, String(area).length + String(action).length + 1
-          ) == String(area) + ' ' + String(action)
-        ))
-        .map(p => ({
-          "seq": uuidv4(),
-          "procedure": p.ARTIGO,
-          "valueporc": 'Valor: ' + String(p.VALOR) + ' \n Porcentagem: ' + String(p.PORC) + ''
-        }
-        ))
-      setProcedureOptions(dataProcedure)
-    }
-  }
-
-  const handleAreaChange = useCallback((e) => {
-    setArea(e.label)
-    setAction(null)
+  const handleTagChange = useCallback((e) => {
+    setTag(e.label)
   }, [])
-
-  const handleActionChange = useCallback((e) => {
-    setAction(e.label)
-  }, [])
-
-  function getIndex(value, arr, prop) {
-    for (var i = 0; i < arr.length; i++) {
-      if (arr[i][prop] === value) {
-        return i;
-      }
-    }
-    return -1;
-  }
 
   useEffect(
     () => {
-      // setLoading(true)
-      loadAreas()
-      loadActions()
-      filterAreas()
-      filterActions()
-      filterProcedures()
-      // setLoading(false)
+      loadTags()
+      filterTexts()
     },
-    [area, action]
+    [tag]
   )
 
   return (
     <>
-      {/* <div className={loading ? styles.spinnerShow : styles.spinnerHide} />
-      {console.log(loading)} */}
+      <div className={styles.tlttext}>
 
-      <div className={styles.oabtext}>
-
-        <div className={styles.areas}>
+        <div className={styles.tags}>
           <Select
-            id='area'
-            instanceId='area'
-            placeholder='Selecione uma area...'
-            options={areaOptions}
-            onChange={handleAreaChange}
-            value={area == null
-              ? ' '
-              : areaOptions[getIndex(area, areaOptions, 'id')]
-            }
+            id='tag'
+            instanceId='tag'
+            closeMenuOnSelect={true}
+            components={animatedComponents}
+            defaultValue={[]}
+            options={tagOptions}
+            widtth='100%'
+            onChange={handleTagChange}
           />
         </div>
       </div>
 
-      <div className={styles.oabtext}>
-        <div className={styles.actions}>
-          <Select
-            id='action'
-            instanceId='action'
-            placeholder='Selecione uma ação...'
-            options={actionOptions}
-            onChange={handleActionChange}
-            value={action == null
-              ? ' '
-              : actionOptions[getIndex(action, actionOptions, 'id')]
-            }
-          />
-        </div>
-      </div>
-
-      <div className={styles.row}>
-        <div className={styles.title}>DÚVIDAS</div>
-      </div>
-
-      <div className={styles.procedures}>
-        <div className={styles.proceduresitems}>
+      <div className={styles.texts}>
+        <div className={styles.textsitems}>
           <Accordion>
-            {procedureOptions.map((item) => (
+            {textOptions.map((item) => (
               <div style={{ paddingBottom: '2px' }}>
                 <AccordionItem key={item.seq}>
                   <AccordionItemHeading>
                     <AccordionItemButton>
                       <div style={{ padding: '10px' }}>
-                        {item.procedure}
+                        {item.grp}
                       </div>
                     </AccordionItemButton>
                   </AccordionItemHeading>
                   <AccordionItemPanel>
-                    <div style={{ padding: '10px', background: '#c1c1c1' }}>
-                      {item.valueporc}
+                    <div style={{ padding: '10px', background: '#eaf0f0' }}>
+                      <div>
+                        {item.txt}
+                      </div>
+                      <div style={{ paddingTop: '10px' }}>
+                        <a href={item.lnk} style={{}}>
+                          {item.lnk}
+                        </a>
+                      </div>
                     </div>
                   </AccordionItemPanel>
                 </AccordionItem>

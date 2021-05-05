@@ -29,18 +29,18 @@ export default function Home() {
             url='/representation'
             alt='representação jurídica'
             pic='/representation.png'
-            title='REPRESENTAÇÃO JURÍDICA'
-            description='Atuação em direito civil, consumidor, trânsito, família e sucessões. 
-            Direito trabalhista e previdenciário.'
+            title='REPRESENTAÇÃO'
+            description='Atuação em juízo, órgãos públicos e empresas nas causas 
+            familiares, trabalhistas, empresariais, consumo, privacidade, trânsito dentre outras.'
           />
 
           <Menu
             url='/advisory'
             alt='assessoria empresarial'
             pic='/advisory.png'
-            title='ASSESSORIA EMPRESARIAL'
-            description='Contencioso, consultivo, contratual, digital e trabalhista. 
-            Políticas de privacidade e conformidade.'
+            title='ASSESSORIA'
+            description='Atuação preventiva e reparativa nas demandas civis junto a
+            órgãos públicos nas causas consumeristas, empregatícias e empresariais.'
           />
 
           <Menu

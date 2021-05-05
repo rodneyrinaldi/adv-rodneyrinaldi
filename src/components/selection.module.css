@@ -11,7 +11,7 @@
   display: none; 
 }
 
-.oabtext {
+.tlttext {
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -21,7 +21,7 @@
   margin: 1vh 0 0;
 } 
 
-.areas {
+.tags {
   width: 80vw;
   max-width: 650px;
   margin: 0;
@@ -31,18 +31,8 @@
   font-weight:600;
 }
 
-.actions {
-  width: 80vw;
-  max-width: 650px;
-  margin: 0;
-  padding: 0;
-  color: #050010cc;
-  font-size:14px;
-  font-weight:600;
-}
-
-.procedures {
-  width: 80%;
+.texts {
+  width: 81%;
   max-width: 800px;
   height: 40vh;
   display: flex;
@@ -52,9 +42,11 @@
   text-align: justify;
   margin: 1vh 0 0;
   overflow: auto;
+  padding: 0 10px;
+  border: 1px solid rgb(192, 191, 191)
 } 
 
-.proceduresitems {
+.textsitems {
   width: 98vw;
   height: 100%;
   margin: 0;
@@ -109,6 +101,9 @@
 
 
 @media (max-width: 900px) { 
+  .texts {
+    width: 76%;
+  }
 }
 
 @media (max-width: 1100px) { 
