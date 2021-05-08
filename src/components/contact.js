@@ -19,6 +19,9 @@ function Contact(props) {
         <img src="/question.svg" alt="dúvidas" className={styles.icon} />
       </a>
       <br /><br />
+      <a href='/'>
+        <img src="/home.svg" alt="go home" className={styles.icon} />
+      </a>
       <a href='#toppage'>
         <img src="/top.svg" alt="go top" className={styles.icon} />
       </a>
