@@ -49,50 +49,6 @@
   margin: 0;
 }
 
-.midias {
-  width: 100%;
-  height: 50px;
-  border-top: 1px solid #eaeaea;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.midias a {
-  font-size: .9rem;
-  font-weight: 600;
-  display: flex;
-  padding: 0 6px;
-}
-.midias a:hover {
-  color: darkred;
-}
-
-.footer {
-  width: 100%;
-  height: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 40px;
-}
-
-.footer img {
-  width: 20px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-.footer a {
-  font-size: .9rem;
-  font-weight: 600;
-  display: flex;
-  padding: 0 6px;
-}
-.footer a:hover {
-  color: darkred;
-}
-
 .title a {
   color: darkred;
   text-decoration: none;
@@ -118,7 +74,6 @@
 .code {
   max-width: 800px;
   text-align: center;
-  background: #fafafa;
   border-radius: 5px;
   color: rgb(73, 1, 1);
   padding: 0.75rem;
@@ -144,45 +99,6 @@
   flex-wrap: wrap;
   max-width: 800px;
   margin-top: 0rem;
-}
-
-.card {
-  margin: 1rem;
-  flex-basis: 45%;
-  padding: 1rem;
-  text-align: center;
-  color: inherit;
-  text-decoration: none;
-  border: 1px solid #eaeaea;
-  border-radius: 6px;
-  transition: color 0.15s ease, border-color 0.15s ease;
-}
-
-.card:hover,
-.card:focus,
-.card:active {
-  background:  rgba(253, 188, 188, 0.138);
-  border-color: rgba(78, 1, 1, 0.467);
-}
-
-.card H2 {
-  font-size: 16px;
-  font-weight: 700;
-  margin: 3px 0 8px;
-  padding: 0;
-}
-
-.card h3 {
-  margin: 0 0 1rem 0;
-  font-size: 1.5rem;
-  font-weight: 600;
-}
-
-.card p {
-  margin: 0;
-  font-size: 1.25rem;
-  line-height: 1.5;
-  text-align: justify;
 }
 
 .logo3 {
@@ -241,26 +157,11 @@
     padding: 2rem 0 1.4rem;
   }
 
-  .midias a {
-    font-size: .7rem;
-  }
-
-  .footer a {
-    font-size: .7rem;
-  }
-
   .grid {
     width: 100%;
     flex-direction: column;
     margin-top: 0;
   }  
-
-  .card p {
-    margin: 0;
-    padding: 0;
-    font-size: 1.05rem;
-    line-height: 1.4;
-  }
 
   .logo3 {
     width: 12vw;

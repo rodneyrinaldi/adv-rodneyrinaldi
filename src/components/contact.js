@@ -8,7 +8,7 @@ function Contact(props) {
   const wapp = 'https://api.whatsapp.com/send?phone=+5511981417040&text=Olá, gostaria de obter maiores informações.'
 
   return (
-    <session className={styles.wrapper}>
+    <div className={styles.wrapper}>
       <a href={wapp} target='_blank'>
         <img src="/whatsapp.svg" alt="whatsapp" className={styles.icon} target="_blank" />
       </a>
@@ -30,7 +30,7 @@ function Contact(props) {
           <img src="/back.svg" alt="go back" className={styles.icon} /></a>
         : <></>
       }
-    </session>
+    </div>
   );
 }
 

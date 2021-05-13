@@ -1,19 +1,13 @@
-import Head from 'next/head'
-
 import Contact from '../components/contact'
 import Header from '../components/header'
+import Footer from '../components/footer'
 import Menu from '../components/menu'
 
 import styles from '../styles/index.module.css'
 
 export default function Home() {
-  console.log(process.env.EMAILJS_SERVICE_ID)
   return (
     <div id='toppage' name='toppage' className={styles.container}>
-      <Head>
-        <title>adv.rodneyrinaldi</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
 
       <Contact showback='no' />
 
@@ -23,8 +17,8 @@ export default function Home() {
         <code className={styles.code}>
           <h1>{"A injustiça em qualquer lugar é uma ameaça à justiça por toda parte. Martin Luther King"}</h1>
         </code>
-
         <div className={styles.grid}>
+
           <Menu
             url='/representation'
             alt='representação jurídica'
@@ -58,21 +52,14 @@ export default function Home() {
             title='EDITORIAL'
             description='Publicações, tutoriais, mapas mentais e artigos trazendo conhecimento para tomada de decisões.'
           />
+
         </div>
+
       </main>
 
-      {/* <session className={styles.midias}>
-        <a href="https://www.linkedin.com/in/rodneyrinaldi/">linkedin.com/in/rodneyrinaldi/</a>
-        <a href="https://github.com/rodneyrinaldi">github.com/rodneyrinaldi</a>
-      </session> */}
-
-      <footer className={styles.footer}>
-        <a href="https://dev.rodneyrinaldi.com">dev.rodneyrinaldi.com</a>
-        <a href="https://rodneyrinaldi.com"><img src="/rr-logo-dev.svg"
-          alt="rodneyrinaldi" /></a>
-        <a href="https://dpo.rodneyrinaldi.com">dpo.rodneyrinaldi.com</a>
-      </footer>
+      <Footer />
 
     </div>
+
   )
 }
