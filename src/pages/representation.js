@@ -21,7 +21,7 @@ export default function Representation() {
         <div className={styles.grid}>
 
           <Menu
-            url='/service?key=privacy'
+            url='services/privacy'
             alt=' '
             pic='/privacy.png'
             title='AÇÕES DE PRIVACIDADE'
@@ -29,7 +29,7 @@ export default function Representation() {
           />
 
           <Menu
-            url='/service?key=family'
+            url='services/family'
             alt=''
             pic='/family.png'
             title='AÇÕES DE FAMÍLIA'
@@ -37,7 +37,7 @@ export default function Representation() {
           />
 
           <Menu
-            url='/service?key=consumer'
+            url='services/consumer'
             alt=' '
             pic='/consumer.png'
             title='AÇÕES DE CONSUMO'
@@ -45,7 +45,7 @@ export default function Representation() {
           />
 
           <Menu
-            url='/service?key=service'
+            url='services/service'
             alt=''
             pic='/services.png'
             title='AÇÕES DE SERVIÇOS'
@@ -53,7 +53,7 @@ export default function Representation() {
           />
 
           <Menu
-            url='/service?key=medicine'
+            url='services/medicine'
             alt=''
             pic='/doctor.png'
             title='AÇÕES MÉDICAS'
@@ -61,7 +61,7 @@ export default function Representation() {
           />
 
           <Menu
-            url='/service?key=building'
+            url='services/building'
             alt=''
             pic='/house.png'
             title='AÇÕES IMOBILIÁRIAS'
@@ -69,7 +69,7 @@ export default function Representation() {
           />
 
           <Menu
-            url='/service?key=traffic'
+            url='services/traffic'
             alt=''
             pic='/traffic.png'
             title='AÇÕES DE TRÂNSITO'
@@ -77,7 +77,7 @@ export default function Representation() {
           />
 
           <Menu
-            url='/service?key=labor'
+            url='services/labor'
             alt=''
             pic='/work.png'
             title='AÇÕES TRABALHISTAS'
@@ -85,7 +85,7 @@ export default function Representation() {
           />
 
           <Menu
-            url='/service?key=pension'
+            url='services/pension'
             alt=''
             pic='/old.png'
             title='AÇÕES PREVIDENCIÁRIAS'
