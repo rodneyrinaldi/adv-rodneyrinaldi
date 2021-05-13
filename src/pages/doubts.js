@@ -10,7 +10,7 @@ import Header from '../components/header'
 import Footer from '../components/footer'
 import Selection from '../components/selection'
 
-import styles from '../styles/editorial.module.css'
+import styles from '../styles/index.module.css'
 
 export default function Doubts() {
   const [area, setArea] = useState(null)
