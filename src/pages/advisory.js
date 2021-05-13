@@ -5,7 +5,7 @@ import Header from '../components/header'
 import Footer from '../components/footer'
 import Menu from '../components/menu'
 
-import styles from '../styles/advisory.module.css'
+import styles from '../styles/index.module.css'
 
 export default function Advisory() {
 
@@ -23,7 +23,7 @@ export default function Advisory() {
         <div className={styles.grid}>
 
           <Menu
-            url='#'
+            url='advisory/litigation'
             alt='......'
             pic='/judge.png'
             title='CONTENCIOSO'
@@ -31,14 +31,14 @@ export default function Advisory() {
           />
 
           <Menu
-            url='#'
+            url='advisory/advisory'
             alt=''
             pic='/lawyer.png'
             title='CONSULTIVO'
             description='Consultoria trabalhista e empresarial, negociações, contratos, cobranças e execuções.'
           />
           <Menu
-            url='#'
+            url='advisory/compliance'
             alt='......'
             pic='/compliance.png'
             title='CONFORMIDADE'
@@ -46,7 +46,7 @@ export default function Advisory() {
           />
 
           <Menu
-            url='#'
+            url='advisory/privacy'
             alt=' '
             pic='/privacy.png'
             title='PRIVACIDADE'
@@ -54,7 +54,7 @@ export default function Advisory() {
           />
 
           <Menu
-            url='#'
+            url='advisory/contract'
             alt='......'
             pic='/contract.png'
             title='CONTRATUAL'
@@ -62,7 +62,7 @@ export default function Advisory() {
           />
 
           <Menu
-            url='#'
+            url='advisory/digital'
             alt='......'
             pic='/digital.png'
             title='DIGITAL'
@@ -70,7 +70,7 @@ export default function Advisory() {
           />
 
           <Menu
-            url='/service?key=labor'
+            url='advisory/labor'
             alt=''
             pic='/work.png'
             title='TRABALHISTA'
@@ -78,7 +78,7 @@ export default function Advisory() {
           />
 
           <Menu
-            url='/service?key=consumer'
+            url='advisory/consumer'
             alt=' '
             pic='/consumer.png'
             title='CONSUMIDOR'
@@ -86,7 +86,7 @@ export default function Advisory() {
           />
 
           <Menu
-            url='#'
+            url='advisory/administrative'
             alt='......'
             pic='/administrative.png'
             title='ADMINISTRATIVO'

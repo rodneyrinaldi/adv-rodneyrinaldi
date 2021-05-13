@@ -5,7 +5,7 @@ import Header from '../components/header'
 import Footer from '../components/footer'
 import Menu from '../components/menu'
 
-import styles from '../styles/editorial.module.css'
+import styles from '../styles/index.module.css'
 
 export default function Editorial() {
 

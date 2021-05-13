@@ -3,7 +3,7 @@ import Header from '../components/header'
 import Footer from '../components/footer'
 import Menu from '../components/menu'
 
-import styles from '../styles/representation.module.css'
+import styles from '../styles/index.module.css'
 
 export default function Representation() {
 
@@ -21,15 +21,15 @@ export default function Representation() {
         <div className={styles.grid}>
 
           <Menu
-            url='services/privacy'
+            url='representation/privacy'
             alt=' '
             pic='/privacy.png'
             title='AÇÕES DE PRIVACIDADE'
-            description='Elaboração e implantação de políticas de privacidade. Consultoria, suporte e treinamento. DPO como serviço.'
+            description='Invasão de privacidade, defesa de direitos da personalidade, notificação de autoridades.'
           />
 
           <Menu
-            url='services/family'
+            url='representation/family'
             alt=''
             pic='/family.png'
             title='AÇÕES DE FAMÍLIA'
@@ -37,7 +37,7 @@ export default function Representation() {
           />
 
           <Menu
-            url='services/consumer'
+            url='representation/consumer'
             alt=' '
             pic='/consumer.png'
             title='AÇÕES DE CONSUMO'
@@ -45,7 +45,7 @@ export default function Representation() {
           />
 
           <Menu
-            url='services/service'
+            url='representation/service'
             alt=''
             pic='/services.png'
             title='AÇÕES DE SERVIÇOS'
@@ -53,7 +53,7 @@ export default function Representation() {
           />
 
           <Menu
-            url='services/medicine'
+            url='representation/medicine'
             alt=''
             pic='/doctor.png'
             title='AÇÕES MÉDICAS'
@@ -61,7 +61,7 @@ export default function Representation() {
           />
 
           <Menu
-            url='services/building'
+            url='representation/building'
             alt=''
             pic='/house.png'
             title='AÇÕES IMOBILIÁRIAS'
@@ -69,7 +69,7 @@ export default function Representation() {
           />
 
           <Menu
-            url='services/traffic'
+            url='representation/traffic'
             alt=''
             pic='/traffic.png'
             title='AÇÕES DE TRÂNSITO'
@@ -77,7 +77,7 @@ export default function Representation() {
           />
 
           <Menu
-            url='services/labor'
+            url='representation/labor'
             alt=''
             pic='/work.png'
             title='AÇÕES TRABALHISTAS'
@@ -85,7 +85,7 @@ export default function Representation() {
           />
 
           <Menu
-            url='services/pension'
+            url='representation/pension'
             alt=''
             pic='/old.png'
             title='AÇÕES PREVIDENCIÁRIAS'
