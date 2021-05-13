@@ -60,7 +60,7 @@
 }
 
 .cardLine h2 {
-  color: rgb(0, 0, 8);
+  color: rgba(78, 1, 1);
   font-size: 16px;
   font-weight: 700;
   margin: 3px 0 8px;
@@ -68,7 +68,7 @@
 }
 
 .cardLine p {
-  color: rgb(1, 1, 48);
+  color:rgba(78, 1, 1);
   margin: 0;
   font-size: 1.2rem;
   text-align: justify;
