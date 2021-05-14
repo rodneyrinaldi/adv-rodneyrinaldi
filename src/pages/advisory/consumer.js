@@ -4,7 +4,7 @@ import Contact from '../../components/contact'
 import Header from '../../components/header'
 import Footer from '../../components/footer'
 
-import styles from '../../styles/services.module.css'
+import styles from '../../styles/advisory.module.css'
 
 export default function Family() {
   return (

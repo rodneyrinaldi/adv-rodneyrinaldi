@@ -1,3 +1,12 @@
+.container {
+  width: 100%;
+  height: 8vh;
+
+  display: flex;
+  justify-content: center;
+  align-items:flex-end;
+}
+
 .logo {
   display: flex;
   flex-direction: row;
@@ -14,11 +23,11 @@
   margin-right: 8px;
 }
 .logo div img {
-  max-width: 50px;
+  max-width: 40px;
   border-right: 1px solid black;
 }
 .logo div h1 {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 20px;
   padding: 0;
   margin: 0;
@@ -41,7 +50,7 @@
     margin-right: 8px;
   }
   .logo div img {
-    max-width: 40px;
+    max-width: 36px;
     border-right: 1px solid black;
   }
   .logo div h1 {

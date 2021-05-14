@@ -1,5 +1,6 @@
-import { useState } from 'react';
-import { useRouter } from "next/router"
+import { useState } from 'react'
+import { useRouter } from 'next/router'
+import Link from 'next/link'
 import emailjs from 'emailjs-com'
 
 import styles from './email.module.css'
@@ -63,7 +64,13 @@ function Email(props) {
             <textarea id="contactMessage"
               onChange={e => setMessage(e.target.value)} />
             <input type="submit" value="E N V I A R" className={styles.goForward} />
-            <p><input type="checkbox" id="myCheck" />Concordo com a Política de Privacidade e Proteção de Dados</p>
+            <p>
+              <input type="checkbox" id="myCheck" />
+              Concordo com a {' '}
+              <Link href="/policies">
+                <a href="#" style={{ textDecoration: 'underline' }}>Política de Privacidade e Proteção de Dados</a>
+              </Link>
+            </p>
           </form>
         </div>
       </div>

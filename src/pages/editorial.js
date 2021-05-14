@@ -1,57 +1,41 @@
-import Link from 'next/link'
+import React from 'react'
 
-import Contact from '../components/contact'
-import Header from '../components/header'
-import Footer from '../components/footer'
+import Layout from '../components/layout'
+import Title from '../components/title'
 import Menu from '../components/menu'
 
 import styles from '../styles/index.module.css'
 
 export default function Editorial() {
+  return (<>
+    <Layout showback='yes'>
+      <Title title="Fale conosco" />
+      <div className={styles.grid}>
+        <Menu
+          url='#'
+          alt='......'
+          pic='/editorial.png'
+          title='O DIREITO E A JUSTIÇA'
+          description='Lorem ipsum dolor sit amet consectetur adipisicing elit. '
+        />
 
-  return (
-    <div id='toppage' name='toppage' className={styles.container}>
-      <Contact showback='yes' />
+        <Menu
+          url='#'
+          alt=''
+          pic='/editorial.png'
+          title='A INCONSTITUCIONALIDADE DO TRÂNSITO'
+          description='Lorem ipsum dolor sit amet consectetur adipisicing elit. '
+        />
 
-      <main className={styles.main}>
-        <Header />
+        <Menu
+          url='#'
+          alt=''
+          pic='/editorial.png'
+          title='A IRRACIONALIDADE DA POLÍTICA DAS MINORIAS'
+          description='Lorem ipsum dolor sit amet consectetur adipisicing elit. '
+        />
 
-        <code className={styles.code}>
-          <h1>{"EDITORIAL"}</h1>
-        </code>
-
-        <div className={styles.grid}>
-
-          <Menu
-            url='#'
-            alt='......'
-            pic='/editorial.png'
-            title='O DIREITO E A JUSTIÇA'
-            description='Lorem ipsum dolor sit amet consectetur adipisicing elit. '
-          />
-
-          <Menu
-            url='#'
-            alt=''
-            pic='/editorial.png'
-            title='A INCONSTITUCIONALIDADE DO TRÂNSITO'
-            description='Lorem ipsum dolor sit amet consectetur adipisicing elit. '
-          />
-
-          <Menu
-            url='#'
-            alt=''
-            pic='/editorial.png'
-            title='A IRRACIONALIDADE DA POLÍTICA DAS MINORIAS'
-            description='Lorem ipsum dolor sit amet consectetur adipisicing elit. '
-          />
-
-        </div>
-
-      </main>
-
-      <Footer />
-
-    </div>
-  )
+      </div>
+    </Layout>
+  </>)
 }

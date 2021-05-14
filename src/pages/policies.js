@@ -1,14 +1,14 @@
 import React from 'react'
 
-import Layout from '../../components/layout'
-import Title from '../../components/title'
+import Layout from '../components/layout'
+import Title from '../components/title'
 
-import styles from '../../styles/representation.module.css'
+import styles from '../styles/index.module.css'
 
-export default function Privacy() {
+function Policies() {
   return (<>
     <Layout showback='yes'>
-      <Title title="Ações de privacidade" />
+      <Title title="Privacidade e proteção de dados" />
       <div className={styles.row}>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ea dignissimos magnam quo debitis rerum illo et ad, doloremque eum voluptatem sunt. Laborum laudantium a quidem quaerat consequuntur tempora libero.</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ea dignissimos magnam quo debitis rerum illo et ad, doloremque eum voluptatem sunt. Laborum laudantium a quidem quaerat consequuntur tempora libero.</p>
@@ -19,3 +19,5 @@ export default function Privacy() {
     </Layout>
   </>)
 }
+
+export default Policies
