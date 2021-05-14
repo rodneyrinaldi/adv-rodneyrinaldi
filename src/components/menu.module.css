@@ -14,22 +14,22 @@
   border-radius: 6px;
   transition: color 0.15s ease, border-color 0.15s ease;
 }
-
 .card:hover,
 .card:focus,
 .card:active {
   background:  rgba(219, 31, 31, 0.138);
   border-color: rgba(78, 1, 1, 0.467);
 }
-
 .card h2 {
-  color: rgb(0, 0, 8);
-  font-size: 16px;
-  font-weight: 700;
-  margin: 3px 0 8px;
-  padding: 0;
-}
+  font-size: 1.2rem;
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace;
 
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
 .card p {
   color: rgb(1, 1, 48);
   margin: 0;
@@ -53,22 +53,23 @@
   border-radius: 6px;
   transition: color 0.15s ease, border-color 0.15s ease;
 }
-
 .cardLine:hover,
 .cardLine:focus,
 .cardLine:active {
   background:  rgba(219, 31, 31, 0.138);
   border-color: rgba(78, 1, 1, 0.467);
 }
-
 .cardLine h2 {
   color: rgba(78, 1, 1);
-  font-size: 16px;
-  font-weight: 700;
-  margin: 3px 0 8px;
-  padding: 0;
-}
+  font-size: 1.2rem;
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace;
 
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
 .cardLine p {
   color:rgba(78, 1, 1);
   margin: 0;
@@ -79,7 +80,6 @@
   -ms-hyphens: auto;
   hyphens: auto;
 }
-
 
 .cardContent {
   text-align: center;
@@ -106,13 +106,32 @@
     text-align: center;
     border: none;
   }
-  .card h3 {
+  .card h2 {
     margin: 0 0 .5rem;
     padding: 0;
     font-size: 1.2rem;
     font-weight: 500;
   }
   .card p {
+    margin: 0;
+    padding: 0;
+    font-size: 1.05rem;
+    line-height: 1.4;
+  }
+
+  .cardLine {
+    margin: 0 0 1.4rem;
+    padding: 0 1.2rem;
+    text-align: center;
+    border: none;
+  }
+  .cardLine h2 {
+    margin: 0 0 .5rem;
+    padding: 0;
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+  .cardLine p {
     margin: 0;
     padding: 0;
     font-size: 1.05rem;
