@@ -23,11 +23,13 @@ function Menu({ url, alt, pic, title, description, type }) {
         hover: { scale: 1.04 }
       }}>
       <Link href={url}>
-        <a href={url} className={styles.cardContent}>
-          <img src={pic} alt={alt} className={styles.logo} />
-          <h2>{title}</h2>
-          <p>{description}</p>
-        </a>
+        <div>
+          <a href={url} className={styles.cardContent}>
+            <img src={pic} alt={alt} className={styles.logo} />
+            <h2>{title}</h2>
+            <p>{description}</p>
+          </a>
+        </div>
       </Link>
     </motion.div>
   );

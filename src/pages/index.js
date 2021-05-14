@@ -8,7 +8,6 @@ import styles from '../styles/index.module.css'
 export default function Home() {
   return (
     <div id='toppage' name='toppage' className={styles.container}>
-
       <Contact showback='no' />
 
       <main className={styles.main}>
@@ -58,7 +57,6 @@ export default function Home() {
       </main>
 
       <Footer />
-
     </div>
 
   )

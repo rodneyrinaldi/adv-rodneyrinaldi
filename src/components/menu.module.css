@@ -3,6 +3,7 @@
 }
 
 .card {
+  cursor: pointer;
   margin: 1rem;
   flex-basis: 45%;
   padding: 1rem;
@@ -41,6 +42,7 @@
 }
 
 .cardLine {
+  cursor: pointer;
   margin: 1rem;
   flex-basis: 94%;
   padding: 1rem;
