@@ -9,7 +9,10 @@ import styles from '../styles/index.module.css'
 function Index() {
   return (<>
     <Layout showback='no'>
-      <Title title="A injustiça em qualquer lugar é uma ameaça à justiça por toda parte. Martin Luther King" />
+      <Title
+        title="A injustiça em qualquer lugar é uma ameaça à justiça por toda parte"
+        subtitle="( Martin Luther King )"
+      />
       <div className={styles.grid}>
         <Menu
           url='/representation'
