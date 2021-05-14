@@ -21,14 +21,18 @@ const variants = {
 
 function Menu({ url, alt, pic, title, description, type }) {
   return (
-    <motion.div className={(!type ? styles.card : styles.cardLine)} whileHover="hover"
+    <motion.div className={styles.card} whileHover="hover"
       initial="initial" exit="exit" animate="enter" variants={variants}>
       <Link href={url}>
         <div>
           <a href={url} className={styles.cardContent}>
             <img src={pic} alt={alt} className={styles.logo} />
-            <h2>{title}</h2>
-            <p>{description}</p>
+            {
+              (!type ? <h1>{title}</h1> : <h3>{title}</h3>)
+            }
+            {
+              (!type ? <h2>{description}</h2> : <></>)
+            }
           </a>
         </div>
       </Link>

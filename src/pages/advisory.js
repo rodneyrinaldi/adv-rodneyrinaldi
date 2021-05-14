@@ -14,95 +14,92 @@ export default function Advisory() {
 
         <Menu
           url='advisory/litigation'
-          alt='......'
+          alt='Contencioso'
           pic='/judge.png'
-          title='CONTENCIOSO'
+          title='Contencioso'
           description='Representação legal contenciosa, mediada e consciliada. Negociações, cobranças e execuções.'
         />
 
         <Menu
           url='advisory/advisory'
-          alt=''
+          alt='Consultivo'
           pic='/lawyer.png'
-          title='CONSULTIVO'
+          title='Consultivo'
           description='Consultoria trabalhista e empresarial, negociações, contratos, cobranças e execuções.'
         />
         <Menu
           url='advisory/compliance'
-          alt='......'
+          alt='Conformidade'
           pic='/compliance.png'
-          title='CONFORMIDADE'
+          title='Conformidade'
           description='Elaboração e implantação de políticas de conformidade. Consultoria, suporte e treinamento.'
         />
 
         <Menu
           url='advisory/privacy'
-          alt=' '
+          alt='Privacidade'
           pic='/privacy.png'
-          title='PRIVACIDADE'
+          title='Privacidade'
           description='Elaboração e implantação de políticas de privacidade. Consultoria, suporte e treinamento. DPO como serviço.'
         />
 
         <Menu
           url='advisory/contract'
-          alt='......'
+          alt='Contratual'
           pic='/contract.png'
-          title='CONTRATUAL'
+          title='Contratual'
           description='Interações com a administração. Licitações, contratos e licenças.'
         />
 
         <Menu
           url='advisory/digital'
-          alt='......'
+          alt='Digital'
           pic='/digital.png'
-          title='DIGITAL'
+          title='Digital'
           description='Interações com a administração. Licitações, contratos e licenças.'
         />
 
         <Menu
           url='advisory/labor'
-          alt=''
+          alt='Trabalhista'
           pic='/work.png'
-          title='TRABALHISTA'
+          title='Trabalhista'
           description='Contratações, demissões, cálculos e indenizações. Assédio comercial e sexual ou discriminação.'
         />
 
         <Menu
           url='advisory/consumer'
-          alt=' '
+          alt='Consumidor'
           pic='/consumer.png'
-          title='CONSUMIDOR'
+          title='Consumidor'
           description='Problemas referentes a compras de produtos ou serviços em lojas físicas ou na internet.'
         />
 
         <Menu
           url='advisory/administrative'
-          alt='......'
+          alt='Administrativo'
           pic='/administrative.png'
-          title='ADMINISTRATIVO'
+          title='Administrativo'
           description='Interações com a administração. Licitações, contratos e licenças.'
         />
 
         <Menu
           url='/doubts'
-          alt='dúvidas jurídica'
+          alt='Dúvidas Jurídicas'
           pic='/doubts.png'
-          title='DÚVIDAS JURÍDICAS'
+          title='Dúvidas Jurídicas'
           description='Tire suas dúvidas em um sistema de perguntas e respostas direcionado.'
         />
 
-      </div>
-
-      <div className={styles.grid}>
         <Menu
           type={true}
           url='/contactus'
-          alt='contatenos'
+          alt='Entre em Contato'
           pic='/contactus.png'
-          title='ENTRE EM CONTATO'
-          description='Não encontrou o assunto que procura, entre em contato 
-            e vamos auxiliá-lo a encontrar a melhor forma de lidar com sua necessidade.'
+          title='Precisa de ajuda entre em contato'
+          description=''
         />
+
       </div>
     </Layout>
   </>)

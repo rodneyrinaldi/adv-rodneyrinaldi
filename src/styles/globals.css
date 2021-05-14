@@ -1,3 +1,11 @@
+:root {
+  --black1: #000000d0;
+  --black2: #000000b4;
+  --red1:  rgb(73, 1, 1);
+  --red2: #640202c4;
+  --red3:  rgba(230, 223, 223, 0.212);
+}
+
 html,
 body {
   padding: 0;

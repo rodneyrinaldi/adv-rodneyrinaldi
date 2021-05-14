@@ -9,13 +9,13 @@ import styles from '../styles/index.module.css'
 function Representation() {
   return (<>
     <Layout showback='yes'>
-      <Title title="Representação jurídica" />
+      <Title title="Representação Jurídica" />
       <div className={styles.grid}>
         <Menu
           url='representation/privacy'
           alt=' '
           pic='/privacy.png'
-          title='AÇÕES DE PRIVACIDADE'
+          title='Ações de Privacidade'
           description='Invasão de privacidade, defesa de direitos da personalidade, notificação de autoridades.'
         />
 
@@ -23,7 +23,7 @@ function Representation() {
           url='representation/family'
           alt=''
           pic='/family.png'
-          title='AÇÕES DE FAMÍLIA'
+          title='Ações de Família'
           description='Questões familiares como uniões, separações, sucessões, inventários e testamentos.'
         />
 
@@ -31,7 +31,7 @@ function Representation() {
           url='representation/consumer'
           alt=' '
           pic='/consumer.png'
-          title='AÇÕES DE CONSUMO'
+          title='Ações de Consumo'
           description='Problemas referentes a compras de produtos ou serviços em lojas físicas ou na internet.'
         />
 
@@ -39,7 +39,7 @@ function Representation() {
           url='representation/service'
           alt=''
           pic='/services.png'
-          title='AÇÕES DE SERVIÇOS'
+          title='Ações de Serviços'
           description='Problemas com contratos de serviços em geral como telefonia, internet, escolares, médicas e etc.'
         />
 
@@ -47,7 +47,7 @@ function Representation() {
           url='representation/medicine'
           alt=''
           pic='/doctor.png'
-          title='AÇÕES MÉDICAS'
+          title='Ações Médicas'
           description='Problemas com planos de saúde, com hospitais, com laboratórios e ou erros médicos.'
         />
 
@@ -55,7 +55,7 @@ function Representation() {
           url='representation/building'
           alt=''
           pic='/house.png'
-          title='AÇÕES IMOBILIÁRIAS'
+          title='Ações Imobiliárias'
           description='Imóveis na planta, novos ou usados. Compra, venda e locação residencial ou comercial.'
         />
 
@@ -63,7 +63,7 @@ function Representation() {
           url='representation/traffic'
           alt=''
           pic='/traffic.png'
-          title='AÇÕES DE TRÂNSITO'
+          title='Ações de Trânsito'
           description='Suspensões, cassações e crimes de trânsito. Defesas prévias e recursos de multas no JARI e CETRAN..'
         />
 
@@ -71,7 +71,7 @@ function Representation() {
           url='representation/labor'
           alt=''
           pic='/work.png'
-          title='AÇÕES TRABALHISTAS'
+          title='Ações Trabalhistas'
           description='Contratações, demissões, cálculos e indenizações. Assédio comercial e sexual ou discriminação.'
         />
 
@@ -79,7 +79,7 @@ function Representation() {
           url='representation/pension'
           alt=''
           pic='/old.png'
-          title='AÇÕES PREVIDENCIÁRIAS'
+          title='Ações Previdenciárias'
           description='Processos administrativo ou judicial, simulações, cálculos e recursos.'
         />
 
@@ -87,19 +87,17 @@ function Representation() {
           url='/doubts'
           alt='dúvidas jurídica'
           pic='/doubts.png'
-          title='DÚVIDAS JURÍDICAS'
+          title='Dúvidas Jurídicas'
           description='Tire suas dúvidas em um sistema de perguntas e respostas direcionado.'
         />
-      </div>
-      <div className={styles.grid}>
+
         <Menu
           type={true}
           url='/contactus'
           alt='contatenos'
           pic='/contactus.png'
-          title='ENTRE EM CONTATO'
-          description='Não encontrou o assunto que procura, entre em contato 
-            e vamos auxiliá-lo a encontrar a melhor forma de lidar com sua necessidade.'
+          title='Entre em Contato'
+          title='Precisa de ajuda entre em contato'
         />
       </div>
     </Layout>
