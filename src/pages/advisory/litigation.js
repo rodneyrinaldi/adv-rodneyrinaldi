@@ -5,7 +5,7 @@ import Title from '../../components/title'
 
 import styles from '../../styles/advisory.module.css'
 
-export default function Family() {
+export default function Litigation() {
   return (<>
     <Layout showback='yes'>
       <Title title="Contencioso" />
