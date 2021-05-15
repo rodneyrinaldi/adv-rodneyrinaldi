@@ -100,9 +100,10 @@
 /* ------------- */
 
 
-@media (max-width: 900px) { 
+@media (max-width: 600px) {
   .texts {
-    width: 76%;
+    width: 86%;
+    height: 60vh;
   }
 }
 
