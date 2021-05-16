@@ -53,8 +53,8 @@ function Index() {
           url='/contactus'
           alt='contatenos'
           pic='/contactus.png'
-          title='Precisa de ajuda entre em contato'
-          description=''
+          title='Outros assuntos?'
+          description='Não encontrou o que procurava, envie uma mensagem e será atendido em 24 horas.'
         />
       </div>
     </Layout>

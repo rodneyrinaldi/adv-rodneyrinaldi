@@ -97,7 +97,7 @@ function Representation() {
           alt='contatenos'
           pic='/contactus.png'
           title='Entre em Contato'
-          title='Precisa de ajuda entre em contato'
+          description='Não encontrou o que procurava, envie uma mensagem e será atendido em 24 horas.'
         />
       </div>
     </Layout>

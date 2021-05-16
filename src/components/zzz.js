@@ -20,34 +20,16 @@ const variants = {
 }
 
 function Menu({ url, alt, pic, title, description, type }) {
-  return (<>
-    <div className={styles.wrapperCard}>
-      <Link href={url}>
-        <a>
-          <motion.div variants={variants} className={styles.wrapperMotion}
-            initial="initial" animate="enter" exit="exit" whileHover="hover"
-          >
-            <div className={styles.wrapperIcon}>
-              <img src={pic} alt={alt} className={styles.icon} />
-            </div>
-            <h1 className={styles.wrapperTitle} >{title}</h1>
-            <h1 className={styles.wrapperDescription} >{description}</h1>
-          </motion.div>
-        </a>
-      </Link>
-    </div>
-  </>);
-}
-
-function xxx({ url, alt, pic, title, description, type }) {
   return (
-    <motion.div variants={variants}
-      initial="initial" animate="enter" exit="exit" whileHover="hover"
+    <motion.div
+      className={styles.card}
+      whileHover="hover"
+      initial="initial" exit="exit" animate="enter" variants={variants}
     >
       <Link href={url}>
-        <div>
-          <a>
-            <img src={pic} alt={alt} />
+        <div className={styles.cardContent}>
+          <a href={url} style={{ width: '100%', height: '100%' }}>
+            <img src={pic} alt={alt} className={styles.logo} />
             {
               (!type ? <h1>{title}</h1> : <h3>{title}</h3>)
             }

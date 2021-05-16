@@ -96,7 +96,7 @@ export default function Advisory() {
           url='/contactus'
           alt='Entre em Contato'
           pic='/contactus.png'
-          title='Precisa de ajuda entre em contato'
+          description='Não encontrou o que procurava, envie uma mensagem e será atendido em 24 horas.'
           description=''
         />
 
