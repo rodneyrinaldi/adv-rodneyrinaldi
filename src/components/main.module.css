@@ -1,6 +1,6 @@
 .container {
   min-height: 89vh;
-  padding: 0 1.6rem 0 .4rem;
+  padding: 0rem;
 
   display: flex;
   flex-direction: column;
@@ -11,6 +11,6 @@
 
 @media (max-width: 600px) {
   .container {
-    padding: 0 1.6rem 0 .4rem;
+    padding: 0;
   } 
 }

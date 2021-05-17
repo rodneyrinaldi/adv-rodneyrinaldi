@@ -8,7 +8,6 @@ import Sidebar from '../components/sidebar'
 import Footer from '../components/footer'
 
 function Layout({ children, showback }) {
-  //const showback = 'yes'
 
   return (<>
     <motion.div initial="initial" exit="exit" animate="enter" variants={variants}>
