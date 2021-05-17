@@ -1,5 +1,5 @@
 .wrapperCard {
-  padding: 0.5rem;
+  padding: .4rem 1rem;
   flex-basis: 45%;
 }
 .wrapperCard:last-child {
@@ -9,7 +9,7 @@
 .wrapperMotion {
   width: 100%;
   height: 100%;
-  padding: 2rem;
+  padding: 1rem 1.2rem;
   border-radius: 6px;
   border: 1px solid #eaeaea;
 }
@@ -55,11 +55,11 @@
 }
 
 
-@media (max-width: 600px) {.wrapperCard {
-  padding: 0;
-  flex-basis: 90%;
-}
-.wrapperCard:last-child {
-  flex-basis: 90%;
-}
+@media (max-width: 600px) {
+  .wrapperCard {
+    flex-basis: 90%;
+  }
+  .wrapperCard:last-child {
+    flex-basis: 90%;
+  }
 }

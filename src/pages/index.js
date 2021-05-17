@@ -54,7 +54,7 @@ function Index() {
           alt='contatenos'
           pic='/contactus.png'
           title='Outros assuntos?'
-          description='Não encontrou o que procurava, envie uma mensagem e será atendido em 24 horas.'
+          description='Não encontrou o que procurava, envie uma mensagem e será atendido em 24h.'
         />
       </div>
     </Layout>

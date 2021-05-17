@@ -24,24 +24,9 @@ function Contact(props) {
   const wapp = 'https://api.whatsapp.com/send?phone=+5511981417040&text=Olá, gostaria de obter maiores informações.'
 
   return (<>
-    <div className={styles.wrapper}>
+
+    <div className={styles.wrapperTop}>
       <motion.div whileHover="hover" initial="initial" exit="exit" animate="enter" variants={variants}>
-        <a href={wapp} target='_blank'>
-          <img src="/whatsapp.svg" alt="whatsapp" className={styles.icon} target="_blank" />
-        </a>
-      </motion.div>
-      <motion.div whileHover="hover" initial="initial" exit="exit" animate="enter" variants={variants}>
-        <a onClick={() => router.push('/email')}>
-          <img src="/email.svg" alt="whatsapp" className={styles.icon} />
-        </a>
-      </motion.div>
-      <motion.div whileHover="hover" initial="initial" exit="exit" animate="enter" variants={variants}>
-        <a onClick={() => router.push('/doubts')}>
-          <img src="/question.svg" alt="dúvidas" className={styles.icon} />
-        </a>
-      </motion.div>
-      <motion.div whileHover="hover" initial="initial" exit="exit" animate="enter" variants={variants}>
-        <br /><br />
         <a href='/'>
           <img src="/home.svg" alt="go home" className={styles.icon} />
         </a>
@@ -58,7 +43,27 @@ function Contact(props) {
           : <></>
         }
       </motion.div>
+
     </div>
+
+    <div className={styles.wrapperBottom}>
+      <motion.div whileHover="hover" initial="initial" exit="exit" animate="enter" variants={variants}>
+        <a href={wapp} target='_blank'>
+          <img src="/whatsapp.svg" alt="whatsapp" className={styles.icon} target="_blank" />
+        </a>
+      </motion.div>
+      <motion.div whileHover="hover" initial="initial" exit="exit" animate="enter" variants={variants}>
+        <a onClick={() => router.push('/email')}>
+          <img src="/email.svg" alt="whatsapp" className={styles.icon} />
+        </a>
+      </motion.div>
+      <motion.div whileHover="hover" initial="initial" exit="exit" animate="enter" variants={variants}>
+        <a onClick={() => router.push('/doubts')}>
+          <img src="/question.svg" alt="dúvidas" className={styles.icon} />
+        </a>
+      </motion.div>
+    </div>
+
   </>);
 }
 
