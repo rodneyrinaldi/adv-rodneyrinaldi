@@ -5,7 +5,7 @@
 
   position: fixed;
   z-index:100;
-  top:12%;
+  top:8%;
   right: 0;
 }
 .wrapperTop  a img {
@@ -23,7 +23,7 @@
 
   position: fixed;
   z-index:100;
-  top:70%;
+  top:74%;
   right: 0;
 }
 .wrapperBottom  a img {
@@ -41,7 +41,7 @@
 
 @media (max-width: 600px) {
   .wrapperTop {
-    margin-right: 6px;
+    margin-right: 1px;
     right: 0;
   }
   .wrapperBottom {
@@ -50,7 +50,7 @@
   }
   
   .icon {
-    width: 40px;
-    padding: 5px;
+    width: 36px;
+    padding: 3px;
   }
 }

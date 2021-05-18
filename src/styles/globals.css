@@ -6,6 +6,10 @@
   --red3:  rgba(230, 223, 223, 0.212);
 }
 
+* {
+  box-sizing: border-box;
+}
+
 html,
 body {
   padding: 0;
@@ -20,6 +24,8 @@ a {
   text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
+input, textarea {
+  font-family: 'Raleway', sans-serif;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
 }
