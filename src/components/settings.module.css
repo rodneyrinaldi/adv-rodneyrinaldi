@@ -1,25 +1,13 @@
-.tierArticles {  
-  padding: 0;
+.container {  
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: nowrap;  
-  text-align: center;
-  max-width: 800px;
 }
 
-.tierArticles div {
-  flex: 1 300px;
-  height: 100%;
+.container div {
+  width: 80vw;
+  max-width: 600px;
 }
 
-.tierArticles div form {
-  padding: 30px;
-}
-
-.tierArticles div form label {
-  display: flex; 
+.container div form label {
   line-height: 20px;
   font-weight: 600;
   font-size: 1rem;
@@ -28,12 +16,12 @@
   opacity: .8;
 }
 
-.tierArticles div form input[type=checkbox] {
+.container div form input[type=checkbox] {
   margin-right: 8px;
   margin-left: 0;
 }
-.tierArticles div form input[type=text], 
-.tierArticles div form input[type=email]  {
+.container div form input[type=text], 
+.container div form input[type=email]  {
   display: flex;
   height: 28px;
   width: 100%;
@@ -54,24 +42,24 @@
   border: 1px solid #4f585e80;
 }
 
-.tierArticles div form input:hover {
+.container div form input:hover {
   border-color:  rgba(43,81,178,0.59);
 }
 
-.tierArticles div form input:focus {
+.container div form input:focus {
   -moz-box-shadow:  0px 0px 15px -3px rgba(43,81,178,0.59); 
   -webkit-box-shadow: 0px 0px 15px -3px rgba(43,81,178,0.59); 
   box-shadow: 0px 0px 15px -3px rgba(43,81,178,0.59);
 }
 
-.tierArticles div form textarea {
+.container div form textarea {
   display: flex;
   width: 100%;
   height: 180px;
   max-height: 240px;
   padding: 2px 5px;
   margin-bottom: 14px;
-  
+
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
   line-height: 20px;
@@ -88,27 +76,22 @@
   border: 1px solid #4f585e80;
 }
 
-.tierArticles div form textarea:hover {
+.container div form textarea:hover {
   border-color:  rgba(43,81,178,0.59);
 }
 
-.tierArticles div form textarea:focus {
+.container div form textarea:focus {
   -moz-box-shadow:  0px 0px 15px -3px rgba(43,81,178,0.59); 
   -webkit-box-shadow: 0px 0px 15px -3px rgba(43,81,178,0.59); 
   box-shadow: 0px 0px 15px -3px rgba(43,81,178,0.59);
 }
 
-.tierArticles div form p{
+.container div form p {
   line-height: 16px;
   font-weight: 600;
   font-size: .8rem;
   margin: 0;
   padding: 0 8px;
-}
-
-.imgArticle {
-  max-width: 200px;
-  margin: 0 0 0;
 }
  
 .goForward {
@@ -127,28 +110,13 @@
 }
 
 @media (max-width: 600px) {
-  .tierArticles {  
-    flex-wrap: wrap;  
-    margin-bottom: 5vh;
-  }  
-  .tierArticles div form {
-    padding: 5px;
-  }
-  .tierArticles div form input[type=text], 
-  .tierArticles div form input[type=email]  {
+  .container div {
     width: 86vw;
-    margin-bottom: 14px;
+    max-width: 600px;
   }
-  .tierArticles div form textarea {
-    width: 86vw;
-    max-width: 86vw;
-    min-width: 86vw;
+  .container div form textarea {
     height: 120px;
     max-height: 160px;
-    margin-bottom: 14px;
-  }
-  .imgArticle {
-    display: none;
   }
 }
 

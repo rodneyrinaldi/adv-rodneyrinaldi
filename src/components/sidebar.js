@@ -31,6 +31,7 @@ function Contact(props) {
           <img src="/settings.svg" alt="settings" className={styles.icon} />
         </a>
       </motion.div>
+      <br />
       <motion.div whileHover="hover" initial="initial" exit="exit" animate="enter" variants={variants}>
         <a href='/'>
           <img src="/home.svg" alt="go home" className={styles.icon} />

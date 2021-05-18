@@ -1,11 +1,11 @@
 .wrapperTop {
   display: flex;
   flex-direction: column;
-  margin-right: 26px;
+  margin-right: calc(50% - 410px);
 
   position: fixed;
   z-index:100;
-  top:8%;
+  top:20%;
   right: 0;
 }
 .wrapperTop  a img {
@@ -19,11 +19,11 @@
 .wrapperBottom {
   display: flex;
   flex-direction: column;
-  margin-right: 26px;
+  margin-right: calc(50% - 410px);
 
   position: fixed;
   z-index:100;
-  top:74%;
+  top:70%;
   right: 0;
 }
 .wrapperBottom  a img {
@@ -41,12 +41,14 @@
 
 @media (max-width: 600px) {
   .wrapperTop {
-    margin-right: 1px;
+    margin-right: 6px;
     right: 0;
+    top:7%;
   }
   .wrapperBottom {
     margin-right: 6px;
     right: 0;
+    top:74%;
   }
   
   .icon {

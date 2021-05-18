@@ -3,9 +3,9 @@ import { useRouter } from 'next/router'
 import Link from 'next/link'
 import emailjs from 'emailjs-com'
 
-import styles from './email.module.css'
+import styles from './settings.module.css'
 
-function Email(props) {
+function Settings(props) {
   const router = useRouter()
 
   const [name, setName] = useState("")
@@ -50,16 +50,58 @@ function Email(props) {
 
   return (
     <>
-      <div className={styles.tierArticles}>
+      <div className={styles.container}>
         <div>
           <form onSubmit={handleSubmit}>
             <label htmlFor="contactName">Nome</label>
             <input type="text" id="contactName"
               onChange={e => setName(e.target.value)} />
+
             <label htmlFor="contactEmail">Email</label>
             <input type="email" id="contactEmail"
               onChange={e => setEmail(e.target.value)} />
-            <label htmlFor="contactMessage">Mensagem</label>
+
+            <label htmlFor="contactEmail">Nacionalidade</label>
+            <input type="email" id="contactNacionalidade"
+              onChange={e => setEmail(e.target.value)} />
+
+            <label htmlFor="contactEmail">Profissão</label>
+            <input type="email" id="contactProfissao"
+              onChange={e => setEmail(e.target.value)} />
+
+            <label htmlFor="contactEmail">Telefone</label>
+            <input type="email" id="contactTelefone"
+              onChange={e => setEmail(e.target.value)} />
+
+            <label htmlFor="contactEmail">RG</label>
+            <input type="email" id="contactRg"
+              onChange={e => setEmail(e.target.value)} />
+
+            <label htmlFor="contactEmail">CPF/CNPJ</label>
+            <input type="email" id="contactCpfCnpj"
+              onChange={e => setEmail(e.target.value)} />
+
+            <label htmlFor="contactEmail">Endereço</label>
+            <input type="email" id="contactEndereco"
+              onChange={e => setEmail(e.target.value)} />
+
+            <label htmlFor="contactEmail">Cidade</label>
+            <input type="email" id="contactCidade"
+              onChange={e => setEmail(e.target.value)} />
+
+            <label htmlFor="contactEmail">Estado</label>
+            <input type="email" id="contactEstado"
+              onChange={e => setEmail(e.target.value)} />
+
+            <label htmlFor="contactEmail">CEP</label>
+            <input type="email" id="contactCep"
+              onChange={e => setEmail(e.target.value)} />
+
+            <label htmlFor="contactEmail">Contra quem</label>
+            <input type="email" id="contactContraQuem"
+              onChange={e => setEmail(e.target.value)} />
+
+            <label htmlFor="contactMessage">Motivo resumido</label>
             <textarea id="contactMessage"
               onChange={e => setMessage(e.target.value)} />
             <input type="submit" value="E N V I A R" className={styles.goForward} />
@@ -111,5 +153,5 @@ export async function getServerProps() {
   }
 }
 
-export default Email
+export default Settings
 

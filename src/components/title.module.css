@@ -1,6 +1,6 @@
 .container {
   display: block;
-  max-width: 800px;
+  max-width: 600px;
   padding: 4vh 0 0 0;
   text-align: center;
   color: var(--red1);
