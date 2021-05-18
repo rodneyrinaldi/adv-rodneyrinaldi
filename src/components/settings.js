@@ -110,7 +110,7 @@ function Settings(props) {
             <label htmlFor="contactMessage">Motivo resumido</label>
             <textarea id="contactMessage"
               onChange={e => setMessage(e.target.value)} />
-            <input type="submit" value="E N V I A R" className={styles.goForward} />
+            <input type="submit" value="IMPRIMIR E ENVIAR" className={styles.goForward} />
 
             <br />
             <p>
