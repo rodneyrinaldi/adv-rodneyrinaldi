@@ -7,6 +7,16 @@
   max-width: 600px;
 }
 
+.container div p {
+  line-height: 20px;
+  font-weight: 600;
+  font-size: 1rem;
+  letter-spacing: -.0rem; 
+  color:rgb(1, 1, 48);
+  opacity: .8;
+  max-width: 600px;
+}
+
 .container div form label {
   line-height: 20px;
   font-weight: 600;

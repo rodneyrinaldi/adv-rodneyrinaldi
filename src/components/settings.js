@@ -52,6 +52,12 @@ function Settings(props) {
     <>
       <div className={styles.container}>
         <div>
+          <h4>
+            Dados cadastrais para emissão do contrato e procuração
+          </h4>
+          <p>
+            Informe os dados abaixo para a impressão do contrato de representação advocatícia e procuração para representação legal.
+          </p>
           <form onSubmit={handleSubmit}>
             <label htmlFor="contactName">Nome</label>
             <input type="text" id="contactName"
@@ -105,6 +111,8 @@ function Settings(props) {
             <textarea id="contactMessage"
               onChange={e => setMessage(e.target.value)} />
             <input type="submit" value="E N V I A R" className={styles.goForward} />
+
+            <br />
             <p>
               <input type="checkbox" id="myCheck" />
               Concordo com a {' '}
@@ -112,6 +120,7 @@ function Settings(props) {
                 <a href="#" style={{ textDecoration: 'underline' }}>Política de Privacidade e Proteção de Dados</a>
               </Link>
             </p>
+            <br /><br />
           </form>
         </div>
       </div>
