@@ -66,6 +66,7 @@ function Settings(props) {
             <label htmlFor="contactEmail">Email</label>
             <input type="email" id="contactEmail"
               onChange={e => setEmail(e.target.value)} />
+            <br />
 
             <label htmlFor="contactEmail">Nacionalidade</label>
             <input type="email" id="contactNacionalidade"
@@ -86,6 +87,7 @@ function Settings(props) {
             <label htmlFor="contactEmail">CPF/CNPJ</label>
             <input type="email" id="contactCpfCnpj"
               onChange={e => setEmail(e.target.value)} />
+            <br />
 
             <label htmlFor="contactEmail">Endereço</label>
             <input type="email" id="contactEndereco"
@@ -102,10 +104,12 @@ function Settings(props) {
             <label htmlFor="contactEmail">CEP</label>
             <input type="email" id="contactCep"
               onChange={e => setEmail(e.target.value)} />
+            <br />
 
             <label htmlFor="contactEmail">Contra quem</label>
             <input type="email" id="contactContraQuem"
               onChange={e => setEmail(e.target.value)} />
+            <br />
 
             <label htmlFor="contactMessage">Motivo resumido</label>
             <textarea id="contactMessage"
