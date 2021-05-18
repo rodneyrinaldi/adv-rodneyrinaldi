@@ -9,13 +9,13 @@ import styles from '../styles/index.module.css'
 export default function Editorial() {
   return (<>
     <Layout showback='yes'>
-      <Title title="Fale conosco" />
+      <Title title="Editorial" />
       <div className={styles.grid}>
         <Menu
           url='#'
           alt='......'
           pic='/editorial.png'
-          title='O DIREITO E A JUSTIÇA'
+          title='O Direito e a Justiça'
           description='Lorem ipsum dolor sit amet consectetur adipisicing elit. '
         />
 
@@ -23,7 +23,7 @@ export default function Editorial() {
           url='#'
           alt=''
           pic='/editorial.png'
-          title='A INCONSTITUCIONALIDADE DO TRÂNSITO'
+          title='A Inconstitucionalidade no Trânsito'
           description='Lorem ipsum dolor sit amet consectetur adipisicing elit. '
         />
 
@@ -31,7 +31,7 @@ export default function Editorial() {
           url='#'
           alt=''
           pic='/editorial.png'
-          title='A IRRACIONALIDADE DA POLÍTICA DAS MINORIAS'
+          title='A Irracionalidade da Política na Minorias'
           description='Lorem ipsum dolor sit amet consectetur adipisicing elit. '
         />
 

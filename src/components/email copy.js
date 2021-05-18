@@ -50,7 +50,7 @@ function Email(props) {
 
   return (
     <>
-      <div className={styles.container}>
+      <div className={styles.tierArticles}>
         <div>
           <form onSubmit={handleSubmit}>
             <label htmlFor="contactName">Nome</label>

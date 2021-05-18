@@ -15,7 +15,7 @@ export default function Doubts() {
 
   return (<>
     <Layout showback='yes'>
-      <Title title="Fale conosco" />
+      <Title title="Dúvidas Jurídicas" />
       <div className={styles.row}>
         <AreaContext.Provider value={setArea}>
           <ActionContext.Provider value={setAction}>

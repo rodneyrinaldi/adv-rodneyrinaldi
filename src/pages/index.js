@@ -48,14 +48,14 @@ function Index() {
           description='Publicações, tutoriais, mapas mentais e artigos trazendo conhecimento para tomada de decisões.'
         />
 
-        <Menu
+        {/* <Menu
           type={true}
           url='/contactus'
           alt='contatenos'
           pic='/contactus.png'
           title='Outros assuntos?'
-          description='Não encontrou o que procurava, envie uma mensagem e será atendido em 24h.'
-        />
+          description='Não encontrou o que procurava, envie uma mensagem e será atendido em até 24h.'
+        /> */}
       </div>
     </Layout>
   </>)

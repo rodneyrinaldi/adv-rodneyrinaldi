@@ -21,7 +21,7 @@ const variants = {
 
 function Menu({ url, alt, pic, title, description, type }) {
   return (<>
-    <div className={styles.wrapperCard}>
+    <div className={(!type ? styles.wrapperCard : styles.wrapperCardRed)}>
       <Link href={url}>
         <a>
           <motion.div variants={variants} className={styles.wrapperMotion}
@@ -30,35 +30,13 @@ function Menu({ url, alt, pic, title, description, type }) {
             <div className={styles.wrapperIcon}>
               <img src={pic} alt={alt} className={styles.icon} />
             </div>
-            <h1 className={styles.wrapperTitle} >{title}</h1>
-            <h1 className={styles.wrapperDescription} >{description}</h1>
+            <h1 className={(!type ? styles.wrapperTitle : styles.wrapperTitleRed)} >{title}</h1>
+            <h1 className={(!type ? styles.wrapperDescription : styles.wrapperDescriptionRed)} >{description}</h1>
           </motion.div>
         </a>
       </Link>
     </div>
   </>);
-}
-
-function xxx({ url, alt, pic, title, description, type }) {
-  return (
-    <motion.div variants={variants}
-      initial="initial" animate="enter" exit="exit" whileHover="hover"
-    >
-      <Link href={url}>
-        <div>
-          <a>
-            <img src={pic} alt={alt} />
-            {
-              (!type ? <h1>{title}</h1> : <h3>{title}</h3>)
-            }
-            {
-              (!type ? <h2>{description}</h2> : <></>)
-            }
-          </a>
-        </div>
-      </Link>
-    </motion.div>
-  );
 }
 
 export default Menu

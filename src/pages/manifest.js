@@ -8,7 +8,7 @@ import styles from '../styles/index.module.css'
 function Manifest() {
   return (<>
     <Layout showback='yes'>
-      <Title title="Fale conosco" />
+      <Title title="Manifesto" />
       <div className={styles.row}>
         <p>
           Este manifesto dá publicidade ao comprometimento primordial no seguimento das melhores e possíveis

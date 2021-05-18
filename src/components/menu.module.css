@@ -1,8 +1,11 @@
-.wrapperCard {
+.wrapperCard, .wrapperCardRed {
   padding: .4rem 1rem;
   flex-basis: 45%;
 }
 .wrapperCard:last-child {
+  flex-basis: 45%;
+}
+.wrapperCardRed:last-child {
   flex-basis: 90%;
 }
 
@@ -16,15 +19,18 @@
 .wrapperMotion:hover,
 .wrapperMotion:focus,
 .wrapperMotion:active {
-  background: var(--red3);
-  border-color: var(--red2);
+  background: #fff8f8;
+  border-color: #a7a6a6;
+  -moz-box-shadow:  0px 0px 15px -3px rgba(43,81,178,0.59); 
+  -webkit-box-shadow: 0px 0px 15px -3px rgba(43,81,178,0.59); 
+  box-shadow: 0px 0px 15px -3px rgba(43,81,178,0.59);
 }
 
 .icon {
   margin: 0;
   width: 8vw;
   max-width: 50px;
-  opacity: .9;
+  opacity: 0.80;
 }
 
 .wrapperIcon {
@@ -40,12 +46,35 @@
   color: var(--black1);
 }
 
+.wrapperTitleRed {
+  margin: 0;
+  padding: 16px 0 12px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: var(--red1);
+}
+
 .wrapperDescription {
   margin: 0;
   text-align: justify;
   font-weight:500;
   font-size: 1.1rem;
   color: var(--black2);
+  
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
+
+.wrapperDescriptionRed {
+  margin: 0;
+  text-align: justify;
+  font-weight:500;
+  font-size: 1.1rem;
+  color: var(--red1);
   
   overflow-wrap: break-word;
   word-wrap: break-word;

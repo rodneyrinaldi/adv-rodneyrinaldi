@@ -32,7 +32,7 @@
 
 @media (max-width: 600px) {
   .container {
-    padding: 3vh 0;
+    padding: 3vh 1.6rem;
   }
   .container h1 {
     font-size: 1.1rem;

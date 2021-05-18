@@ -1,13 +1,25 @@
-.container {  
+.tierArticles {  
+  padding: 0;
   display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;  
+  text-align: center;
+  max-width: 800px;
 }
 
-.container div {
-  width: 80vw;
-  max-width: 600px;
+.tierArticles div {
+  flex: 1 300px;
+  height: 100%;
 }
 
-.container div form label {
+.tierArticles div form {
+  padding: 30px;
+}
+
+.tierArticles div form label {
+  display: flex; 
   line-height: 20px;
   font-weight: 600;
   font-size: 1rem;
@@ -16,12 +28,12 @@
   opacity: .8;
 }
 
-.container div form input[type=checkbox] {
+.tierArticles div form input[type=checkbox] {
   margin-right: 8px;
   margin-left: 0;
 }
-.container div form input[type=text], 
-.container div form input[type=email]  {
+.tierArticles div form input[type=text], 
+.tierArticles div form input[type=email]  {
   display: flex;
   height: 28px;
   width: 100%;
@@ -42,17 +54,17 @@
   border: 1px solid #4f585e80;
 }
 
-.container div form input:hover {
+.tierArticles div form input:hover {
   border-color:  rgba(43,81,178,0.59);
 }
 
-.container div form input:focus {
+.tierArticles div form input:focus {
   -moz-box-shadow:  0px 0px 15px -3px rgba(43,81,178,0.59); 
   -webkit-box-shadow: 0px 0px 15px -3px rgba(43,81,178,0.59); 
   box-shadow: 0px 0px 15px -3px rgba(43,81,178,0.59);
 }
 
-.container div form textarea {
+.tierArticles div form textarea {
   display: flex;
   width: 100%;
   height: 180px;
@@ -77,22 +89,27 @@
   border: 1px solid #4f585e80;
 }
 
-.container div form textarea:hover {
+.tierArticles div form textarea:hover {
   border-color:  rgba(43,81,178,0.59);
 }
 
-.container div form textarea:focus {
+.tierArticles div form textarea:focus {
   -moz-box-shadow:  0px 0px 15px -3px rgba(43,81,178,0.59); 
   -webkit-box-shadow: 0px 0px 15px -3px rgba(43,81,178,0.59); 
   box-shadow: 0px 0px 15px -3px rgba(43,81,178,0.59);
 }
 
-.container div form p {
+.tierArticles div form p{
   line-height: 16px;
   font-weight: 600;
   font-size: .8rem;
   margin: 0;
   padding: 0 8px;
+}
+
+.imgArticle {
+  max-width: 200px;
+  margin: 0 0 0;
 }
  
 .goForward {
@@ -111,13 +128,28 @@
 }
 
 @media (max-width: 600px) {
-  .container div {
-    width: 86vw;
-    max-width: 600px;
+  .tierArticles {  
+    flex-wrap: wrap;  
+    margin-bottom: 5vh;
+  }  
+  .tierArticles div form {
+    padding: 5px;
   }
-  .container div form textarea {
+  .tierArticles div form input[type=text], 
+  .tierArticles div form input[type=email]  {
+    width: 86vw;
+    margin-bottom: 14px;
+  }
+  .tierArticles div form textarea {
+    width: 86vw;
+    max-width: 86vw;
+    min-width: 86vw;
     height: 120px;
     max-height: 160px;
+    margin-bottom: 14px;
+  }
+  .imgArticle {
+    display: none;
   }
 }
 
