@@ -116,7 +116,6 @@ function Settings(props) {
               onChange={e => setMessage(e.target.value)} />
             <input type="submit" value="IMPRIMIR E ENVIAR" className={styles.goForward} />
 
-            <br /><br />
             <p>
               <input type="checkbox" id="myCheck" />
               Concordo com a {' '}

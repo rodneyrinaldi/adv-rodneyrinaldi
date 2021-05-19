@@ -91,4 +91,13 @@
   .wrapperCard:last-child {
     flex-basis: 90%;
   }
+
+  .wrapperDescription {
+    text-align: center;
+  }
+  
+  .wrapperDescriptionRed {
+    text-align: center;
+  }
+  
 }

@@ -17,7 +17,7 @@
 }
 .row p {  
   margin: 0;
-  padding: 0 ;
+  padding: 0 0 30px ;
   width: 86vw;
   font-size: clamp(.4em, .6em + 1vw, 1.4em);
   line-height: 1.6;
@@ -44,7 +44,7 @@
   }
   .row p {  
     margin: 0;
-    padding: 0 ;
+    padding: 0 0 20px ;
     width: 86vw;
   }
 }
