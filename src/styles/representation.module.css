@@ -29,6 +29,19 @@
   -ms-hyphens: auto;
   hyphens: auto;
 }
+.row a {  
+  margin: 0;
+  padding: 0 0 30px ;
+  font-size: clamp(.4em, .6em + 1vw, 1.4em);
+  line-height: 1.6;
+  text-align: justify;
+  text-decoration: underline;
+}
+
+.image {
+  margin: 0;
+  padding: 0 0 30px ;
+}
 
 @media (max-width: 600px) {  
   .grid {
