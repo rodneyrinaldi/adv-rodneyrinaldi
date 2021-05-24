@@ -23,7 +23,7 @@ export default function Family() {
         </div>
         <p>Para a sociologia a família é representada pela agregação de indivíduos unidos por laços afetivos ou de parentesco, com o objetivo de desenvolvimento mútuo, sendo os adultos responsáveis pelos menores.</p>
         <p>Por este motivo todas as decisões referentes ao assunto devem ser desenvolvidas com cuidados especiais, lenvando-se em consideração o princípio do melhor interesse para a criança conforme entendimento do Superior Tribunal de Justiça (STJ).</p>
-        <p style={{ paddingBottom: '0' }}>Metodologia de trabalho:</p>
+        <p style={{ paddingBottom: '20px' }}>Metodologia de trabalho:</p>
         <p>
           <ul>
             <li>Procurar o entendimento, exaurir as possibilidades de manutenção familiar, exercício racional de concessões recíprocas;</li>
@@ -32,8 +32,8 @@ export default function Family() {
             <li>Por fim, representação individualizada e civilizada objetivando-se o rompimento legal de uma relação jurídica tomando-se os cuidados mais diligentes para a manutenção a continuidade do padrão socio económico possível.</li>
           </ul>
         </p>
-        <p style={{ paddingBottom: '0' }}>Atividade desenvolvidas</p>
-        <p style={{ paddingBottom: '40px' }}>
+        <p style={{ paddingBottom: '20px' }}>Atividade desenvolvidas</p>
+        <p>
           <ul style={{ listStyleType: 'circle' }}>
             <li>Casamentos;</li>
             <li>Uniões estáveis;</li>
@@ -47,7 +47,7 @@ export default function Family() {
             <li>Testamentos</li>
           </ul>
         </p>
-        <p>Clique abaixo e baixe a procuração e o contrato de serviços, assine igual a identidade, envie junto com o restante dos documentos.</p>
+        <p style={{ paddingTop: '30px' }}>Clique abaixo e baixe a procuração e o contrato de serviços, assine igual a identidade, envie junto com o restante dos documentos.</p>
         <input type="submit" value="EMITIR O CONTRATO E A PROCURAÇÃO" className={styles.button} />
         <p>Em caso de dúvidade entre em contato!</p>
       </div>
