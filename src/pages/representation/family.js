@@ -33,7 +33,7 @@ export default function Family() {
           </ul>
         </p>
         <p style={{ paddingBottom: '0' }}>Atividade desenvolvidas</p>
-        <p>
+        <p style={{ paddingBottom: '40px' }}>
           <ul style={{ listStyleType: 'circle' }}>
             <li>Casamentos;</li>
             <li>Uniões estáveis;</li>
