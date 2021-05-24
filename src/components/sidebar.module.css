@@ -5,8 +5,8 @@
 
   position: fixed;
   z-index:100;
-  top:20%;
-  right: 0;
+  top:10%;
+  right: -60px;
 }
 .wrapperTop  a img {
   opacity: 0.74;
@@ -23,8 +23,8 @@
 
   position: fixed;
   z-index:100;
-  top:70%;
-  right: 0;
+  top:60%;
+  right: -60px;
 }
 .wrapperBottom  a img {
   opacity: 0.74;
@@ -37,6 +37,17 @@
 .icon {
   width: 60px;
   padding: 10px;
+}
+
+@media (max-width: 900px) {
+  .wrapperTop {
+    margin-right: 6px;
+    right: 0;
+  }
+  .wrapperBottom {
+    margin-right: 6px;
+    right: 0;
+  }
 }
 
 @media (max-width: 600px) {
