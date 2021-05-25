@@ -111,10 +111,11 @@ function Settings(props) {
               onChange={e => setEmail(e.target.value)} />
             <br /><br />
 
-            <label htmlFor="contactMessage">Motivo resumido</label>
+            <label htmlFor="contactMessage">Motivo resumido ( fatos relevantes )</label>
             <textarea id="contactMessage"
               onChange={e => setMessage(e.target.value)} />
-            <input type="submit" value="IMPRIMIR E ENVIAR" className={styles.goForward} />
+
+            <input type="submit" value="IMPRIMIR E ENVIAR" className={styles.button} />
 
             <p>
               <input type="checkbox" id="myCheck" />
