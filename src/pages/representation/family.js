@@ -27,7 +27,7 @@ export default function Family() {
         <p>Para a sociologia a família é representada pela agregação de indivíduos unidos por laços afetivos ou de parentesco, com o objetivo de desenvolvimento mútuo, sendo os adultos responsáveis pelos menores.</p>
         <p>Por este motivo todas as decisões referentes ao assunto devem ser desenvolvidas com cuidados especiais, lenvando-se em consideração o princípio do melhor interesse para a criança conforme entendimento do Superior Tribunal de Justiça (STJ).</p>
 
-        <p className={styles.title}>Metodologia de trabalho:</p>
+        <h2>Metodologia de trabalho:</h2>
 
         <p>
           <ul>
@@ -38,7 +38,7 @@ export default function Family() {
           </ul>
         </p>
 
-        <p className={styles.title}>Atividades direito civil no ramo família</p>
+        <h2>Atividades direito civil no ramo família</h2>
 
         <p>
           <ul style={{ listStyleType: 'circle' }}>
@@ -63,7 +63,7 @@ export default function Family() {
           </Link>
         </p>
 
-        <h2 className={styles.title}>Em caso de dúvida entre em contato!</h2>
+        <h3 className={styles.title}>Em caso de dúvida entre em contato!</h3>
 
       </div>
     </Layout>
