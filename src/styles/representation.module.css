@@ -30,6 +30,21 @@
   -ms-hyphens: auto;
   hyphens: auto;
 }
+.row h2 {  
+  margin: 0;
+  padding: 0 0 30px ;
+  width: 86vw;
+  font-size: clamp(.4em, .6em + 1vw, 1.4em);
+  font-weight: 600;
+  line-height: 1.6;
+  text-align: center;
+  
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
 .row p {  
   margin: 0;
   padding: 0 0 30px ;
@@ -51,6 +66,22 @@
 }
 .row p li {  
   padding-left: 1vw;
+}
+
+.title {  
+  margin: 0;
+  padding: 0 0 30px ;
+  width: 86vw;
+  font-size: clamp(.4em, .6em + 1vw, 1.4em);
+  font-weight: 600;
+  line-height: 1.6;
+  text-align: justify;
+  
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
 }
 
 .image {
