@@ -102,9 +102,9 @@
   .row p ul { 
     padding-inline-start: 6vw;
   }
-
-    .button {
-      width: 86vw;
-    }
+  .button {
+    width: 86vw;
+    height: 36px;
+  }
 }
 

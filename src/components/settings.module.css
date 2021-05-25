@@ -131,6 +131,10 @@
     height: 120px;
     max-height: 160px;
   }
+
+  .button {
+    height: 36px;
+  }
 }
 
 
