@@ -55,7 +55,7 @@ export default function Family() {
 
         <p style={{ paddingTop: '30px' }}>Clique abaixo e baixe a procuração e o contrato de serviços, assine igual a identidade, envie junto com o restante dos documentos.</p>
 
-        <p>
+        <p style={{ padding: '0px' }}>
           <Link href='/settings'>
             <a className={styles.button}>EMITIR DOCUMENTAÇÃO</a>
           </Link>
