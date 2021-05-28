@@ -22,6 +22,12 @@
 .container a:hover {
   color: var(--red1);
 }
+.container p {
+  font-size: .9rem;
+  font-weight: 600;
+  display: flex;
+  padding: 0 6px;
+}
 
 
 @media (max-width: 600px) {

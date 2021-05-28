@@ -66,48 +66,48 @@ function Settings(props) {
             <label htmlFor="contactEmail">Email</label>
             <input type="email" id="contactEmail"
               onChange={e => setEmail(e.target.value)} />
-            <br /><br />
 
-            <label htmlFor="contactEmail">Nacionalidade</label>
-            <input type="email" id="contactNacionalidade"
-              onChange={e => setEmail(e.target.value)} />
-
-            <label htmlFor="contactEmail">Profissão</label>
-            <input type="email" id="contactProfissao"
-              onChange={e => setEmail(e.target.value)} />
-
-            <label htmlFor="contactEmail">Telefone</label>
-            <input type="email" id="contactTelefone"
-              onChange={e => setEmail(e.target.value)} />
-
-            <label htmlFor="contactEmail">RG</label>
-            <input type="email" id="contactRg"
-              onChange={e => setEmail(e.target.value)} />
-
-            <label htmlFor="contactEmail">CPF/CNPJ</label>
-            <input type="email" id="contactCpfCnpj"
+            <label htmlFor="contactMobilel">Telefone</label>
+            <input type="text" id="contactMobilel"
               onChange={e => setEmail(e.target.value)} />
             <br /><br />
 
-            <label htmlFor="contactEmail">Endereço</label>
-            <input type="email" id="contactEndereco"
+            <label htmlFor="contactNacionality">Nacionalidade</label>
+            <input type="text" id="contactNacionality"
               onChange={e => setEmail(e.target.value)} />
 
-            <label htmlFor="contactEmail">Cidade</label>
-            <input type="email" id="contactCidade"
+            <label htmlFor="contactProfession">Profissão</label>
+            <input type="text" id="contactProfession"
               onChange={e => setEmail(e.target.value)} />
 
-            <label htmlFor="contactEmail">Estado</label>
-            <input type="email" id="contactEstado"
+            <label htmlFor="contactIdentity">RG, emissor e data</label>
+            <input type="text" id="contactIdentity"
               onChange={e => setEmail(e.target.value)} />
 
-            <label htmlFor="contactEmail">CEP</label>
-            <input type="email" id="contactCep"
+            <label htmlFor="contactIdentity2">CPF/CNPJ</label>
+            <input type="text" id="contactIdentity2"
               onChange={e => setEmail(e.target.value)} />
             <br /><br />
 
-            <label htmlFor="contactEmail">Contra quem</label>
-            <input type="email" id="contactContraQuem"
+            <label htmlFor="contactAddress">Endereço</label>
+            <input type="text" id="contactAddress"
+              onChange={e => setEmail(e.target.value)} />
+
+            <label htmlFor="contactCity">Cidade</label>
+            <input type="text" id="contactCity"
+              onChange={e => setEmail(e.target.value)} />
+
+            <label htmlFor="contactState">Estado</label>
+            <input type="text" id="contactState"
+              onChange={e => setEmail(e.target.value)} />
+
+            <label htmlFor="contactZipcode">CEP</label>
+            <input type="text" id="contactZipcode"
+              onChange={e => setEmail(e.target.value)} />
+            <br /><br />
+
+            <label htmlFor="contactAgainstWho">Contra quem</label>
+            <input type="text" id="contactAgainstWho"
               onChange={e => setEmail(e.target.value)} />
             <br /><br />
 

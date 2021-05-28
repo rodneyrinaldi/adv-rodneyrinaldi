@@ -15,6 +15,9 @@ function Footer() {
             alt="rodneyrinaldi" /></a>
           <a href="https://dpo.rodneyrinaldi.com">dpo.rodneyrinaldi.com</a>
         </div>
+        <div className={styles.container}>
+          <p>Travessa Dona Paula 13 Higienópolis São Paulo SP (11) 2246-2556</p>
+        </div>
       </motion.div>
     </>
   )

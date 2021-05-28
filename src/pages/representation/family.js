@@ -44,14 +44,14 @@ export default function Family() {
           <ul style={{ listStyleType: 'circle' }}>
             <li>Casamentos e contratos pré-nupciais;</li>
             <li>Reconhecimento e contratos de uniões estáveis;</li>
-            <li>Reconhecimento de uniões homoafetivas</li>
-            <li>reconhecimento de famílias simultâneas</li>
+            <li>Reconhecimento de uniões homoafetivas;</li>
+            <li>Reconhecimento de famílias simultâneas;</li>
             <li>Divórcios e separações;</li>
             <li>Dissoluções de uniões estáveis;</li>
-            <li>Guarda e regime de visitas</li>
-            <li>Estabelecimento e revisão de pensões alimentícias</li>
-            <li>Partilhas, iventários e usucapiões</li>
-            <li>Testamentos e termos de últimas vontades</li>
+            <li>Guarda e regime de visitas;</li>
+            <li>Estabelecimento e revisão de pensões alimentícias;</li>
+            <li>Partilhas, iventários e usucapiões;</li>
+            <li>Testamentos e termos de últimas vontades;</li>
           </ul>
         </p>
 
