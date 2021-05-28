@@ -23,10 +23,10 @@
   color: var(--red1);
 }
 .container p {
-  font-size: .9rem;
-  font-weight: 600;
+  font-size: .8rem;
+  font-weight: 500;
   display: flex;
-  padding: 0 6px;
+  padding: 10px 6px 20px;
 }
 
 
@@ -36,5 +36,9 @@
   }
   .container a {
     font-size: .7rem;
+  }
+  .container p {
+    font-size: .7rem;
+    padding: 20px 6px 20px;
   }
 }
