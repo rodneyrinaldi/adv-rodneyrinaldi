@@ -52,9 +52,9 @@ function Settings(props) {
     <>
       <div className={styles.container}>
         <div>
-          <h4>
+          <h1>
             Dados cadastrais para emissão do contrato e procuração
-          </h4>
+          </h1>
           <p>
             Informe os dados abaixo para a impressão do contrato de representação advocatícia e procuração para representação legal.
           </p>
