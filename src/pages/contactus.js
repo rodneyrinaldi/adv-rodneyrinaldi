@@ -17,14 +17,14 @@ export default function ContactUs() {
         <Menu
           url='/email'
           alt='enviar um e-mail'
-          pic='/email.png'
+          pic='/images/email.png'
           title='ENVIAR UM E-MAIL'
           description='Envie sua mensagem com seu nome, melhor e-mail e mensagem detalhando sua necessidade com maior clareza e detalhes possíveis.'
         />
         <Menu
           url={wapp}
           alt='enviar mensagem por app'
-          pic='/whatsapp.png'
+          pic='/images/whatsapp.png'
           title='ENVIAR UM CHAT'
           description='Envie sua mensagem com seu nome, melhor e-mail e mensagem detalhando sua necessidade com maior clareza e detalhes possíveis.'
         />

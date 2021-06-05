@@ -28,24 +28,24 @@ function Contact(props) {
     <div className={styles.wrapperTop}>
       <motion.div whileHover="hover" initial="initial" exit="exit" animate="enter" variants={variants}>
         <a href='/settings'>
-          <img src="/settings.svg" alt="settings" className={styles.icon} />
+          <img src="/images/settings.svg" alt="settings" className={styles.icon} />
         </a>
       </motion.div>
       <br />
       <motion.div whileHover="hover" initial="initial" exit="exit" animate="enter" variants={variants}>
         <a href='/'>
-          <img src="/home.svg" alt="go home" className={styles.icon} />
+          <img src="/images/home.svg" alt="go home" className={styles.icon} />
         </a>
       </motion.div>
       <motion.div whileHover="hover" initial="initial" exit="exit" animate="enter" variants={variants}>
         <a href='#toppage'>
-          <img src="/top.svg" alt="go top" className={styles.icon} />
+          <img src="/images/top.svg" alt="go top" className={styles.icon} />
         </a>
       </motion.div>
       <motion.div whileHover="hover" initial="initial" exit="exit" animate="enter" variants={variants}>
         {props.showback === 'yes'
           ? <a onClick={() => router.back()}>
-            <img src="/back.svg" alt="go back" className={styles.icon} /></a>
+            <img src="/images/back.svg" alt="go back" className={styles.icon} /></a>
           : <></>
         }
       </motion.div>
@@ -55,17 +55,17 @@ function Contact(props) {
     <div className={styles.wrapperBottom}>
       <motion.div whileHover="hover" initial="initial" exit="exit" animate="enter" variants={variants}>
         <a href={wapp} target='_blank'>
-          <img src="/whatsapp.svg" alt="whatsapp" className={styles.icon} target="_blank" />
+          <img src="/images/whatsapp.svg" alt="whatsapp" className={styles.icon} target="_blank" />
         </a>
       </motion.div>
       <motion.div whileHover="hover" initial="initial" exit="exit" animate="enter" variants={variants}>
         <a onClick={() => router.push('/email')}>
-          <img src="/email.svg" alt="whatsapp" className={styles.icon} />
+          <img src="/images/email.svg" alt="whatsapp" className={styles.icon} />
         </a>
       </motion.div>
       <motion.div whileHover="hover" initial="initial" exit="exit" animate="enter" variants={variants}>
         <a onClick={() => router.push('/doubts')}>
-          <img src="/question.svg" alt="dúvidas" className={styles.icon} />
+          <img src="/images/question.svg" alt="dúvidas" className={styles.icon} />
         </a>
       </motion.div>
     </div>

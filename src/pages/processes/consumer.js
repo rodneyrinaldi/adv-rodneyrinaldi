@@ -7,10 +7,10 @@ import Title from '../../components/title'
 
 import styles from '../../styles/processes.module.css'
 
-export default function Digital() {
+export default function Consumer() {
   return (<>
     <Layout showback='yes'>
-      <Title title="Digital" />
+      <Title title="Ações de consumo" />
       <div className={styles.row}>
 
         <h1>
@@ -19,7 +19,7 @@ export default function Digital() {
 
         <div className={styles.image}>
           <Image
-            src="/images/article-privacy-a.png"
+            src="/images/article-consumer-p.png"
             alt="Família"
             width={800}
             height={300}

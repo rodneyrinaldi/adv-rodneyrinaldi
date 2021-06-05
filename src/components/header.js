@@ -16,7 +16,7 @@ function Header() {
       <div className={styles.container}>
         <div className={styles.logo}>
           <div>
-            <img src="/rr-logo.svg" alt="rodneyrinaldi" />
+            <img src="/images/rr-logo.svg" alt="rodneyrinaldi" />
           </div>
           <div>
             <h1>Rodney Rinaldi</h1>

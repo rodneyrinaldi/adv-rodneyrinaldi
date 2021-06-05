@@ -15,44 +15,42 @@ function Index() {
       />
       <div className={styles.grid}>
         <Menu
-          url='/representation'
-          alt='Representação'
-          pic='/representation.png'
-          title='Representação'
-          description='Atuação em juízo, órgãos públicos e empresas nas causas 
-            familiares, trabalhistas, empresariais, consumo, privacidade, trânsito dentre outras.'
+          url='/processes'
+          alt='Processos'
+          pic='/images/processes.png'
+          title='Processos'
+          description='Ações judiciais, extrajudiciais ou orgãos públicos em variadas áreas do direito'
         />
 
         <Menu
           url='/advisory'
           alt='Assessoria'
-          pic='/advisory.png'
+          pic='/images/advisory.png'
           title='Assessoria'
-          description='Atuação preventiva e reparativa nas demandas civis junto a
-            órgãos públicos nas causas consumeristas, empregatícias e empresariais.'
+          description='Assessoria jurídica preventiva ou defensiva nas questões administrativas ou privadas'
         />
 
         <Menu
           url='/manifest'
           alt='Manifesto'
-          pic='/manifest.png'
+          pic='/images/manifest.png'
           title='Manifesto'
-          description='Princípios e fundamentos para um atendimento personalizado, eficiente, ético e sustentável.'
+          description='Compromisso com um trabalho ético, seguro e de qualidade'
         />
 
         <Menu
           url='/editorial'
           alt='Editorial'
-          pic='/editorial.png'
+          pic='/images/editorial.png'
           title='Editorial'
-          description='Publicações, tutoriais, mapas mentais e artigos trazendo conhecimento para tomada de decisões.'
+          description='Publicação de artigos, tutoriais, mapas mentais e tira dúvidas'
         />
 
         {/* <Menu
           type={true}
           url='/contactus'
           alt='contatenos'
-          pic='/contactus.png'
+          pic='/images/contactus.png'
           title='Outros assuntos?'
           description='Não encontrou o que procurava, envie uma mensagem e será atendido em até 24h.'
         /> */}

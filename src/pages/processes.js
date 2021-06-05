@@ -12,73 +12,73 @@ function Representation() {
       <Title title="Representação Jurídica" />
       <div className={styles.grid}>
         <Menu
-          url='representation/privacy'
+          url='processes/privacy'
           alt=' '
-          pic='/privacy.png'
+          pic='/images/privacy.png'
           title='Ações de Privacidade'
           description='Invasão de privacidade, defesa de direitos da personalidade, notificação de autoridades.'
         />
 
         <Menu
-          url='representation/family'
+          url='processes/family'
           alt=''
-          pic='/family.png'
+          pic='/images/family.png'
           title='Ações de Família'
           description='Questões familiares como uniões, separações, sucessões, inventários e testamentos.'
         />
 
         <Menu
-          url='representation/consumer'
+          url='processes/consumer'
           alt=' '
-          pic='/consumer.png'
+          pic='/images/consumer.png'
           title='Ações de Consumo'
           description='Problemas referentes a compras de produtos ou serviços em lojas físicas ou na internet.'
         />
 
         <Menu
-          url='representation/service'
+          url='processes/service'
           alt=''
-          pic='/services.png'
+          pic='/images/services.png'
           title='Ações de Serviços'
           description='Problemas com contratos de serviços em geral como telefonia, internet, escolares, médicas e etc.'
         />
 
         <Menu
-          url='representation/medicine'
+          url='processes/medicine'
           alt=''
-          pic='/doctor.png'
+          pic='/images/doctor.png'
           title='Ações Médicas'
           description='Problemas com planos de saúde, com hospitais, com laboratórios e ou erros médicos.'
         />
 
         <Menu
-          url='representation/building'
+          url='processes/building'
           alt=''
-          pic='/house.png'
+          pic='/images/house.png'
           title='Ações Imobiliárias'
           description='Imóveis na planta, novos ou usados. Compra, venda e locação residencial ou comercial.'
         />
 
         <Menu
-          url='representation/traffic'
+          url='processes/traffic'
           alt=''
-          pic='/traffic.png'
+          pic='/images/traffic.png'
           title='Ações de Trânsito'
           description='Suspensões, cassações e crimes de trânsito. Defesas prévias e recursos de multas no JARI e CETRAN..'
         />
 
         <Menu
-          url='representation/labor'
+          url='processes/labor'
           alt=''
-          pic='/work.png'
+          pic='/images/work.png'
           title='Ações Trabalhistas'
           description='Contratações, demissões, cálculos e indenizações. Assédio comercial e sexual ou discriminação.'
         />
 
         <Menu
-          url='representation/pension'
+          url='processes/pension'
           alt=''
-          pic='/old.png'
+          pic='/images/old.png'
           title='Ações Previdenciárias'
           description='Processos administrativo ou judicial, simulações, cálculos e recursos.'
         />
@@ -86,7 +86,7 @@ function Representation() {
         <Menu
           url='/doubts'
           alt='dúvidas jurídica'
-          pic='/doubts.png'
+          pic='/images/doubts.png'
           title='Dúvidas Jurídicas'
           description='Tire suas dúvidas em um sistema de perguntas e respostas direcionado.'
         />
@@ -95,7 +95,7 @@ function Representation() {
           type={true}
           url='/contactus'
           alt='contatenos'
-          pic='/contactus.png'
+          pic='/images/contactus.png'
           title='Entre em Contato'
           description='Não encontrou o que procurava, envie uma mensagem e será atendido em até 24 horas.'
         />

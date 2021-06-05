@@ -15,7 +15,7 @@ export default function Advisory() {
         <Menu
           url='advisory/litigation'
           alt='Contencioso'
-          pic='/judge.png'
+          pic='/images/judge.png'
           title='Contencioso'
           description='Representação legal contenciosa, mediada e consciliada. Negociações, cobranças e execuções.'
         />
@@ -23,14 +23,14 @@ export default function Advisory() {
         <Menu
           url='advisory/advisory'
           alt='Consultivo'
-          pic='/lawyer.png'
+          pic='/images/lawyer.png'
           title='Consultivo'
           description='Consultoria trabalhista e empresarial, negociações, contratos, cobranças e execuções.'
         />
         <Menu
           url='advisory/compliance'
           alt='Conformidade'
-          pic='/compliance.png'
+          pic='/images/compliance.png'
           title='Conformidade'
           description='Elaboração e implantação de políticas de conformidade. Consultoria, suporte e treinamento.'
         />
@@ -38,7 +38,7 @@ export default function Advisory() {
         <Menu
           url='advisory/privacy'
           alt='Privacidade'
-          pic='/privacy.png'
+          pic='/images/privacy.png'
           title='Privacidade'
           description='Elaboração e implantação de políticas de privacidade. Consultoria, suporte e treinamento. DPO como serviço.'
         />
@@ -46,7 +46,7 @@ export default function Advisory() {
         <Menu
           url='advisory/contract'
           alt='Contratual'
-          pic='/contract.png'
+          pic='/images/contract.png'
           title='Contratual'
           description='Interações com a administração. Licitações, contratos e licenças.'
         />
@@ -54,7 +54,7 @@ export default function Advisory() {
         <Menu
           url='advisory/digital'
           alt='Digital'
-          pic='/digital.png'
+          pic='/images/digital.png'
           title='Digital'
           description='Interações com a administração. Licitações, contratos e licenças.'
         />
@@ -62,7 +62,7 @@ export default function Advisory() {
         <Menu
           url='advisory/labor'
           alt='Trabalhista'
-          pic='/work.png'
+          pic='/images/work.png'
           title='Trabalhista'
           description='Contratações, demissões, cálculos e indenizações. Assédio comercial e sexual ou discriminação.'
         />
@@ -70,7 +70,7 @@ export default function Advisory() {
         <Menu
           url='advisory/consumer'
           alt='Consumidor'
-          pic='/consumer.png'
+          pic='/images/consumer.png'
           title='Consumidor'
           description='Problemas referentes a compras de produtos ou serviços em lojas físicas ou na internet.'
         />
@@ -78,7 +78,7 @@ export default function Advisory() {
         <Menu
           url='advisory/administrative'
           alt='Administrativo'
-          pic='/administrative.png'
+          pic='/images/administrative.png'
           title='Administrativo'
           description='Interações com a administração. Licitações, contratos e licenças.'
         />
@@ -86,7 +86,7 @@ export default function Advisory() {
         <Menu
           url='/doubts'
           alt='Dúvidas Jurídicas'
-          pic='/doubts.png'
+          pic='/images/doubts.png'
           title='Dúvidas Jurídicas'
           description='Tire suas dúvidas em um sistema de perguntas e respostas direcionado.'
         />
@@ -95,7 +95,7 @@ export default function Advisory() {
           type={true}
           url='/contactus'
           alt='Entre em Contato'
-          pic='/contactus.png'
+          pic='/images/contactus.png'
           description='Não encontrou o que procurava, envie uma mensagem e será atendido em até 24 horas.'
           description=''
         />

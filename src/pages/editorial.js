@@ -14,7 +14,7 @@ export default function Editorial() {
         <Menu
           url='#'
           alt='......'
-          pic='/editorial.png'
+          pic='/images/editorial.png'
           title='O Direito e a Justiça'
           description='Lorem ipsum dolor sit amet consectetur adipisicing elit. '
         />
@@ -22,7 +22,7 @@ export default function Editorial() {
         <Menu
           url='#'
           alt=''
-          pic='/editorial.png'
+          pic='/images/editorial.png'
           title='A Inconstitucionalidade no Trânsito'
           description='Lorem ipsum dolor sit amet consectetur adipisicing elit. '
         />
@@ -30,7 +30,7 @@ export default function Editorial() {
         <Menu
           url='#'
           alt=''
-          pic='/editorial.png'
+          pic='/images/editorial.png'
           title='A Irracionalidade da Política na Minorias'
           description='Lorem ipsum dolor sit amet consectetur adipisicing elit. '
         />

@@ -7,19 +7,20 @@ import Title from '../../components/title'
 
 import styles from '../../styles/processes.module.css'
 
-export default function Digital() {
+export default function Builing() {
   return (<>
     <Layout showback='yes'>
-      <Title title="Digital" />
+      <Title title="Ações imobiliárias" />
       <div className={styles.row}>
 
         <h1>
-          ...
+          É o caminho pelo qual os indivíduos buscam a pacificação social quanto a propriedade,
+          afastando o direito natural baseado em violência
         </h1>
 
         <div className={styles.image}>
           <Image
-            src="/images/article-privacy-a.png"
+            src="/images/article-building.png"
             alt="Família"
             width={800}
             height={300}
@@ -27,13 +28,16 @@ export default function Digital() {
         </div>
 
         <p>
-          ...
+          As relações imobiliárias são fundadas primordialmente em direitos constitucionais importantes
+          como o direito a sua propriedade e função social.
         </p>
 
         <h2>Procedimentos</h2>
 
         <p>
-          1) ...
+          1) desapropriação; 2) nunciação de obra nova; 3) demolitória;  4) possessória; 5) condomínio; 
+          6) incorporação imobiliária; 7) propriedade; 8) vizinhança; 7) locação; 8) usucapião; 9) posse;
+          10) registro; retificação de documento público; 11) compra e venda; 12) contratos em geral.
         </p>
 
         <h2>Metodologia</h2>

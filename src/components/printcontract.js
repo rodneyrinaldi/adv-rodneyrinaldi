@@ -5,7 +5,7 @@ import Image from 'next/image'
 import Layout from '../../components/layout'
 import Title from '../../components/title'
 
-import styles from '../../styles/representation.module.css'
+import styles from '../../styles/processes.module.css'
 
 export default function PrintContract() {
   return (<>

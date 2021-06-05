@@ -26,24 +26,24 @@ function Contact(props) {
       }}>
       <div className={styles.wrapper}>
         <a href={wapp} target='_blank'>
-          <img src="/whatsapp.svg" alt="whatsapp" className={styles.icon} target="_blank" />
+          <img src="/images/whatsapp.svg" alt="whatsapp" className={styles.icon} target="_blank" />
         </a>
         <a onClick={() => router.push('/email')}>
-          <img src="/email.svg" alt="whatsapp" className={styles.icon} />
+          <img src="/images/email.svg" alt="whatsapp" className={styles.icon} />
         </a>
         <a onClick={() => router.push('/doubts')}>
-          <img src="/question.svg" alt="dúvidas" className={styles.icon} />
+          <img src="/images/question.svg" alt="dúvidas" className={styles.icon} />
         </a>
         <br /><br />
         <a href='/'>
-          <img src="/home.svg" alt="go home" className={styles.icon} />
+          <img src="/images/home.svg" alt="go home" className={styles.icon} />
         </a>
         <a href='#toppage'>
-          <img src="/top.svg" alt="go top" className={styles.icon} />
+          <img src="/images/top.svg" alt="go top" className={styles.icon} />
         </a>
         {props.showback === 'yes'
           ? <a onClick={() => router.back()}>
-            <img src="/back.svg" alt="go back" className={styles.icon} /></a>
+            <img src="/images/back.svg" alt="go back" className={styles.icon} /></a>
           : <></>
         }
       </div>
