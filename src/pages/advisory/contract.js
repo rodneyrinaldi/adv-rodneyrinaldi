@@ -19,7 +19,7 @@ export default function Contract() {
 
         <div className={styles.image}>
           <Image
-            src="/images/article-privacy-a.png"
+            src="/images/article-contract.png"
             alt="Família"
             width={800}
             height={300}
@@ -39,7 +39,7 @@ export default function Contract() {
         <h2>Metodologia</h2>
 
         <p>
-          <ul style={{ listStyleType: 'disc'}}>
+          <ul style={{ listStyleType: 'disc' }}>
             <li>Procurar o entendimento, exaurir as vias amigáveisl, e exercício da boa fé;</li>
             <li>Aceitação da negociação com urbanismo focando-se no melhor para as partes, evitar processos judiciais fazendo uso dos sistemas de consciliação/mediação;</li>
             <li>Por fim, representação civilizada objetivando-se a estabilização legal justa.</li>
