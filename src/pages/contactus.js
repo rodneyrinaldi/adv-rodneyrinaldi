@@ -8,7 +8,7 @@ import Menu from '../components/menu'
 import styles from '../styles/index.module.css'
 
 export default function ContactUs() {
-  const wapp = 'https://api.whatsapp.com/send?phone=+5511981417040&text=Olá, gostaria de obter maiores informações.'
+  const wapp = 'https://api.whatsapp.com/send?phone=+551131646843&text=Olá, gostaria de obter maiores informações.'
 
   return (<>
     <Layout showback='yes'>
