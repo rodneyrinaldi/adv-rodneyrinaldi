@@ -29,7 +29,7 @@ function Representation() {
 
         <Menu
           url='processes/consumer'
-          alt=' '
+          alt='Consumidor'
           pic='/images/consumer.png'
           title='Ações de Consumo'
           description='Problemas referentes a compras de produtos ou serviços em lojas físicas ou na internet.'

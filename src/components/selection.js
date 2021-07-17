@@ -77,7 +77,7 @@ const pages = () => {
           />
         </div>
       </div>
-
+      {/* 
       <div className={styles.texts}>
         <div className={styles.textsitems}>
           <Accordion>
@@ -109,6 +109,7 @@ const pages = () => {
           </Accordion>
         </div>
       </div>
+     */}
     </>
   )
 
