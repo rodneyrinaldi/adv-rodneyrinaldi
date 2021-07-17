@@ -4,4 +4,8 @@ module.exports = {
     EMAILJS_TEMPLATE_ID: process.env.EMAILJS_TEMPLATE_ID,
     EMAILJS_USER_ID: process.env.EMAILJS_USER_ID,
   },
+  i18n: {
+    locales: ['pt-BR'],
+    defaultLocale: 'pt-BR',
+  },
 }

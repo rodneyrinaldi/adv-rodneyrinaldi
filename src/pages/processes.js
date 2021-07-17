@@ -13,7 +13,7 @@ function Representation() {
       <div className={styles.grid}>
         <Menu
           url='processes/privacy'
-          alt=' '
+          alt='Privacidade'
           pic='/images/privacy.png'
           title='Ações de Privacidade'
           description='Invasão de privacidade, defesa de direitos da personalidade, notificação de autoridades.'
