@@ -1,20 +1,7 @@
-:root {
-  --black1: #000000d0;
-  --black2: #000000b4;
-  --red1:  rgb(73, 1, 1);
-  --red2: #640202c4;
-  --red3:  rgba(230, 223, 223, 0.212);
-}
-
-* {
-  box-sizing: border-box;
-}
-
 html,
 body {
   padding: 0;
   margin: 0;
-  font-size: clamp(.4em, .6em + 1vw, 1.1em);
   font-family: 'Raleway', sans-serif;
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
@@ -25,20 +12,6 @@ a {
   text-decoration: none;
 }
 
-input, textarea {
-  font-size: clamp(.4em, .6em + 1vw, 1.1em);
-  font-family: 'Raleway', sans-serif;
-  text-rendering: optimizeLegibility !important;
-  -webkit-font-smoothing: antialiased !important;
-}
-
-
-@media (max-width: 600px) {  
-  body {
-    font-size: clamp(.4em, .6em + 1vw, 1.4em);
-  }
-
-  input, textarea {
-    font-size: clamp(.4em, .6em + 1vw, 1.4em);
-  }
+* {
+  box-sizing: border-box;
 }

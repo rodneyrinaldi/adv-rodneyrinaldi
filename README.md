@@ -1,7 +1,7 @@
 <!-- START -->
 
 <h1 align="center">
-    <img alt="rodneyrinaldi" src="https://github.com/rodneyrinaldi/adv.rodneyrinaldi/blob/master/public/rr-logo.svg" width="60px" />
+    <img alt="rodneyrinaldi" src="https://github.com/rodneyrinaldi/dev.rodneyrinaldi/blob/master/public/rr-logo.svg" width="60px" />
 </h1>
 
 <h3 align="center">
@@ -9,14 +9,14 @@
 </h3>
 
 <h1 align="center">
-    <img alt="rodneyrinaldi" src="https://github.com/rodneyrinaldi/adv.rodneyrinaldi/blob/master/public/page.png" width="600px" />
+    <img alt="rodneyrinaldi" src="https://github.com/rodneyrinaldi/dev.rodneyrinaldi/blob/master/public/page.png" width="600px" />
 </h1>
 
 
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/rodneyrinaldi/adv.rodneyrinaldi?color=%2304D361">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/rodneyrinaldi/dev.rodneyrinaldi?color=%2304D361">
   
-  <img alt="Github license" src="https://img.shields.io/github/license/rodneyrinaldi/adv.rodneyrinaldi?color=%2304D361">
+  <img alt="Github license" src="https://img.shields.io/github/license/rodneyrinaldi/dev.rodneyrinaldi?color=%2304D361">
 
 </p>
 
