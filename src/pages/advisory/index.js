@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Layout from '../../components/layout'
-import Menu from '../../components/menu'
+import MenuItem from '../../components/menuitem'
 import Title from '../../components/title'
 
 import styles from './index.module.css'
@@ -12,7 +12,7 @@ function Advisory() {
       <Layout showback='yes'>
         <Title title="PROCESSOS" />
         <div className={styles.row}>
-          <Menu
+          <MenuItem
             url='advisory/litigation'
             alt='Contencioso'
             pic='/images/judge.png'
@@ -20,14 +20,14 @@ function Advisory() {
             description='Representação legal contenciosa, mediada e consciliada. Negociações, cobranças e execuções.'
           />
 
-          <Menu
+          <MenuItem
             url='advisory/advisory'
             alt='Consultivo'
             pic='/images/lawyer.png'
             title='Consultivo'
             description='Consultoria trabalhista e empresarial, negociações, contratos, cobranças e execuções.'
           />
-          <Menu
+          <MenuItem
             url='advisory/compliance'
             alt='Conformidade'
             pic='/images/compliance.png'
@@ -35,7 +35,7 @@ function Advisory() {
             description='Elaboração e implantação de políticas de conformidade. Consultoria, suporte e treinamento.'
           />
 
-          <Menu
+          <MenuItem
             url='advisory/privacy'
             alt='Privacidade'
             pic='/images/privacy.png'
@@ -43,7 +43,7 @@ function Advisory() {
             description='Elaboração e implantação de políticas de privacidade. Consultoria, suporte e treinamento. DPO como serviço.'
           />
 
-          <Menu
+          <MenuItem
             url='advisory/contract'
             alt='Contratual'
             pic='/images/contract.png'
@@ -51,7 +51,7 @@ function Advisory() {
             description='Interações com a administração. Licitações, contratos e licenças.'
           />
 
-          <Menu
+          <MenuItem
             url='advisory/digital'
             alt='Digital'
             pic='/images/digital.png'
@@ -59,7 +59,7 @@ function Advisory() {
             description='Interações com a administração. Licitações, contratos e licenças.'
           />
 
-          <Menu
+          <MenuItem
             url='advisory/labor'
             alt='Trabalhista'
             pic='/images/work.png'
@@ -67,7 +67,7 @@ function Advisory() {
             description='Contratações, demissões, cálculos e indenizações. Assédio comercial e sexual ou discriminação.'
           />
 
-          <Menu
+          <MenuItem
             url='advisory/consumer'
             alt='Consumidor'
             pic='/images/consumer.png'
@@ -75,7 +75,7 @@ function Advisory() {
             description='Problemas referentes a compras de produtos ou serviços em lojas físicas ou na internet.'
           />
 
-          <Menu
+          <MenuItem
             url='advisory/administrative'
             alt='Administrativo'
             pic='/images/administrative.png'
@@ -83,7 +83,7 @@ function Advisory() {
             description='Interações com a administração. Licitações, contratos e licenças.'
           />
 
-          <Menu
+          <MenuItem
             url='/doubts'
             alt='Dúvidas Jurídicas'
             pic='/images/doubts.png'
@@ -91,7 +91,7 @@ function Advisory() {
             description='Tire suas dúvidas em um sistema de perguntas e respostas direcionado.'
           />
 
-          <Menu
+          <MenuItem
             type={true}
             url='/contactus'
             alt='contatenos'

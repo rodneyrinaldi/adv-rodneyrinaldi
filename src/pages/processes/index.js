@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Layout from '../../components/layout'
-import Menu from '../../components/menu'
+import MenuItem from '../../components/menuitem'
 import Title from '../../components/title'
 
 import styles from './index.module.css'
@@ -12,7 +12,7 @@ function Processes() {
       <Layout showback='yes'>
         <Title title="PROCESSOS" />
         <div className={styles.row}>
-          <Menu
+          <MenuItem
             url='processes/privacy'
             alt='Privacidade'
             pic='/images/privacy.png'
@@ -20,7 +20,7 @@ function Processes() {
             description='Invasão de privacidade, defesa de direitos da personalidade, notificação de autoridades.'
           />
 
-          <Menu
+          <MenuItem
             url='processes/family'
             alt=''
             pic='/images/family.png'
@@ -28,7 +28,7 @@ function Processes() {
             description='Questões familiares como uniões, separações, sucessões, inventários e testamentos.'
           />
 
-          <Menu
+          <MenuItem
             url='processes/consumer'
             alt='Consumidor'
             pic='/images/consumer.png'
@@ -36,7 +36,7 @@ function Processes() {
             description='Problemas referentes a compras de produtos ou serviços em lojas físicas ou na internet.'
           />
 
-          <Menu
+          <MenuItem
             url='processes/service'
             alt=''
             pic='/images/services.png'
@@ -44,7 +44,7 @@ function Processes() {
             description='Problemas com contratos de serviços em geral como telefonia, internet, escolares, médicas e etc.'
           />
 
-          <Menu
+          <MenuItem
             url='processes/medicine'
             alt=''
             pic='/images/doctor.png'
@@ -52,7 +52,7 @@ function Processes() {
             description='Problemas com planos de saúde, com hospitais, com laboratórios e ou erros médicos.'
           />
 
-          <Menu
+          <MenuItem
             url='processes/building'
             alt=''
             pic='/images/house.png'
@@ -60,7 +60,7 @@ function Processes() {
             description='Imóveis na planta, novos ou usados. Compra, venda e locação residencial ou comercial.'
           />
 
-          <Menu
+          <MenuItem
             url='processes/traffic'
             alt=''
             pic='/images/traffic.png'
@@ -68,7 +68,7 @@ function Processes() {
             description='Suspensões, cassações e crimes de trânsito. Defesas prévias e recursos de multas no JARI e CETRAN..'
           />
 
-          <Menu
+          <MenuItem
             url='processes/labor'
             alt=''
             pic='/images/work.png'
@@ -76,7 +76,7 @@ function Processes() {
             description='Contratações, demissões, cálculos e indenizações. Assédio comercial e sexual ou discriminação.'
           />
 
-          <Menu
+          <MenuItem
             url='processes/pension'
             alt=''
             pic='/images/old.png'
@@ -84,7 +84,7 @@ function Processes() {
             description='Processos administrativo ou judicial, simulações, cálculos e recursos.'
           />
 
-          <Menu
+          <MenuItem
             url='/doubts'
             alt='dúvidas jurídica'
             pic='/images/doubts.png'
@@ -92,7 +92,7 @@ function Processes() {
             description='Tire suas dúvidas em um sistema de perguntas e respostas direcionado.'
           />
 
-          <Menu
+          <MenuItem
             type={true}
             url='/contactus'
             alt='contatenos'

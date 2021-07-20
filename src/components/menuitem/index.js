@@ -3,7 +3,7 @@ import React from 'react';
 
 import styles from './index.module.css';
 
-function Project({ url, alt, pic, title, description }) {
+function MenuItem({ url, alt, pic, title, description }) {
   return (
     <Link href={url}>
       <a href={url} className={styles.card}>
@@ -15,4 +15,4 @@ function Project({ url, alt, pic, title, description }) {
   );
 }
 
-export default Project
+export default MenuItem
