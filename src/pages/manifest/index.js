@@ -12,7 +12,7 @@ function Manifest() {
         <Title title="MANIFESTO" />
         <div className={styles.row}>
           <p>
-            Este manifesto dá publicidade ao comprometimento primordial no seguimento das melhores e possíveis
+            Este manifesto dá publicidade ao comprometimento primordial no segmento das melhores e possíveis
             políticas de pesquisa, desenvolvimento, comercialização e suporte a todos os produtos e serviços
             desempenhados isolada ou compartilhadamente.
           </p>
@@ -25,7 +25,7 @@ function Manifest() {
           </p>
           <p>
             Aplicando como princípios em todas as interações:
-            a) entender primeiro a necessidade do cliente antes de sugirir soluções;
+            a) entender primeiro a necessidade do cliente antes de sugerir soluções;
             b) registrar interações e especificações de forma simples e eficiênte;
             c) compromisso com a qualidade e tempo, entregas pontuais, e nunca entregar uma má prestação;
             d) fazer primeiro e cobrar depois, sempre que possível trabalhar com provas de conceito primeiramente.

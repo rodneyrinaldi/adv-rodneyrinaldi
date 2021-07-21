@@ -62,7 +62,7 @@ export default function Curriculum() {
             <div><strong>PERFIL</strong></div>
           </div>
           <div className={styles.col2}>
-            <div><strong>Experiência em negócios</strong>, gerenciamento de grandes projetos para os seguimentos industrial
+            <div><strong>Experiência em negócios</strong>, gerenciamento de grandes projetos para os segmentos industrial
               farmacêutico e de consumo; sólidos conhecimentos em desenvolvimento Microsoft; bancos de dados Microsoft e Oracle;
               data warehouse e business intelligence; Microsoft, Salesforce e Plusoft Customer Relationship Management; Knowledge Management.</div>
             <div>Competência em lidar com equipes e transações complexas, integrações, treinamentos, concorrência e gestão de contas e terceiros.</div>
