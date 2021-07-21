@@ -14,7 +14,7 @@ function Index() {
             url='/processes'
             alt='Processos'
             pic='/menu/processes.png'
-            title='Processos Judiciais'
+            title='Processos'
             description='Ações judiciais, extrajudiciais ou orgãos públicos em variadas áreas do direito'
           />
 
@@ -22,7 +22,7 @@ function Index() {
             url='/advisory'
             alt='Assessoria'
             pic='/menu/advisory.png'
-            title='Assessoria Consultiva'
+            title='Assessoria'
             description='Assessoria jurídica preventiva ou defensiva nas questões administrativas ou privadas'
           />
 
@@ -30,7 +30,7 @@ function Index() {
             url='/skills'
             alt='Competências'
             pic='/menu/skills.png'
-            title='Competências Legais'
+            title='Competências'
             description='Compromisso com um trabalho ético, seguro e de qualidade'
           />
 
@@ -38,7 +38,7 @@ function Index() {
             url='/curriculum'
             alt='Curriculum'
             pic='/menu/curriculum.png'
-            title='Curriculum Vitae'
+            title='Curriculum'
             description='Publicação de artigos, tutoriais, mapas mentais e tira dúvidas'
           />
 
@@ -54,7 +54,7 @@ function Index() {
             url='/editorial'
             alt='Editorial'
             pic='/menu/editorial.png'
-            title='Artigos e Documentos'
+            title='Documentos'
             description='Publicação de artigos, tutoriais, mapas mentais e tira dúvidas'
           />
         </div>
