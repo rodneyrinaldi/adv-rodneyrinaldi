@@ -13,13 +13,13 @@ export default function Curriculum() {
 
       <div id='toppage' className={styles.container}>
 
-        <div className={styles.line}>
+        {/* <div className={styles.line}>
           <h1><strong>Rodney Rinaldi Tonelli</strong></h1>
-        </div>
+        </div> */}
 
         <div className={styles.line}>
           <div className={styles.colL}>
-            <div>r. Lauzane 823 1B, SP</div>
+            {/* <div>r. Lauzane 823 1B, SP</div> */}
             <div>github.com/rodneyrinaldi</div>
             <div>linkedin.com/in/rodneyrinaldi</div>
           </div>

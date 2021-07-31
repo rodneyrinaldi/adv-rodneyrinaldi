@@ -10,7 +10,7 @@ function Contact(props) {
   return (<>
 
     <div className={styles.wrapperTop}>
-      <a href='/settings'>
+      <a href='/'>
         <img src="/sidebar/settings.png" alt="settings" className={styles.icon} />
       </a>
       <br />
@@ -32,10 +32,10 @@ function Contact(props) {
       <a href={wapp} target='_blank'>
         <img src="/sidebar/whatsapp.png" alt="whatsapp" className={styles.icon} target="_blank" />
       </a>
-      <a onClick={() => router.push('/email')}>
+      <a onClick={() => router.push('/')}>
         <img src="/sidebar/email.png" alt="whatsapp" className={styles.icon} />
       </a>
-      <a onClick={() => router.push('/doubts')}>
+      <a onClick={() => router.push('/')}>
         <img src="/sidebar/question.png" alt="dúvidas" className={styles.icon} />
       </a>
     </div>
