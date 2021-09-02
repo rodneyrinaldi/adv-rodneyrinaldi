@@ -12,7 +12,7 @@ function Skills() {
   return (
     <>
       <Layout showback='yes'>
-        <Title title="COMPETÊNCIAS" />
+        <Title title="HABILIDADES" />
         <div className={styles.row}>
           {
             data.map(function (item) {

@@ -10,7 +10,7 @@
 .row p {  
   margin: 0;
   padding: 0 5rem 2rem;
-  font-size: clamp(.4em, .6em + .4vw, 1.4em);
+  font-size: 1.06rem;
   line-height: 1.6;
   text-align: justify;
 }

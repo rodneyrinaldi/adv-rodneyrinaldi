@@ -11,6 +11,7 @@ function Email(props) {
   const [name, setName] = useState("")
   const [email, setEmail] = useState("")
   const [message, setMessage] = useState("")
+  const [policie, setPolicie] = useState("")
 
   // const { query: { service }, } = router
   const service = 'fale conosco adv.rodneyrinaldi.com'
@@ -46,6 +47,8 @@ function Email(props) {
     setName('')
     setEmail('')
     setMessage('')
+
+    router.back()
   }
 
   return (
@@ -53,23 +56,34 @@ function Email(props) {
       <div className={styles.container}>
         <div>
           <form onSubmit={handleSubmit}>
+
             <label htmlFor="contactName">Nome</label>
             <input type="text" id="contactName"
-              onChange={e => setName(e.target.value)} />
+              onChange={e => setName(e.target.value)}
+            />
+
             <label htmlFor="contactEmail">Email</label>
             <input type="email" id="contactEmail"
-              onChange={e => setEmail(e.target.value)} />
+              onChange={e => setEmail(e.target.value)}
+            />
+
             <label htmlFor="contactMessage">Mensagem</label>
             <textarea id="contactMessage"
-              onChange={e => setMessage(e.target.value)} />
+              onChange={e => setMessage(e.target.value)}
+            />
+
             <input type="submit" value="E N V I A R" className={styles.goForward} />
+
             <p>
-              <input type="checkbox" id="myCheck" />
+              <input type="checkbox" id="myCheck"
+                onChange={e => setPolicie(e.target.value)}
+              />
               Concordo com a {' '}
               <Link href="/policies">
                 <a href="#" style={{ textDecoration: 'underline' }}>Política de Privacidade e Proteção de Dados</a>
               </Link>
             </p>
+
           </form>
         </div>
       </div>

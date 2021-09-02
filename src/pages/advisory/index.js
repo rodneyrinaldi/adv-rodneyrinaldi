@@ -10,12 +10,12 @@ function Advisory() {
   return (
     <>
       <Layout showback='yes'>
-        <Title title="PROCESSOS" />
+        <Title title="ASSESSORIA" />
         <div className={styles.row}>
           <MenuItem
             url='advisory'
             alt='Contencioso'
-            pic='/images/traffic-barrier.png'
+            pic='/areas/advisory/judge.png'
             title='Contencioso'
             description='Representação legal contenciosa, mediada e consciliada. Negociações, cobranças e execuções.'
           />
@@ -23,14 +23,14 @@ function Advisory() {
           <MenuItem
             url='advisory'
             alt='Consultivo'
-            pic='/images/traffic-barrier.png'
+            pic='/areas/advisory/lawyer.png'
             title='Consultivo'
             description='Consultoria trabalhista e empresarial, negociações, contratos, cobranças e execuções.'
           />
           <MenuItem
             url='advisory'
             alt='Conformidade'
-            pic='/images/traffic-barrier.png'
+            pic='/areas/advisory/compliance.png'
             title='Conformidade'
             description='Elaboração e implantação de políticas de conformidade. Consultoria, suporte e treinamento.'
           />
@@ -38,7 +38,7 @@ function Advisory() {
           <MenuItem
             url='advisory'
             alt='Privacidade'
-            pic='/images/traffic-barrier.png'
+            pic='/areas/advisory/privacy.png'
             title='Privacidade'
             description='Elaboração e implantação de políticas de privacidade. Consultoria, suporte e treinamento. DPO como serviço.'
           />
@@ -46,7 +46,7 @@ function Advisory() {
           <MenuItem
             url='advisory'
             alt='Contratual'
-            pic='/images/traffic-barrier.png'
+            pic='/areas/advisory/contract.png'
             title='Contratual'
             description='Interações com a administração. Licitações, contratos e licenças.'
           />
@@ -54,7 +54,7 @@ function Advisory() {
           <MenuItem
             url='advisory'
             alt='Digital'
-            pic='/images/traffic-barrier.png'
+            pic='/areas/advisory/digital.png'
             title='Digital'
             description='Interações com a administração. Licitações, contratos e licenças.'
           />
@@ -62,7 +62,7 @@ function Advisory() {
           <MenuItem
             url='advisory'
             alt='Trabalhista'
-            pic='/images/traffic-barrier.png'
+            pic='/areas/advisory/labor.png'
             title='Trabalhista'
             description='Contratações, demissões, cálculos e indenizações. Assédio comercial e sexual ou discriminação.'
           />
@@ -70,7 +70,7 @@ function Advisory() {
           <MenuItem
             url='advisory'
             alt='Consumidor'
-            pic='/images/traffic-barrier.png'
+            pic='/areas/advisory/consume.png'
             title='Consumidor'
             description='Problemas referentes a compras de produtos ou serviços em lojas físicas ou na internet.'
           />
@@ -78,7 +78,7 @@ function Advisory() {
           <MenuItem
             url='advisory'
             alt='Administrativo'
-            pic='/images/traffic-barrier.png'
+            pic='/areas/advisory/administrative.png'
             title='Administrativo'
             description='Interações com a administração. Licitações, contratos e licenças.'
           />
@@ -86,7 +86,7 @@ function Advisory() {
           <MenuItem
             url='/'
             alt='Dúvidas Jurídicas'
-            pic='/images/traffic-barrier.png'
+            pic='/areas/doubts.png'
             title='Dúvidas Jurídicas'
             description='Tire suas dúvidas em um sistema de perguntas e respostas direcionado.'
           />
@@ -95,7 +95,7 @@ function Advisory() {
             type={true}
             url='/'
             alt='contatenos'
-            pic='/images/traffic-barrier.png'
+            pic='/areas/contactus.png'
             title='Entre em Contato'
             description='Não encontrou o que procurava, envie uma mensagem e será atendido em até 24 horas.'
           />

@@ -32,7 +32,7 @@ function Contact(props) {
       <a href={wapp} target='_blank'>
         <img src="/sidebar/whatsapp.png" alt="whatsapp" className={styles.icon} target="_blank" />
       </a>
-      <a onClick={() => router.push('/')}>
+      <a onClick={() => router.push('/message')}>
         <img src="/sidebar/email.png" alt="whatsapp" className={styles.icon} />
       </a>
       <a onClick={() => router.push('/')}>

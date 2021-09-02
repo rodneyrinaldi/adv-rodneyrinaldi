@@ -4,7 +4,7 @@
 
 .card {
   margin: 1rem;
-  flex-basis: 45%;
+  flex-basis: 90%;
   padding: 1rem;
   text-align: center;
   color: inherit;
@@ -21,21 +21,16 @@
   border-color: rgba(78, 1, 1, 0.467);
 } */
 
-.card H2 {
+.card h2 {
   font-size: 16px;
   font-weight: 700;
   margin: 3px 0 8px;
   padding: 0;
 }
 
-.card h3 {
-  margin: 0 0 1rem 0;
-  font-size: 1.5rem;
-  font-weight: 600;
-}
-
 .card p {
   margin: 0;
+  padding: 0;
   font-size: 1.25rem;
   line-height: 1.5;
   text-align: justify;
@@ -57,27 +52,22 @@
   }
 
   .card {
-    margin: 0 0 1.4rem;
+    margin: 0;
     padding: 0 1.2rem;
     text-align: center;
     border: none;
   }
-  .card h3 {
-    margin: 0 0 .5rem;
+  .card h2 {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 3px 0 8px;
     padding: 0;
-    font-size: 1.2rem;
-    font-weight: 500;
   }
   .card p {
     margin: 0;
     padding: 0;
-    font-size: 1.05rem;
-    line-height: 1.4;
-  }
-
-  .logo3 {
-    width: 12vw;
-    margin-top: 26px;
-    margin-bottom: 6px;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    text-align: justify;
   }
 }

@@ -1,6 +1,6 @@
 .container {
   height: auto;
-  width: 100vw;
+  width: 90vw;
   max-width: 1100px;
   padding: 4vh 10% 5vh;
   margin: auto;
@@ -20,7 +20,7 @@
 }
 
 .line div {
-  font-size: 1.1rem;
+  font-size: 1.06rem;
   color: black;
   height: 100%;
 }
@@ -30,7 +30,7 @@
 }
 
 .line h1 {
-  font-size: 1.8rem;
+  font-size: 1.06rem;
   font-weight: 600;
 }
 
@@ -44,7 +44,7 @@
 
 .colL div {
   line-height: 1.4rem;
-  font-size: 1.2rem;
+  font-size: 1.06rem;
 }
 
 .colR {
@@ -58,7 +58,7 @@
 
 .colR div {
   line-height: 1.4rem;
-  font-size: 1.2rem;
+  font-size: 1.06rem;
 }
 
 .col1 {
@@ -89,13 +89,18 @@
 
 .col2 div {
   line-height: 1.4rem;
-  font-size: 1.1rem;
+  font-size: 1.06rem;
   height: 100%;
   margin-bottom: 4px;
 }
 
 .col2 div strong {
   font-weight: 600;
+}
+
+.col2e {
+  font-size: .8rem;
+  font-weight: 700;
 }
 
 .bullets {
@@ -125,7 +130,7 @@
   .container {
     height: auto;
     max-width: 600px;
-    padding: 1vh 12% 2vh 8%;
+    padding: 1vh 8% 2vh 6%;
     margin: auto;
   }
   
@@ -137,14 +142,14 @@
   }
 
   .line div {
-    font-size: 1.1rem;
+    font-size: .8rem;
     color: black;
     height: 100%;
     margin-bottom: 6px;
   }
 
   .line h1 {
-    font-size: 1.5rem;
+    font-size: .9rem;
     font-weight: 600;
   }
 
@@ -157,8 +162,8 @@
   }
 
   .colL div {
-    line-height: 1.4rem;
-    font-size: 1rem;
+    line-height: .9rem;
+    font-size: .8rem;
   }
 
   .colR {
@@ -171,8 +176,8 @@
   }
 
   .colR div {
-    line-height: 1.4rem;
-    font-size: 1rem;
+    line-height: .9rem;
+    font-size: .8rem;
   }
 
   .col1 {
@@ -182,7 +187,8 @@
   }
 
   .col1 div {
-    font-size: .9rem;
+    line-height: .9rem;
+    font-size: .8rem;
     color: black;
     height: 100%;
     margin-top: 6px;
@@ -203,14 +209,19 @@
   }
 
   .col2 div {
-    line-height: 1.4rem;
-    font-size: .9rem;
+    line-height: .9rem;
+    font-size: .8rem;
     height: 100%;
     margin-bottom: 10px;
   }
 
   .col2 div strong {
     font-weight: 300;
+  }
+
+  .col2e {
+    font-size: .7rem;
+    font-weight: 700;
   }
 
 }

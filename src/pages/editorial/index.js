@@ -9,7 +9,7 @@ function Editorial() {
   return (
     <>
       <Layout showback='yes'>
-        <Title title="EDITORIAL" />
+        <Title title="DOCUMENTOS" />
         <div className={styles.row}>
 
         </div>

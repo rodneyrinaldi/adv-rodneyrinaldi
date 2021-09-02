@@ -15,7 +15,7 @@ function Processes() {
           <MenuItem
             url='processes'
             alt='Privacidade'
-            pic='/images/traffic-barrier.png'
+            pic='/areas/processes/privacy.png'
             title='Ações de Privacidade'
             description='Invasão de privacidade, defesa de direitos da personalidade, notificação de autoridades.'
           />
@@ -23,7 +23,7 @@ function Processes() {
           <MenuItem
             url='processes'
             alt=''
-            pic='/images/traffic-barrier.png'
+            pic='/areas/processes/family.png'
             title='Ações de Família'
             description='Questões familiares como uniões, separações, sucessões, inventários e testamentos.'
           />
@@ -31,7 +31,7 @@ function Processes() {
           <MenuItem
             url='processes'
             alt='Consumidor'
-            pic='/images/traffic-barrier.png'
+            pic='/areas/processes/consume.png'
             title='Ações de Consumo'
             description='Problemas referentes a compras de produtos ou serviços em lojas físicas ou na internet.'
           />
@@ -39,7 +39,7 @@ function Processes() {
           <MenuItem
             url='processes'
             alt=''
-            pic='/images/traffic-barrier.png'
+            pic='/areas/processes/services.png'
             title='Ações de Serviços'
             description='Problemas com contratos de serviços em geral como telefonia, internet, escolares, médicas e etc.'
           />
@@ -47,7 +47,7 @@ function Processes() {
           <MenuItem
             url='processes'
             alt=''
-            pic='/images/traffic-barrier.png'
+            pic='/areas/processes/medical.png'
             title='Ações Médicas'
             description='Problemas com planos de saúde, com hospitais, com laboratórios e ou erros médicos.'
           />
@@ -55,7 +55,7 @@ function Processes() {
           <MenuItem
             url='processes'
             alt=''
-            pic='/images/traffic-barrier.png'
+            pic='/areas/processes/housing.png'
             title='Ações Imobiliárias'
             description='Imóveis na planta, novos ou usados. Compra, venda e locação residencial ou comercial.'
           />
@@ -63,7 +63,7 @@ function Processes() {
           <MenuItem
             url='processes'
             alt=''
-            pic='/images/traffic-barrier.png'
+            pic='/areas/processes/traffic.png'
             title='Ações de Trânsito'
             description='Suspensões, cassações e crimes de trânsito. Defesas prévias e recursos de multas no JARI e CETRAN..'
           />
@@ -71,7 +71,7 @@ function Processes() {
           <MenuItem
             url='processes'
             alt=''
-            pic='/images/traffic-barrier.png'
+            pic='/areas/processes/labor.png'
             title='Ações Trabalhistas'
             description='Contratações, demissões, cálculos e indenizações. Assédio comercial e sexual ou discriminação.'
           />
@@ -79,7 +79,7 @@ function Processes() {
           <MenuItem
             url='processes'
             alt=''
-            pic='/images/traffic-barrier.png'
+            pic='/areas/processes/pension.png'
             title='Ações Previdenciárias'
             description='Processos administrativo ou judicial, simulações, cálculos e recursos.'
           />
@@ -87,7 +87,7 @@ function Processes() {
           <MenuItem
             url='/'
             alt='dúvidas jurídica'
-            pic='/images/traffic-barrier.png'
+            pic='/areas/doubts.png'
             title='Dúvidas Jurídicas'
             description='Tire suas dúvidas em um sistema de perguntas e respostas direcionado.'
           />
@@ -96,7 +96,7 @@ function Processes() {
             type={true}
             url='/'
             alt='contatenos'
-            pic='/images/traffic-barrier.png'
+            pic='/areas/contactus.png'
             title='Entre em Contato'
             description='Não encontrou o que procurava, envie uma mensagem e será atendido em até 24 horas.'
           />
