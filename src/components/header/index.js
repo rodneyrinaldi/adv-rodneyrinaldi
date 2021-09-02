@@ -19,6 +19,10 @@ function Header(props) {
       <div >
         <img src="/rodneyrinaldi.svg" alt="rodneyrinaldi" className={styles.logo2} />
       </div>
+      <div>
+        <div className={styles.advm}>ADV</div>
+        <div className={styles.adv}>ADVOGADO</div>
+      </div>
     </div>
     {props.showcard === 'yes'
       ? <Link href='/card'>
