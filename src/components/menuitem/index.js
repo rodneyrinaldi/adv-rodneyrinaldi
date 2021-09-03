@@ -9,7 +9,7 @@ function MenuItem({ url, alt, pic, title, description }) {
       <a href={url} className={styles.card}>
         <img src={pic} alt={alt} className={styles.logo} />
         <h2>{title}</h2>
-        <p>{description}</p>
+        <h3>{description}</h3>
       </a>
     </Link>
   );

@@ -1,3 +1,12 @@
+.logo {
+  width: 4vw;
+  min-width: 44px;
+  max-width: 66px;
+  margin-top: 8px;
+  margin-bottom: 6px;
+  opacity: .9;
+}
+
 .card {
   margin: 1rem;
   padding: 1rem;
@@ -24,23 +33,19 @@
   font-weight: 600;
 }
 
-.card p {
+.card h3 {
   padding: 0;
   margin: 3px 0 8px;
   font-size: 1.06rem;
+  font-weight: 400;
   line-height: 1.5;
 }
 
-.logo {
-  width: 4vw;
-  min-width: 44px;
-  max-width: 66px;
-  margin-top: 8px;
-  margin-bottom: 6px;
-  opacity: .9;
-}
-
 @media (max-width: 600px) {
+  .logo {
+    min-width: 32px;
+  }
+
   .card {
     border: none;
     margin: 8px;
@@ -52,11 +57,7 @@
     font-size: .9rem;
     font-weight: 600;
   }
-  .card p {
+  .card h3 {
     display: none;
   }  
-
-  .logo {
-    min-width: 32px;
-  }
 }

@@ -21,7 +21,7 @@ function Processes() {
           />
 
           <MenuItem
-            url='processes'
+            url='/form'
             alt=''
             pic='/areas/processes/family.png'
             title='Ações de Família'
