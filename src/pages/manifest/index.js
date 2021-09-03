@@ -12,23 +12,22 @@ function Manifest() {
         <Title title="MANIFESTO" />
         <div className={styles.row}>
           <p>
-            Este manifesto dá publicidade ao comprometimento primordial no segmento das melhores e possíveis
-            políticas de pesquisa, desenvolvimento, comercialização e suporte a todos os produtos e serviços
-            desempenhados isolada ou compartilhadamente.
+            Dá publicidade ao comprometimento primordial a observância e respeito
+            aos princípios, as leis, aos costumes e aos poderes da república objetivando a melhor
+            representação a causa defendida, exaurindo as possibilidades na busca da justiça real.
           </p>
           <p>
-            Possuindo como valores essenciais vivenciados em todas as atividades:
+            <strong>Valores essenciais vivenciados em todas as atividades </strong>
             a) o respeito aos clientes, aos colaboradores, a sociedade e aos meios ambientes;
             b) o respeito a aplicabilidade das normas, das leis, das convenções e dos costumes;
-            c) o respeito a concorrência legal, ética e justa;
+            c) o respeito a atendimento legal, ético e justo;
             d) o respeito a precificação justa, sustentável e competitiva.
           </p>
           <p>
-            Aplicando como princípios em todas as interações:
+            <strong>Princípios em todas as interações </strong>
             a) entender primeiro a necessidade do cliente antes de sugerir soluções;
             b) registrar interações e especificações de forma simples e eficiênte;
-            c) compromisso com a qualidade e tempo, entregas pontuais, e nunca entregar uma má prestação;
-            d) fazer primeiro e cobrar depois, sempre que possível trabalhar com provas de conceito primeiramente.
+            c) compromisso com a qualidade e tempo, entregas pontuais, e nunca entregar uma má prestação.
           </p>
         </div>
       </Layout>

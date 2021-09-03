@@ -12,15 +12,10 @@ export default function Curriculum() {
 
       <div id='toppage' className={styles.container}>
 
-        {/* <div className={styles.line}>
-          <h1><strong>Rodney Rinaldi Tonelli</strong></h1>
-        </div> */}
-
         <div className={styles.line}>
           <div className={styles.colL}>
-            {/* <div>r. Lauzane 823 1B, SP</div> */}
-            <div>github.com/rodneyrinaldi</div>
             <div>linkedin.com/in/rodneyrinaldi</div>
+            <div>rodneyrinaldi.jusbrasil.com.br</div>
           </div>
           <div className={styles.colR}>
             <div>11 98141.7040</div>
@@ -34,36 +29,34 @@ export default function Curriculum() {
             <div><strong>OBJETIVO</strong></div>
           </div>
           <div className={styles.col2}>
-            <div><strong>Arquitetura e desenvolvimento de sistemas</strong></div>
-            {/* <div>Developer</div> */}
+            <div><strong>Áreas de Direito Civil e Relações de Consumo. Direito Digital, Contratual e Empresarial</strong></div>
+            <div>Legal Design, aplicação da Tecnologia e Ciência de Dados no Universo Jurídico.</div>
+            <div>Advogado | Consultor Jurídico em Tecnologia.</div>
           </div>
         </div>
 
         <div className={styles.line}>
           <div className={styles.col1}>
-            <div><strong>COMPETÊNCIA</strong></div>
+            <div><strong>RESUMO</strong></div>
           </div>
           <div className={styles.col2}>
-            <div><strong className={styles.col2e}>
-              SOFTWARE ARCHITECTURE, .NET, JAVASCRIPT, NODE, REACT,
-              DATABASE ORACLE, SQLSERVER, POSTGRES, MONGO, REDIS, DATA ANALYSIS, BI, DW,
-              CRM DYNAMICS, SALESFORCE,  PLUSOFT,
-              PROJECT MANAGEMENT, SCRUM, PMBOK
-            </strong></div>
+            <div>Atuo como advogado independente desde 2018, atuei como paralegal para uma advogada de 2012 a 2017 nas áreas civil, previdenciária e trabalhista. Mantenho a vivência jurídica desde os anos noventa, quando na ocasião, participei do desenvolvimento de cursos e treinamentos sobre o na época novo código de defesa do consumidor.</div>
+            <div>Tenho dedicado uma parcela considerável de tempo aos estudos na disciplina de privacidade e proteção de dados, bem como conformidade e governança corporativa legal.</div>
+            <div>Além de procurar ajudar o desenvolvimento do ecossistema de apoio aos colegas advogados, como na iniciativa do desenvolvimento de uma tabela digital de honorários advocatícios fundada na tabela da OAB SP, disponível em https://oab.rodneyrinaldi.com.</div>
           </div>
         </div>
 
         <div className={styles.line}>
           <div className={styles.col1}>
-            <div><strong>PERFIL</strong></div>
+            <div><strong>EXPERIÊNCIA</strong></div>
           </div>
           <div className={styles.col2}>
-            <div>Gerenciamento, arquitetura e desenvolvimento de grandes projetos
-              para os segmentos industrial farmacêutico e de consumo; plataformas .NET,
-              Javascript, Node, React; bancos de dados Oracle, SqlServer, Postgres, MongoDb e
-              Redis; data warehouse e business intelligence; CRM Microsoft, Plusoft e Salesforce.</div>
-            <div>Trabalho em equipe, transações complexas, integrações e treinamentos.</div>
-            <div>Certificação Microsoft e Plusoft Customer Relationship Management.</div>
+            <div><strong>Escritório Rodney Rinaldi Tonelli – Advogado – Setembro 2018.</strong></div>
+            <div>Neste curto período de tempo já atuei em recurso extraordinário, recurso especial, mandado de segurança, habeas data, agravo de instrumento, apelação e contestação. Embargos de terceiro, tutelas de urgência, iniciais de consumo pelo consumidor e pelo fornecedor, de trânsito, bancária e de família. Execução em cumprimento de sentença e homologação de acordos judiciais.</div>
+            <div><strong>Escritório Andrea Rodrigues – Paralegal – Fevereiro 2011 à Agosto 2021.</strong></div>
+            <div>Organizei e documentei os processos e controles de clientes. Fechamentos financeiros, controle de pagamentos, manutenção administrativa, agendamentos e atendimento.</div>
+            <div>Desenvolvi e redigi contratos e minutas, pareceres jurídicos contratuais. Desenvolvi materiais de apoio, papelaria e marketing, elaborei manuais e treinamentos de direito do consumidor</div>
+            <div>Assessorei contratualmente empresas de tecnologia e desenvolvimento de sistemas</div>
           </div>
         </div>
 
@@ -73,41 +66,25 @@ export default function Curriculum() {
           </div>
           <div className={styles.col2}>
             <div><strong>Pós Gestão de Projetos e Portfólios</strong> Universidade Anhembi Morumbi, 2018 </div>
-            <div><strong>Especialização</strong> Business Intelligence FMU 2015</div>
-            <div><strong>MBA Gestão de Negócios Estratégicos</strong> Universidade Anhanguera, 2014</div>
-            <div><strong>Engenharia</strong> Univ. Santa Cecília dos Bandeirantes, UNICEB 1992</div>
-            <div><strong>Pós Direito Constitucional</strong> Faculdade Legale, 2021</div>
             <div><strong>Pós Direito Processual Civil</strong> Escola Paulista de Direito, EPD 2017</div>
             <div><strong>Pós Direito Digital</strong> Faculdades Metropolitanas Unidas, FMU 2016</div>
-            <div><strong>Direito</strong> Universidade Bandeirante, UNIBAN 2011 </div>
+            <div><strong>MBA Gestão de Negócios Estratégicos</strong> Universidade Anhanguera, 2014</div>
+            <div><strong>Bacharelado em Direito</strong> Universidade Bandeirante, UNIBAN 2011 </div>
+            <div><strong>Especializações </strong> Conciliação e Mediação Escola Paulista da Magistratura EPM 2009; Business Intelligence FMU 2015, Direito Constitucional Legale 2021</div>
           </div>
         </div>
 
         <div className={styles.line}>
           <div className={styles.col1}>
-            <div><strong>HISTÓRICO</strong></div>
+            <div><strong>HABILIDADES</strong></div>
           </div>
           <div className={styles.col2}>
-            <div><strong>Direta Consultoria – Arquiteto e líder de projetos, 14 anos e 11 meses.</strong></div>
-            <div>Arquiteto e desenvolvedor do sistema de atendimento a clientes para Merck Sharp & Dhome para o Brasil, México, Chile e Argentina. Arquiteto e desenvolvedor contact center para Pepsico Brasil, Bristol Myers e Byk-Altana Farma. Arquiteto das interfaces do contact center com a força de vendas e faturamento para Merck Sharp e e-Pharma, Merck Sharp e Pluris Mídia. Arquiteto e desenvolvedor do sistema de provas para o  departamentos de Residência Medica e Produção Científica para a Faculdade de Medicina de São Paulo. Administrador dos bancos de dados Oracle para Hilton Hotéis, Serma Assistência Médica, Spread Teleinformática, Medcard Saúde e São Roque Internet.</div>
-            <div><strong>Bayer – Customer Service Coordinator CRM e BI, 5 anos e 11 meses.</strong></div>
-            <div>Local Process Owner Salesforce Project Brasil, responsável pela documentação técnica local, suporte, treinamento e interface com a global na Alemanha. Desenvolvimento do Data Warehouse e Business Intelligence do Contact Center, responsável pelo desenvolvimento e gestão da central de atendimento de serviços veterinários utilizando o sistema SAP CRM. </div>
-            <div><strong>Plusoft Informática</strong> – Gerente de Projetos e CRM, 10 anos e 2 meses.</div>
-            <div>Arquiteto e desenvolvedor: Líder de desenvolvimento da aplicação para contacts centers. Líder integrador das plataformas e-Pharma de farmácias com ERP JDE e CRM. Gerente de contas Papeis Melhoramentos, Lilly, Davene, Wyeth, Faber-Castell, Bristol, Byk-Altana, Boehringer, Asta Médica, Saralee Cafés, Unilever Bestfoods, Banco Mercantil Finasa, Merck Sharp Dome, Elma Chips Pepsico, Nestlé, Icatu-Hartford, K+F distribuidora, Philip Morris, Kraft, Kibon, Alcon Laboratório, União Coopersucar, Janssen-Cilag, EAN Brasil, BrasilPrev, Sanofi, Baushlomb, Merck, Nestlé, Arisco, Batavia e Mallory eletrodomésticos.</div>
-          </div>
-        </div>
-
-        <div className={styles.line}>
-          <div className={styles.col1}>
-            <div><strong>IDIOMAS</strong></div>
-          </div>
-          <div className={styles.col2}>
-            <div className={styles.bullets}>
-              <div>Inglês&nbsp;&nbsp;</div><div /><div /><div /><div /><div /><div /><div /><div /><div />
-            </div>
-            <div className={styles.bullets}>
-              <div>Espanhol&nbsp;&nbsp;</div><div /><div /><div /><div /><div /><div /><div /><div /><div />
-            </div>
+            <div>Experiência em comunicação empresarial, reuniões e grupos de trabalho multidisciplinar, igualmente experiente na comunicação jurídica e resolução amigável de conflitos.</div>
+            <div>Experiência em falar em público e conduzir apresentações. Gestão de pessoas e projetos.</div>
+            <div>Experiência no uso dos sistemas do PJE, ESAJ e PROJUD, Tribunais Estaduais e Federais, bem como do Supremo e do Superior Tribunal de Justiça.</div>
+            <div>Projeto, modelagem e administração de banco de dados, Ciência de dados, mineração, classificação e disponibilização na forma de data warehouse e business Intelligence.</div>
+            <div>Arquitetura e desenvolvimento de sistemas de informação web e mobile.</div>
+            <div>Fala, lê e escreve em Espanhol avançado. Fala, lê e escreve em Inglês avançado.</div>
           </div>
         </div>
 
@@ -116,11 +93,10 @@ export default function Curriculum() {
             <div><strong>PROJETOS</strong></div>
           </div>
           <div className={styles.col2}>
-            <div><strong>Vivência internacional</strong>, implantação do Plusoft CRM para a Merck Sharp & Dhome nas filiais Chile em 2002, México em 2004, Brasil em 2005 e Argentina em 2006, e o SalesForce CRM para Bayer Brasil na Alemanha em 2015.</div>
-            <div><strong>Desenvolvimento de produto</strong>, projeto, arquitetura e desenvolvimento de solução de CRM e Contact Center clientes/consumidores especializada para a indústria farmacêutica.</div>
-            <div><strong>Desenvolvimento de mercado</strong>, nicho indústria farmacêutica, nacionais e multinacionais, com crescimento de 1.100%, elevando de uma conta para doze contas em cinco anos.</div>
-            <div><strong>Gerenciamento de crise</strong>, desenvolvimento sistêmico e tratativas de segurança da informação com diretoria, interface com a ANVISA e departamentos jurídicos, episódios dos recalls dos produtos Vioxx/Arcoxia pela Merck Sharp em 2004 e do produto Microvilar pela Schering em 1998 no caso da pílula de farinha.</div>
-            <div><strong>Migração de sistema</strong>, atendimento ao consumidor e clientes do contact center veterinário da Bayer, substituição do sistema Orbium pelo o SAP CRM e posteriormente este pelo SalesForce.</div>
+            <div>Vivência internacional no gerenciamento e implantação dos sistemas de atendimento para a Merck Sharp & Dhome nas filiais do Chile em 2002, México em 2004, Brasil em 2005 e Argentina em 2006, para Bayer Brasil na locado na Alemanha em 2015.</div>
+            <div>Desenvolvimento de produtos, projetos, arquitetura e desenvolvimento de solução de CRM e Contact Center para clientes/consumidores especializada na indústria farmacêutica.</div>
+            <div>Desenvolvimento de mercado para o nicho da indústria farmacêutica, com crescimento de 1.100%, elevando de uma conta para doze contas em cinco anos.</div>
+            <div>Gerenciamento de crise, desenvolvimento sistêmico e tratativas de segurança da informação com diretorias, com a ANVISA e departamentos jurídicos nos episódios dos recalls dos produtos Vioxx/Arcoxia pela Merck Sharp em 2004 e do produto Microvilar pela Schering em 1998, caso da pílula de farinha.</div>
           </div>
         </div>
 
@@ -129,7 +105,7 @@ export default function Curriculum() {
             <div><strong>FILOSOFIA</strong></div>
           </div>
           <div className={styles.col2}>
-            <div><i>... devemos valorizar o homem mais pelas perguntas que pelas respostas, Voltaire</i></div>
+            <div><strong><i>... devemos valorizar o homem mais pelas perguntas que pelas respostas, Voltaire</i></strong></div>
           </div>
         </div>
 
