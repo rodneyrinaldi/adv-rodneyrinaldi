@@ -18,13 +18,13 @@
 .card h2 {
   padding: 0;
   margin: 3px 0 8px;
-  font-size: 1.06rem;
+  font-size: 1.2rem;
   font-weight: 600;
 }
 .card h3 {
   padding: 0;
   margin: 3px 0 8px;
-  font-size: 1.06rem;
+  font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
 }
@@ -44,22 +44,21 @@
   }
 
   .card {
-    margin: 0;
-    padding: 0 1.2rem;
-    text-align: center;
     border: none;
+    margin: 8px;
+    padding: 2vh 0 0;
+    flex-basis: 36%;
+    /* flex-basis: 80%; */
   }
   .card h2 {
-    font-size: 16px;
-    font-weight: 700;
-    margin: 3px 0 8px;
-    padding: 0;
+    font-size: 1rem;
+    font-weight: 600;
   }
   .card h3 {
-    margin: 0;
     padding: 0;
-    font-size: 1.25rem;
+    margin: 3px 40px 8px;
+    font-size: .9rem;
+    font-weight: 400;
     line-height: 1.5;
-    text-align: justify;
-  }
+  }  
 }

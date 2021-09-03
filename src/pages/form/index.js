@@ -8,7 +8,7 @@ function Form() {
       <div className={styles.row}>
         <iframe
           src="https://docs.google.com/forms/d/e/1FAIpQLSeCj8ThYcpzcuHhyRQ_EYxRdSsP2aTavDdsbbqnOG9pE4D-2A/viewform?embedded=true"
-          width="800" height="600"
+          width="100%" height="100%"
           frameborder="0" marginheight="0" marginwidth="0">
           Carregando…
         </iframe>
