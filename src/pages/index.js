@@ -54,7 +54,7 @@ function Index() {
             url='/editorial'
             alt='Editorial'
             pic='/menu/editorial.png'
-            title='Documentos'
+            title='Publicações'
             description='Publicação de artigos, tutoriais, mapas mentais e tira dúvidas'
           />
         </div>

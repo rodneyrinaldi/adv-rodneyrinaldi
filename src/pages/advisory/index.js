@@ -13,7 +13,7 @@ function Advisory() {
         <Title title="ASSESSORIA" />
         <div className={styles.row}>
           <MenuItem
-            url='advisory'
+            url='/document/?title=Contencioso'
             alt='Contencioso'
             pic='/areas/advisory/judge.png'
             title='Contencioso'
@@ -21,14 +21,14 @@ function Advisory() {
           />
 
           <MenuItem
-            url='advisory'
+            url='/document/?title=Consultivo'
             alt='Consultivo'
             pic='/areas/advisory/lawyer.png'
             title='Consultivo'
             description='Consultoria trabalhista e empresarial, negociações, contratos, cobranças e execuções.'
           />
           <MenuItem
-            url='advisory'
+            url='/document/?title=Conformidade'
             alt='Conformidade'
             pic='/areas/advisory/compliance.png'
             title='Conformidade'
@@ -36,7 +36,7 @@ function Advisory() {
           />
 
           <MenuItem
-            url='advisory'
+            url='/document/?title=Ações de Privacidade'
             alt='Privacidade'
             pic='/areas/advisory/privacy.png'
             title='Privacidade'
@@ -44,7 +44,7 @@ function Advisory() {
           />
 
           <MenuItem
-            url='advisory'
+            url='/document/?title=Contratual'
             alt='Contratual'
             pic='/areas/advisory/contract.png'
             title='Contratual'
@@ -52,7 +52,7 @@ function Advisory() {
           />
 
           <MenuItem
-            url='advisory'
+            url='/document/?title=Digital'
             alt='Digital'
             pic='/areas/advisory/digital.png'
             title='Digital'
@@ -60,7 +60,7 @@ function Advisory() {
           />
 
           <MenuItem
-            url='advisory'
+            url='/document/?title=Trabalhista'
             alt='Trabalhista'
             pic='/areas/advisory/labor.png'
             title='Trabalhista'
@@ -68,7 +68,7 @@ function Advisory() {
           />
 
           <MenuItem
-            url='advisory'
+            url='/document/?title=Consumidor'
             alt='Consumidor'
             pic='/areas/advisory/consume.png'
             title='Consumidor'
@@ -76,7 +76,7 @@ function Advisory() {
           />
 
           <MenuItem
-            url='advisory'
+            url='/document/?title=Administrativo'
             alt='Administrativo'
             pic='/areas/advisory/administrative.png'
             title='Administrativo'
@@ -84,7 +84,7 @@ function Advisory() {
           />
 
           <MenuItem
-            url='/'
+            url='/doubt'
             alt='Dúvidas Jurídicas'
             pic='/areas/doubts.png'
             title='Dúvidas Jurídicas'
@@ -93,7 +93,7 @@ function Advisory() {
 
           <MenuItem
             type={true}
-            url='/'
+            url='/message'
             alt='contatenos'
             pic='/areas/contactus.png'
             title='Entre em Contato'

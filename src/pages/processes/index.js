@@ -13,7 +13,7 @@ function Processes() {
         <Title title="PROCESSOS" />
         <div className={styles.row}>
           <MenuItem
-            url='processes'
+            url='/document/?title=Ações de Privacidade'
             alt='Privacidade'
             pic='/areas/processes/privacy.png'
             title='Ações de Privacidade'
@@ -21,7 +21,7 @@ function Processes() {
           />
 
           <MenuItem
-            url='/form'
+            url='/document/?title=Ações de Família'
             alt=''
             pic='/areas/processes/family.png'
             title='Ações de Família'
@@ -29,7 +29,7 @@ function Processes() {
           />
 
           <MenuItem
-            url='processes'
+            url='/document/?title=Ações de Consumo'
             alt='Consumidor'
             pic='/areas/processes/consume.png'
             title='Ações de Consumo'
@@ -37,55 +37,55 @@ function Processes() {
           />
 
           <MenuItem
-            url='processes'
-            alt=''
+            url='/document/?title=Ações de Serviços'
+            alt='Serviços'
             pic='/areas/processes/services.png'
             title='Ações de Serviços'
             description='Problemas com contratos de serviços em geral como telefonia, internet, escolares, médicas e etc.'
           />
 
           <MenuItem
-            url='processes'
-            alt=''
+            url='/document/?title=Ações Médicas'
+            alt='Medical'
             pic='/areas/processes/medical.png'
             title='Ações Médicas'
             description='Problemas com planos de saúde, com hospitais, com laboratórios e ou erros médicos.'
           />
 
           <MenuItem
-            url='processes'
-            alt=''
+            url='/document/?title=Ações Imobiliárias'
+            alt='Imobiliário'
             pic='/areas/processes/housing.png'
             title='Ações Imobiliárias'
             description='Imóveis na planta, novos ou usados. Compra, venda e locação residencial ou comercial.'
           />
 
           <MenuItem
-            url='processes'
-            alt=''
+            url='/document/?title=Ações de Trânsito'
+            alt='Trânsito'
             pic='/areas/processes/traffic.png'
             title='Ações de Trânsito'
             description='Suspensões, cassações e crimes de trânsito. Defesas prévias e recursos de multas no JARI e CETRAN..'
           />
 
           <MenuItem
-            url='processes'
-            alt=''
+            url='/document/?title=Ações Trabalhistas'
+            alt='Trabalhista'
             pic='/areas/processes/labor.png'
             title='Ações Trabalhistas'
             description='Contratações, demissões, cálculos e indenizações. Assédio comercial e sexual ou discriminação.'
           />
 
           <MenuItem
-            url='processes'
-            alt=''
+            url='/document/?title=Ações Previdenciárias'
+            alt='Previdenciário'
             pic='/areas/processes/pension.png'
             title='Ações Previdenciárias'
             description='Processos administrativo ou judicial, simulações, cálculos e recursos.'
           />
 
           <MenuItem
-            url='/'
+            url='/doubt'
             alt='dúvidas jurídica'
             pic='/areas/doubts.png'
             title='Dúvidas Jurídicas'
@@ -94,8 +94,8 @@ function Processes() {
 
           <MenuItem
             type={true}
-            url='/'
-            alt='contatenos'
+            url='/message'
+            alt='contate-nos'
             pic='/areas/contactus.png'
             title='Entre em Contato'
             description='Não encontrou o que procurava, envie uma mensagem e será atendido em até 24 horas.'

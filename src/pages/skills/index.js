@@ -14,7 +14,7 @@ function Skills() {
       <Layout showback='yes'>
         <Title title="HABILIDADES" />
         <div className={styles.row}>
-          {
+          {/* {
             data.map(function (item) {
               return (
                 <Skill
@@ -24,7 +24,7 @@ function Skills() {
                 />
               )
             })
-          }
+          } */}
         </div>
       </Layout>
     </>
