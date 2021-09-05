@@ -6,7 +6,7 @@ function Form(props) {
   let url = ""
   data.map(function (item) {
     if (item.title == props.title) {
-      url = item.url
+      url = 'https://docs.google.com/forms/' + item.url + '/viewform?embedded=true'
       return
     }
   })
