@@ -11,7 +11,7 @@ function Contact(props) {
 
     <div className={styles.wrapperTop}>
       <a href='/'>
-        <img src="/sidebar/settings.png" alt="settings" className={styles.icon} />
+        <img src="/sidebar/user.png" alt="settings" className={styles.icon} />
       </a>
       <br />
       <a href='/'>
@@ -35,8 +35,8 @@ function Contact(props) {
       <a onClick={() => router.push('/message')}>
         <img src="/sidebar/email.png" alt="whatsapp" className={styles.icon} />
       </a>
-      <a onClick={() => router.push('/')}>
-        <img src="/sidebar/question.png" alt="dúvidas" className={styles.icon} />
+      <a onClick={() => router.push('/doubt')}>
+        <img src="/sidebar/blog.png" alt="blog" className={styles.icon} />
       </a>
     </div>
 

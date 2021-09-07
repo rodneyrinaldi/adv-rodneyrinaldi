@@ -12,21 +12,24 @@
 .card:hover,
 .card:focus,
 .card:active {
-  background:  rgba(253, 188, 188, 0.138);
+  background: rgba(253, 188, 188, 0.138);
   border-color: rgba(78, 1, 1, 0.467);
 }
 .card h2 {
   padding: 0;
   margin: 3px 0 8px;
-  font-size: 1.2rem;
+  line-height: 1;
   font-weight: 600;
+  font-size: 22px;
+  /* font-size: max-width(min-width(calc(1vw + 1vh), 10px), 24px); */
 }
 .card h3 {
   padding: 0;
   margin: 3px 0 8px;
-  font-size: 1rem;
+  line-height: 1.4;
   font-weight: 400;
-  line-height: 1.5;
+  font-size: 18px;
+  /* font-size: calc(0.6vw + 0.6vh + 0.6vmin); */
 }
 
 .logo {
@@ -35,7 +38,7 @@
   max-width: 66px;
   margin-top: 8px;
   margin-bottom: 6px;
-  opacity: .9;
+  opacity: 0.9;
 }
 
 @media (max-width: 600px) {
@@ -51,14 +54,13 @@
     /* flex-basis: 80%; */
   }
   .card h2 {
-    font-size: 1rem;
+    font-size: calc(1.3vw + 1.3vh + 1.3vmin);
     font-weight: 600;
   }
   .card h3 {
-    padding: 0;
     margin: 3px 40px 8px;
-    font-size: .9rem;
+    line-height: 1.2;
     font-weight: 400;
-    line-height: 1.5;
-  }  
+    font-size: 16px;
+  }
 }

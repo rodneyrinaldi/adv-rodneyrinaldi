@@ -84,14 +84,6 @@ function Advisory() {
           />
 
           <MenuItem
-            url='/doubt'
-            alt='Dúvidas Jurídicas'
-            pic='/areas/doubts.png'
-            title='Dúvidas Jurídicas'
-            description='Tire suas dúvidas em um sistema de perguntas e respostas direcionado.'
-          />
-
-          <MenuItem
             type={true}
             url='/message'
             alt='contatenos'

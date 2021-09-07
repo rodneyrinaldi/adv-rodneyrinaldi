@@ -85,14 +85,6 @@ function Processes() {
           />
 
           <MenuItem
-            url='/doubt'
-            alt='dúvidas jurídica'
-            pic='/areas/doubts.png'
-            title='Dúvidas Jurídicas'
-            description='Tire suas dúvidas em um sistema de perguntas e respostas direcionado.'
-          />
-
-          <MenuItem
             type={true}
             url='/message'
             alt='contate-nos'
