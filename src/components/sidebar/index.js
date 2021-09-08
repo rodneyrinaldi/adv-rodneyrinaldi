@@ -35,9 +35,10 @@ function Contact(props) {
       <a onClick={() => router.push('/message')}>
         <img src="/sidebar/email.png" alt="whatsapp" className={styles.icon} />
       </a>
-      <a onClick={() => router.push('/doubt')}>
+      <a href='https://blog.rodneyrinaldi.com'>
         <img src="/sidebar/blog.png" alt="blog" className={styles.icon} />
       </a>
+
     </div>
 
   </>);
