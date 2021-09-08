@@ -28,9 +28,9 @@ function Index() {
 
           <Menu
             url='/skills'
-            alt='Habilidades'
+            alt='Competências'
             pic='/menu/skills.png'
-            title='Habilidades'
+            title='Competências'
             description='Compromisso com um trabalho ético, seguro e de qualidade'
           />
 

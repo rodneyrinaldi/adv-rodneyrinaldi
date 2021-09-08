@@ -2,11 +2,12 @@ import React from 'react';
 
 import styles from './index.module.css';
 
-function Skill({ url, alt, pic }) {
+function Skill({ title, pic }) {
   return (
-    <a className={styles.card}>
-      <img src={pic} alt={alt} className={styles.logo} />
-    </a>
+    <div className={styles.card}>
+      <h1>{title}</h1>
+      <img src={pic} alt={title} className={styles.image} />
+    </div>
   );
 }
 
