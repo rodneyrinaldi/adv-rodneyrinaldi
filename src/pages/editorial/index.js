@@ -4,8 +4,6 @@ import Layout from '../../components/layout'
 import Title from '../../components/title'
 import MenuFile from '../../components/menufile'
 
-import Pdf from '../../components/pdf'
-
 import styles from './index.module.css'
 
 function Editorial() {
@@ -13,10 +11,10 @@ function Editorial() {
     <>
       <Layout showback='yes'>
         <Title title="Publicações" />
-        {/* <div className={styles.row}>
-          <MenuFile title='Inventário Extrajudicial' pic='./images/article-building.png' />
-        </div> */}
-        <Pdf />
+        <div className={styles.row}>
+          <MenuFile title='Posse | Inventário' pic='./images/article-building.png' 
+            file='https://www.adv.rodneyrinaldi.com/download/civil-usucapiao-2108.pdf' />
+        </div>
       </Layout>
     </>
   )

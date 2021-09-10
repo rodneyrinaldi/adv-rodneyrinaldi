@@ -1,5 +1,4 @@
 import Link from 'next/link'
-import React from 'react';
 
 import styles from './index.module.css';
 
@@ -12,7 +11,7 @@ function Menu({ url, alt, pic, title, description }) {
         <h3>{description}</h3>
       </a>
     </Link>
-  );
+  )
 }
 
 export default Menu

@@ -24,6 +24,9 @@
   margin-bottom: 6px;
   opacity: 0.9;
 }
+.image:hover {
+  opacity: 1;
+}
 
 @media (max-width: 600px) {
   .card {
