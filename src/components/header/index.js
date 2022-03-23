@@ -17,7 +17,7 @@ function Header(props) {
       <Meta
         title="Rodney Rinaldi Advogado"
         descrition="Advocacia moderna, eficiente e ética"
-        image="https://adv.rodneyrinaldi.com/card.svg"
+        image="https://adv.rodneyrinaldi.com/card.jpg"
         url="https://adv.rodneyrinaldi.com/"
       />
 
