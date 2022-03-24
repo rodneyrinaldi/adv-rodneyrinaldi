@@ -30,9 +30,15 @@ const Meta = (props) => (
       property="og:description"
       content={props.description || defaults.description}
     />
-    <meta property="og:image" content={props.image || defaults.image} />
+    <meta
+      property="og:image:secure_url"
+      content={props.image || defaults.image}
+    />
     <meta property="og:url" content={props.title || defaults.title} />
     <meta property="og:type" content="website" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="300" />
+    <meta property="og:image:height" content="300" />
 
     {/*<!-- Twitter Meta Tags -->*/}
     <meta name="twitter:title" content={props.title || defaults.title} />
