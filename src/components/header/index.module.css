@@ -6,7 +6,7 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items:center;
+  align-items: center;
 }
 
 .card {
@@ -14,21 +14,22 @@
   width: 100%;
   height: 0;
   padding-left: 100px;
+  margin-top: 10px;
 
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items:center;
+  align-items: center;
 }
 
 .logo1 {
   width: 40px;
   margin-top: 5px;
-  margin-right: .8vw;
+  margin-right: 0.8vw;
 }
 .logo2 {
   width: 240px;
-  margin-left: .8vw;
+  margin-left: 0.8vw;
 }
 .logo3 {
   width: 36px;
@@ -37,7 +38,7 @@
 }
 .logo3:hover {
   padding: 0px;
-  background:  rgba(253, 188, 188, 0.138);
+  background: rgba(253, 188, 188, 0.138);
   border-color: rgba(78, 1, 1, 0.467);
 }
 .adv {
@@ -55,9 +56,13 @@
   padding-top: 10px;
 }
 
-@media (max-width: 600px) {  
+@media (max-width: 600px) {
   .container {
     padding-top: 1vh;
+  }
+
+  .card {
+    margin-top: 2px;
   }
 
   .logo1 {
