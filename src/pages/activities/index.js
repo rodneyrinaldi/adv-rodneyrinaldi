@@ -1,9 +1,7 @@
 import React from "react";
-
 import Layout from "../../components/layout";
 import MenuItem from "../../components/menuitem";
 import Title from "../../components/title";
-
 import styles from "./index.module.css";
 
 function Activities() {
@@ -30,7 +28,7 @@ function Activities() {
 
           <MenuItem
             type={true}
-            url="/message"
+            url="/contactus"
             alt="contate-nos"
             pic="/areas/contactus.png"
             title="Entre em Contato"
