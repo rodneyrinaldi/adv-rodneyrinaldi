@@ -15,7 +15,6 @@ function Job() {
             Rodney Rinaldi <span>ADVOGADO</span>
           </h1>
         </p>
-        <br />
         <p>Prezados,</p>
         <p>
           Atuante nas áreas civil e empresarial, com especializações em direito
@@ -38,7 +37,7 @@ function Job() {
         <p>
           (11) 98141-7040
           <br />
-          <a onClick={() => router.push("/")}>http://adv.rodneyrinaldi.com</a>
+          <a onClick={() => router.push("/")}>adv.rodneyrinaldi.com</a>
           <br />
           rodney@rodneyrinaldi.com
         </p>
