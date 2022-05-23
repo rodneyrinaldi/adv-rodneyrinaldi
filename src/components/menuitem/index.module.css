@@ -20,16 +20,14 @@
   margin: 3px 0 8px;
   line-height: 1;
   font-weight: 600;
-  font-size: 22px;
-  /* font-size: max-width(min-width(calc(1vw + 1vh), 10px), 24px); */
+  font-size: 18px;
 }
 .card h3 {
   padding: 0;
   margin: 3px 0 8px;
   line-height: 1.4;
   font-weight: 400;
-  font-size: 18px;
-  /* font-size: calc(0.6vw + 0.6vh + 0.6vmin); */
+  font-size: 14px;
 }
 
 .logo {
@@ -54,13 +52,13 @@
     /* flex-basis: 80%; */
   }
   .card h2 {
-    font-size: calc(1.3vw + 1.3vh + 1.3vmin);
+    font-size: calc(1.1vw + 1.1vh + 1.1vmin);
     font-weight: 600;
   }
   .card h3 {
     margin: 3px 40px 8px;
     line-height: 1.2;
     font-weight: 400;
-    font-size: 16px;
+    font-size: calc(0.9vw + 0.9vh + 0.9vmin);
   }
 }
