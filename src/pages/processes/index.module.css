@@ -7,22 +7,11 @@
   margin-top: 0;
 }
 
-.row p {  
-  margin: 0;
-  padding: 0 5rem 2rem;
-  font-size: clamp(.4em, .6em + 1vw, 1.4em);
-  line-height: 1.6;
-  text-align: justify;
-}
-
 @media (max-width: 600px) {
   .row {
     width: 100%;
     flex-direction: column;
-    margin-top: .5rem;
-  }  
-  .row p {  
-    margin: 0;
-    padding: 0 1.4rem 2rem 1.4rem;
+    margin-top: 0.5rem;
+    padding-right: 20px;
   }
 }

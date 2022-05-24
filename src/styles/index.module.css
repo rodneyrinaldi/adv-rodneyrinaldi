@@ -10,6 +10,6 @@
 @media (max-width: 600px) {
   .grid {
     margin-top: 0.5rem;
-    margin-rignt: 10px;
+    padding-right: 20px;
   }
 }
