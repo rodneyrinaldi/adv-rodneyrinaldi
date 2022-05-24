@@ -15,7 +15,7 @@
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: left;
-  align-items:flex-start;
+  align-items: flex-start;
   margin-bottom: 16px;
 }
 
@@ -26,7 +26,7 @@
 }
 
 .line div div a {
-  cursor: pointer
+  cursor: pointer;
 }
 
 .line h1 {
@@ -37,7 +37,7 @@
 .colL {
   width: 50%;
   height: 100%;
-  display: flex;  
+  display: flex;
   flex-direction: column;
   margin-bottom: 10px;
 }
@@ -50,7 +50,7 @@
 .colR {
   width: 50%;
   height: 100%;
-  display: flex;  
+  display: flex;
   flex-direction: column;
   text-align: right;
   margin-bottom: 10px;
@@ -64,11 +64,11 @@
 .col1 {
   width: 14%;
   height: 100%;
-  display: flex;  
+  display: flex;
 }
 
 .col1 div {
-  font-size: .7rem;
+  font-size: 0.7rem;
   color: black;
   height: 100%;
   margin-top: 6px;
@@ -84,7 +84,7 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  text-align: justify;  
+  text-align: justify;
 }
 
 .col2 div {
@@ -99,7 +99,7 @@
 }
 
 .col2e {
-  font-size: .8rem;
+  font-size: 0.8rem;
   font-weight: 700;
 }
 
@@ -108,12 +108,12 @@
   height: 100%;
 }
 
-.bullets div:nth-child(n+8):nth-child(-n+10) {
+.bullets div:nth-child(n + 8):nth-child(-n + 10) {
   color: gray;
 }
 
 .bullets div:after {
-  content: ' \25CF';
+  content: " \25CF";
 }
 
 .back {
@@ -132,8 +132,9 @@
     max-width: 600px;
     padding: 1vh 8% 2vh 6%;
     margin: auto;
+    padding-right: 40px;
   }
-  
+
   .line {
     height: 100%;
     width: 100%;
@@ -142,53 +143,53 @@
   }
 
   .line div {
-    font-size: .8rem;
+    font-size: 0.8rem;
     color: black;
     height: 100%;
     margin-bottom: 6px;
   }
 
   .line h1 {
-    font-size: .9rem;
+    font-size: 0.9rem;
     font-weight: 600;
   }
 
   .colL {
     width: 100%;
     height: 100%;
-    display: flex;  
+    display: flex;
     flex-direction: column;
     margin-bottom: 10px;
   }
 
   .colL div {
-    line-height: .9rem;
-    font-size: .8rem;
+    line-height: 0.9rem;
+    font-size: 0.8rem;
   }
 
   .colR {
     width: 100%;
     height: 100%;
-    display: flex;  
+    display: flex;
     flex-direction: column;
     text-align: right;
     margin-bottom: 10px;
   }
 
   .colR div {
-    line-height: .9rem;
-    font-size: .8rem;
+    line-height: 0.9rem;
+    font-size: 0.8rem;
   }
 
   .col1 {
     width: 100%;
     height: 100%;
-    display: flex;  
+    display: flex;
   }
 
   .col1 div {
-    line-height: .9rem;
-    font-size: .8rem;
+    line-height: 0.9rem;
+    font-size: 0.8rem;
     color: black;
     height: 100%;
     margin-top: 6px;
@@ -205,12 +206,12 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    text-align: justify;  
+    text-align: justify;
   }
 
   .col2 div {
-    line-height: .9rem;
-    font-size: .8rem;
+    line-height: 0.9rem;
+    font-size: 0.8rem;
     height: 100%;
     margin-bottom: 10px;
   }
@@ -220,8 +221,7 @@
   }
 
   .col2e {
-    font-size: .7rem;
+    font-size: 0.7rem;
     font-weight: 700;
   }
-
 }

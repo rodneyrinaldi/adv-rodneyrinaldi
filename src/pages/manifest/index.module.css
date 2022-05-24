@@ -5,12 +5,13 @@
   flex-wrap: wrap;
   max-width: 900px;
   margin-top: 0;
+  padding-right: 30px;
 }
 
-.row p {  
+.row p {
   margin: 0;
   padding: 0 5rem 2rem;
-  font-size: clamp(.4em, .6em + .4vw, 1.4em);
+  font-size: clamp(0.4em, 0.6em + 0.4vw, 1.4em);
   line-height: 1.6;
   text-align: justify;
 }
@@ -19,11 +20,12 @@
   .row {
     width: 88%;
     flex-direction: column;
-    margin-top: .5rem;
-  }  
-  .row p {  
+    margin-top: 0.5rem;
+    padding-right: 16px;
+  }
+  .row p {
     margin: 0;
     padding: 0 1.4rem 2rem 1.4rem;
-    font-size: clamp(.4em, .6em + .5vw, 1.4em);
+    font-size: clamp(0.4em, 0.6em + 0.5vw, 1.4em);
   }
 }

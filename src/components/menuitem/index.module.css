@@ -52,13 +52,15 @@
     /* flex-basis: 80%; */
   }
   .card h2 {
-    font-size: calc(1.1vw + 1.1vh + 1.1vmin);
+    font-size: 14px;
     font-weight: 600;
+    padding-right: 20px;
   }
   .card h3 {
     margin: 3px 40px 8px;
     line-height: 1.2;
     font-weight: 400;
-    font-size: calc(0.9vw + 0.9vh + 0.9vmin);
+    font-size: 12px;
+    padding-right: 20px;
   }
 }
