@@ -47,17 +47,28 @@ function Header(props) {
         </div>
       </div>
       {props.showcard === "yes" ? (
-        <Link href="/card">
-          <a className={styles.card}>
-            <Image
-              width={26}
-              height={26}
-              src="/rr-card.svg"
-              alt="cartão visitas"
-              className={styles.logo3}
-            />
-          </a>
-        </Link>
+        <>
+          <Link href="/card">
+            <a className={styles.card}>
+              <Image
+                width={172}
+                height={29}
+                src="/images/phone.png"
+                alt="telefone"
+                className={styles.logo3}
+              />
+              <span>
+                <Image
+                  width={26}
+                  height={26}
+                  src="/rr-card.svg"
+                  alt="cartão visitas"
+                  className={styles.logo3}
+                />
+              </span>
+            </a>
+          </Link>
+        </>
       ) : (
         <></>
       )}
