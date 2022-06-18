@@ -35,7 +35,7 @@ function Page() {
         url="https://adv.rodneyrinaldi.com/lps/pensao"
       />
 
-      <div className={styles.header}></div>
+      <div className={styles.header}>xxxxxxxx</div>
 
       <div className={styles.wrapperBody}>
         <div>
@@ -67,7 +67,7 @@ function Page() {
             overflow="hidden"
             src={url}
             width="100%"
-            height="960px"
+            height="1200px"
             frameBorder="0"
             marginHeight="0"
             marginWidth="0"
@@ -77,7 +77,7 @@ function Page() {
         </div>
       </div>
 
-      <div className={styles.footer}></div>
+      <div className={styles.footer}>xxxxxx</div>
     </>
   );
 }
