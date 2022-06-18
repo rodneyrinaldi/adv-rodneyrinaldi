@@ -79,13 +79,30 @@
   font-size: 1.875em;
 }
 
-.layerdark {
-  padding: 4vh 10vw;
+.wrapperBody {
+  margin: auto;
+  padding: 0;
   position: relative;
   width: 100vw;
-  height: 1280px;
+  max-width: 800px;
+  height: 760px;
   background-color: #b6e6fa;
   border: 1 solic #01579b;
+  overflow: hidden;
+}
+
+.wrapperIframe {
+  margin: 60px auto;
+  padding: 0;
+  position: relative;
+  width: 100vw;
+  max-width: 800px;
+  height: 700px;
+  overflow: hidden;
+}
+
+.layerIframe {
+  margin: -250px;
 }
 
 .layercols {
@@ -98,9 +115,15 @@
   align-items: center;
 }
 
-.map {
+.imgService {
   position: relative;
-  width: 100vw;
+  width: 18%;
+  border: 1px solid #ccc;
+}
+
+.imgsTypes {
+  position: relative;
+  width: 12%;
   border: 1px solid #ccc;
 }
 

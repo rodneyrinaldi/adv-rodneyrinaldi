@@ -1,6 +1,10 @@
 import Head from "next/head";
+import Image from "next/image";
 import { useRouter } from "next/router";
-import React from "react";
+import image1 from "../../../../public/lps/pensao/image1.png";
+import image2 from "../../../../public/lps/pensao/image2.png";
+import image3 from "../../../../public/lps/pensao/image3.png";
+import image4 from "../../../../public/lps/pensao/image4.png";
 import Meta from "../../../components/meta";
 import styles from "./index.module.css";
 
@@ -33,19 +37,44 @@ function Page() {
 
       <div className={styles.header}></div>
 
-      <div name="emailLayer" id="emailLayer" className={styles.layerdark}>
-        <iframe
-          scrolling="no"
-          overflow="hidden"
-          src={url}
-          width="100%"
-          height="100%"
-          frameBorder="0"
-          marginHeight="0"
-          marginWidth="0"
-        >
-          Carregando…
-        </iframe>
+      <div className={styles.wrapperBody}>
+        <div>
+          <div></div>
+          <div className={styles.imgService}>
+            <Image alt="" src={image1} layout="responsive" objectFit="fill" />
+          </div>
+        </div>
+
+        <div></div>
+        <div>
+          <div className={styles.imgsTypes}>
+            <Image alt="" src={image2} layout="responsive" objectFit="fill" />
+          </div>
+          <div className={styles.imgsTypes}>
+            <Image alt="" src={image3} layout="responsive" objectFit="fill" />
+          </div>
+          <div className={styles.imgsTypes}>
+            <Image alt="" src={image4} layout="responsive" objectFit="fill" />
+          </div>
+        </div>
+      </div>
+
+      <div className={styles.wrapperIframe}>
+        <div className={styles.layerIframe}>
+          <iframe
+            position="fixed"
+            scrolling="no"
+            overflow="hidden"
+            src={url}
+            width="100%"
+            height="960px"
+            frameBorder="0"
+            marginHeight="0"
+            marginWidth="0"
+          >
+            Carregando…
+          </iframe>
+        </div>
       </div>
 
       <div className={styles.footer}></div>
