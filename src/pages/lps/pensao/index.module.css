@@ -124,11 +124,11 @@
   width: 100vw;
   max-width: 800px;
   height: 180px;
-  padding: 0 20px;
+  padding: 0 10px;
 }
 
 .line3Img {
-  width: 60%;
+  width: 76%;
   height: 80px;
   margin: auto;
 }
@@ -141,6 +141,7 @@
   line-height: 18px;
 }
 .line3Cols h3 {
+  margin-top: 30px;
   color: #696969;
   height: auto;
 
