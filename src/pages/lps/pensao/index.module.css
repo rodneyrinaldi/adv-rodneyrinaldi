@@ -1,4 +1,5 @@
 .header {
+  color: #fff;
   background-color: #2c5675;
   border: 1 solic #2c5675;
   width: 100vw;
@@ -11,6 +12,7 @@
 }
 
 .footer {
+  color: #fff;
   margin-top: 5px;
   padding-top: 0;
   width: 100%;
@@ -23,15 +25,17 @@
 }
 
 .wrapperBody {
-  margin: auto;
-  padding: 0;
-  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   width: 100vw;
   max-width: 800px;
-  height: 760px;
-  background-color: #b6e6fa;
-  border: 1 solic #01579b;
-  overflow: hidden;
+  height: 700px;
+}
+
+.bodyColunm {
+  width: 20%;
 }
 
 .wrapperIframe {
@@ -56,7 +60,7 @@
 
 .imgsTypes {
   position: relative;
-  width: 12%;
+  width: 20%;
   border: 1px solid #ccc;
 }
 
@@ -94,7 +98,7 @@
 
   .imgsTypes {
     position: relative;
-    width: 18%;
+    width: 25%;
     border: 1px solid #ccc;
   }
 }

@@ -37,24 +37,36 @@ function Page() {
 
       <div className={styles.header}>xxxxxxxx</div>
 
-      <div className={styles.wrapperBody}>
+      <div>
         <div>
-          <div></div>
+          <div>xxxxxxxx</div>
           <div className={styles.imgService}>
             <Image alt="" src={image1} layout="responsive" objectFit="fill" />
           </div>
         </div>
 
-        <div></div>
-        <div>
+        <div>Cobranças de pensões atrasadas</div>
+        <div className={styles.wrapperBody}>
           <div className={styles.imgsTypes}>
             <Image alt="" src={image2} layout="responsive" objectFit="fill" />
+            <div>Prisão</div>
+            <div>
+              Cobrança com pedido de prisão para as 3 últimas pensões não pagas
+            </div>
           </div>
           <div className={styles.imgsTypes}>
             <Image alt="" src={image3} layout="responsive" objectFit="fill" />
+            <div>Expropriação</div>
+            <div>
+              Cobrança com protesto para totalidade das pensões não pagas
+            </div>
           </div>
           <div className={styles.imgsTypes}>
             <Image alt="" src={image4} layout="responsive" objectFit="fill" />
+            <div>Revisional</div>
+            <div>
+              Pedido de revisão da pensão de acordo com nova situação da criança
+            </div>
           </div>
         </div>
       </div>
