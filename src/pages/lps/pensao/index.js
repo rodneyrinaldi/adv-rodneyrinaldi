@@ -5,6 +5,8 @@ import image1 from "../../../../public/lps/pensao/image1.png";
 import image2 from "../../../../public/lps/pensao/image2.png";
 import image3 from "../../../../public/lps/pensao/image3.png";
 import image4 from "../../../../public/lps/pensao/image4.png";
+import logo1 from "../../../../public/lps/pensao/logo.png";
+import logo2 from "../../../../public/lps/pensao/logodev.ico";
 import Meta from "../../../components/meta";
 import styles from "./index.module.css";
 
@@ -35,40 +37,76 @@ function Page() {
         url="https://adv.rodneyrinaldi.com/lps/pensao"
       />
 
-      <div className={styles.header}>xxxxxxxx</div>
+      <div className={styles.header}>
+        <Image alt="" src={logo1} width="30" height="30" />
+        <h1>Rodney Rinaldi</h1> <span>ADVOGADO</span>
+      </div>
 
       <div>
-        <div>
-          <div>xxxxxxxx</div>
-          <div className={styles.imgService}>
+        <div className={styles.line1}>
+          <div className={styles.line1Cols}>
+            <h3>Pensão alimentícia</h3>
+            <h5>
+              Os pagamentos estão atrasados, está com difi-culdades com a
+              manutenção dos filhos?
+            </h5>
+            <h5>Não foi atendida pelos critérios da Defensoria Pública?</h5>
+            <h5>
+              Está precisando falar com um advogado que atenda por um valor
+              justo e que consiga negoci-ar a forma e o prazo para pagamento?
+            </h5>
+            <h5>
+              Transforme sua preocupação em ação corretiva ao seu alcance!{" "}
+            </h5>
+            <h5>Entre em contato sem compromisso.</h5>
+            <h5>https://adv.rodneyrinaldi.com/contactus</h5>
+          </div>
+          <div className={styles.line1Img}>
             <Image alt="" src={image1} layout="responsive" objectFit="fill" />
           </div>
         </div>
 
-        <div>Cobranças de pensões atrasadas</div>
-        <div className={styles.wrapperBody}>
-          <div className={styles.imgsTypes}>
-            <Image alt="" src={image2} layout="responsive" objectFit="fill" />
-            <div>Prisão</div>
-            <div>
+        <div className={styles.line2}>
+          <h3>
+            <strong>Cobranças de pensões atrasadas</strong>
+          </h3>
+        </div>
+
+        <div className={styles.line3}>
+          <div className={styles.line3Cols}>
+            <div className={styles.line3Img}>
+              <Image alt="" src={image2} layout="responsive" objectFit="fill" />
+            </div>
+            <h3>PRISÃO</h3>
+            <h5>
               Cobrança com pedido de prisão para as 3 últimas pensões não pagas
-            </div>
+            </h5>
           </div>
-          <div className={styles.imgsTypes}>
-            <Image alt="" src={image3} layout="responsive" objectFit="fill" />
-            <div>Expropriação</div>
-            <div>
-              Cobrança com protesto para totalidade das pensões não pagas
+
+          <div className={styles.line3Cols}>
+            <div className={styles.line3Img}>
+              <Image alt="" src={image3} layout="responsive" objectFit="fill" />
             </div>
+            <h3>PATRIMÔNIO</h3>
+            <h5>Cobrança com protesto para totalidade das pensões não pagas</h5>
           </div>
-          <div className={styles.imgsTypes}>
-            <Image alt="" src={image4} layout="responsive" objectFit="fill" />
-            <div>Revisional</div>
-            <div>
+
+          <div className={styles.line3Cols}>
+            <div className={styles.line3Img}>
+              <Image alt="" src={image4} layout="responsive" objectFit="fill" />
+            </div>
+            <h3>REVISÃO</h3>
+            <h5>
               Pedido de revisão da pensão de acordo com nova situação da criança
-            </div>
+            </h5>
           </div>
         </div>
+      </div>
+
+      <div className={styles.line4}>
+        <h3>
+          <strong>Envie seus dados para ser contatado</strong>
+        </h3>
       </div>
 
       <div className={styles.wrapperIframe}>
@@ -78,7 +116,7 @@ function Page() {
             scrolling="no"
             overflow="hidden"
             src={url}
-            width="100%"
+            width="90%"
             height="1200px"
             frameBorder="0"
             marginHeight="0"
@@ -89,7 +127,18 @@ function Page() {
         </div>
       </div>
 
-      <div className={styles.footer}>xxxxxx</div>
+      <div className={styles.footer}>
+        <div className={styles.footerCols}>
+          <a href="https://dev.rodneyrinaldi.com">dev.rodneyrinaldi.com</a>
+          <a href="https://rodneyrinaldi.com">
+            <Image alt="" src={logo2} width="30" height="30" />
+          </a>
+          <a href="https://dpo.rodneyrinaldi.com">dpo.rodneyrinaldi.com</a>
+        </div>
+        <div className={styles.footerCols}>
+          <p>Travessa Dona Paula 13 Higienópolis São Paulo SP (11) 3164-6843</p>
+        </div>
+      </div>
     </>
   );
 }
