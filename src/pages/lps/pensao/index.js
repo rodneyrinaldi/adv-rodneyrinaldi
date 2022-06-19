@@ -47,19 +47,29 @@ function Page() {
           <div className={styles.line1Cols}>
             <h3>Pensão alimentícia</h3>
             <h5>
-              Os pagamentos estão atrasados, está com difi-culdades com a
-              manutenção dos filhos?
+              Os pagamentos <span>estão atrasados</span>, está com difi-culdades
+              com a manutenção dos filhos?
             </h5>
-            <h5>Não foi atendida pelos critérios da Defensoria Pública?</h5>
             <h5>
-              Está precisando falar com um advogado que atenda por um valor
-              justo e que consiga negoci-ar a forma e o prazo para pagamento?
+              <span>Não foi atendida</span> pelos critérios da Defensoria
+              Pública, mas continua com a necessidade?
+            </h5>
+            <h5>
+              <span>Está precisando falar com um advogado</span> que atenda por
+              um valor justo e que consiga negoci-ar a forma e o prazo para
+              pagamento?
             </h5>
             <h5>
               Transforme sua preocupação em ação corretiva ao seu alcance!{" "}
             </h5>
-            <h5>Entre em contato sem compromisso.</h5>
-            <h5>https://adv.rodneyrinaldi.com/contactus</h5>
+            <h5>
+              <span>Entre em contato sem compromisso</span>.
+            </h5>
+            <h5>
+              <a href="https://adv.rodneyrinaldi.com">
+                https://adv.rodneyrinaldi.com/contactus
+              </a>
+            </h5>
           </div>
           <div className={styles.line1Img}>
             <Image alt="" src={image1} layout="responsive" objectFit="fill" />
