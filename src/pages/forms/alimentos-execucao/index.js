@@ -5,7 +5,7 @@ import styles from "./index.module.css";
 
 function Page() {
   const router = useRouter();
-  const url = "https://forms.office.com/r/SYCH4rCiAC";
+  const url = "https://forms.office.com/r/eqHg8PJ9KU";
 
   function showUp() {
     openImage();
