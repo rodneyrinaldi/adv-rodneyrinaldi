@@ -39,7 +39,7 @@ function Page() {
 
       <div className={styles.main}>
         <h3>
-          <strong>INFORMAÇÕES PARA O ATENDIMENTO</strong>
+          <strong>AÇÃO DE ALIMENTOS</strong>
         </h3>
 
         <div className={styles.wrapperIframe}>
