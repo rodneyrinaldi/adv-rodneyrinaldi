@@ -22,7 +22,7 @@ function Page() {
       <Meta
         title="Rodney Rinaldi Advogado"
         descrition="Ação de Inventário"
-        image="https://adv.rodneyrinaldi.com/inventario.jpg"
+        image="https://adv.rodneyrinaldi.com/forms/inventario.jpg"
         url="https://adv.rodneyrinaldi.com/forms/inventario"
       />
 
