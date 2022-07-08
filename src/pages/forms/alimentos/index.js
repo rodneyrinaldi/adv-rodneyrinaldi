@@ -5,7 +5,7 @@ import styles from "./index.module.css";
 
 function Page() {
   const router = useRouter();
-  const url = "https://forms.office.com/r/zA7WevPV0r";
+  const url = "https://forms.office.com/r/byyStRGDcb";
 
   function showUp() {
     openImage();
@@ -21,9 +21,9 @@ function Page() {
       </Head>
       <Meta
         title="Rodney Rinaldi Advogado"
-        descrition="Ação de Alimentos"
-        image="https://adv.rodneyrinaldi.com/forms/alimentos.jpg"
-        url="https://adv.rodneyrinaldi.com/forms/alimentos"
+        descrition="Ação de Inventário"
+        image="https://adv.rodneyrinaldi.com/forms/inventario.jpg"
+        url="https://adv.rodneyrinaldi.com/forms/inventario"
       />
 
       <a href="https://adv.rodneyrinaldi.com">
@@ -39,7 +39,7 @@ function Page() {
 
       <div className={styles.main}>
         <h3>
-          <strong>AÇÃO DE ALIMENTOS</strong>
+          <strong>AÇÃO DE INVENTÁRIO</strong>
         </h3>
 
         <div className={styles.wrapperIframe}>
