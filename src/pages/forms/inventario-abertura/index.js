@@ -60,9 +60,8 @@ function Page() {
 
       <div className={styles.footer}>
         <div className={styles.footerCols}>
+          <a href="https://adv.rodneyrinaldi.com">adv.rodneyrinaldi.com</a>
           <a href="https://dev.rodneyrinaldi.com">dev.rodneyrinaldi.com</a>
-          <a href="https://rodneyrinaldi.com"></a>
-          <a href="https://dpo.rodneyrinaldi.com">dpo.rodneyrinaldi.com</a>
         </div>
         <div className={styles.footerCols}>
           <p>Travessa Dona Paula 13 Higienópolis São Paulo SP (11) 3164-6843</p>
