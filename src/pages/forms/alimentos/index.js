@@ -1,16 +1,21 @@
 import Head from "next/head";
 import { useRouter } from "next/router";
+import { useEffect } from "react";
 import Meta from "../../../components/meta";
 import styles from "./index.module.css";
 
 function Page() {
   const router = useRouter();
-  const url = "https://forms.office.com/r/byyStRGDcb";
+  const url = "https://forms.office.com/r/zA7WevPV0r";
 
-  function showUp() {
-    openImage();
-  }
-  function openImage() {}
+  useEffect(() => {
+    var iframe = document.getElementById("iframeID");
+    iframe.contentWindow.addEventListener("mouseup", Handler);
+
+    function Handler() {
+      alert("works");
+    }
+  }, []);
 
   return (
     <>
@@ -21,9 +26,9 @@ function Page() {
       </Head>
       <Meta
         title="Rodney Rinaldi Advogado"
-        descrition="Ação de Inventário"
-        image="https://adv.rodneyrinaldi.com/forms/inventario.jpg"
-        url="https://adv.rodneyrinaldi.com/forms/inventario"
+        descrition="Ação de Alimentos"
+        image="https://adv.rodneyrinaldi.com/forms/alimentos.jpg"
+        url="https://adv.rodneyrinaldi.com/forms/alimentos"
       />
 
       <a href="https://adv.rodneyrinaldi.com">
@@ -39,12 +44,13 @@ function Page() {
 
       <div className={styles.main}>
         <h3>
-          <strong>AÇÃO DE INVENTÁRIO</strong>
+          <strong>AÇÃO DE ALIMENTOS</strong>
         </h3>
 
         <div className={styles.wrapperIframe}>
           <div className={styles.layerIframe}>
             <iframe
+              id="iframeID"
               position="fixed"
               scrolling="no"
               overflow="hidden"
@@ -54,6 +60,7 @@ function Page() {
               frameBorder="0"
               marginHeight="0"
               marginWidth="0"
+              // sandbox=""
             >
               Carregando…
             </iframe>
