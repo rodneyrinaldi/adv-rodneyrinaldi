@@ -15,13 +15,25 @@
 .header h1 {
   margin-top: 16px;
   margin-left: 10px;
-  font-size: 18px;
+  font-size: 20px;
   font-stretch: expanded;
 }
 .header span {
   margin-top: 8px;
   margin-left: 10px;
-  font-size: 10px;
+  font-size: 12px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 100vw;
+  height: auto;
+  padding: 0;
+  line-height: auto;
 }
 
 .footer {
@@ -69,15 +81,16 @@
 
   width: 100vw;
   max-width: 800px;
-  height: 300px;
+  height: auto;
 }
 
 .line1Cols {
   position: relative;
   width: 56%;
+  height: auto;
   margin: 0 1vw;
 
-  line-height: 18px;
+  line-height: auto;
 }
 .line1Cols h3 {
   margin-top: 40px;
@@ -93,9 +106,8 @@
   color: #3b3a30;
   height: auto;
 
-  font-size: 12px;
+  font-size: 14px;
   font-weight: normal;
-  line-height: 18px;
 }
 .line1Cols h5 span {
   color: #2962ff;
@@ -114,6 +126,14 @@
   margin: 200px auto 20px;
   text-align: center;
 }
+.line2 h3 {
+  margin-top: 40px;
+  height: auto;
+
+  font-size: 20px;
+  font-weight: 600;
+  line-height: auto;
+}
 
 .line3 {
   display: flex;
@@ -122,48 +142,59 @@
 
   width: 100vw;
   max-width: 800px;
-  height: 180px;
+  height: auto;
   padding: 0 10px;
 }
 
 .line3Img {
   width: 76%;
-  height: 80px;
+  height: auto;
   margin: auto;
 }
 
 .line3Cols {
   position: relative;
   width: 30%;
+  height: auto;
   margin: 0 2vw;
 
-  line-height: 18px;
+  line-height: auto;
 }
 .line3Cols h3 {
   margin-top: 30px;
   color: #696969;
   height: auto;
 
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 600;
   text-align: center;
+  line-height: auto;
 }
 .line3Cols h5 {
   color: #3b3a30;
   height: auto;
 
-  font-size: 12px;
+  font-size: 14px;
   font-weight: normal;
 
   text-align: center;
+  line-height: auto;
 }
 
 .line4 {
   width: 100vw;
   max-width: 800px;
-  height: 20px;
+  height: auto;
   margin: 120px auto 0px;
   text-align: center;
+}
+.line4 h3 {
+  margin-top: 40px;
+  height: auto;
+
+  font-size: 20px;
+  font-weight: 600;
+  line-height: auto;
 }
 
 .wrapperIframe {
@@ -180,10 +211,7 @@
 .layerIframe {
   margin: auto;
   margin-top: -150px;
-  width: 100vw;
-}
-
-@media (max-width: 900px) {
+  width: auto;
 }
 
 @media (max-width: 600px) {
