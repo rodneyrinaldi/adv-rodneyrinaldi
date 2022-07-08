@@ -5,7 +5,7 @@ import styles from "./index.module.css";
 
 function Page() {
   const router = useRouter();
-  const url = "https://forms.office.com/r/SYCH4rCiAC";
+  const url = "https://forms.office.com/r/byyStRGDcb";
 
   function showUp() {
     openImage();
@@ -21,9 +21,9 @@ function Page() {
       </Head>
       <Meta
         title="Rodney Rinaldi Advogado"
-        descrition="Abertura de Inventário"
+        descrition="Ação de Inventário"
         image="https://adv.rodneyrinaldi.com/forms/inventario.jpg"
-        url="https://adv.rodneyrinaldi.com/forms/inventario-abertura"
+        url="https://adv.rodneyrinaldi.com/forms/inventario"
       />
 
       <a href="https://adv.rodneyrinaldi.com">

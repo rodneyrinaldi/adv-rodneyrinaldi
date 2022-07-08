@@ -21,9 +21,9 @@ function Page() {
       </Head>
       <Meta
         title="Rodney Rinaldi Advogado"
-        descrition="Abertura de Inventário"
-        image="https://adv.rodneyrinaldi.com/forms/inventario.jpg"
-        url="https://adv.rodneyrinaldi.com/forms/inventario-abertura"
+        descrition="Cobrança de Alimentos"
+        image="https://adv.rodneyrinaldi.com/forms/alimentos.jpg"
+        url="https://adv.rodneyrinaldi.com/forms/alimentos-execucao"
       />
 
       <a href="https://adv.rodneyrinaldi.com">
