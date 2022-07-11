@@ -9,12 +9,11 @@ function Page() {
   const url = "https://forms.office.com/r/zA7WevPV0r";
 
   useEffect(() => {
-    var iframe = document.getElementById("iframeID");
-    iframe.contentWindow.addEventListener("mouseup", Handler);
-
-    function Handler() {
-      alert("works");
-    }
+    // var iframe = document.getElementById("iframeID");
+    // iframe.addEventListener("mouseup", Handler);
+    // function Handler() {
+    //   alert("works");
+    // }
   }, []);
 
   return (
