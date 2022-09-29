@@ -26,7 +26,7 @@ function Page() {
       <Meta
         title="Rodney Rinaldi Advogado"
         descrition="Ação de Alimentos"
-        image="https://adv.rodneyrinaldi.com/forms/alimentos.jpg"
+        image="https://adv.rodneyrinaldi.com/card.jpg"
         url="https://adv.rodneyrinaldi.com/forms/alimentos"
       />
 
