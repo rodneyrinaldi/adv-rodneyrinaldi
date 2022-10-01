@@ -6,7 +6,7 @@ import styles from "./index.module.css";
 
 function Page() {
   const router = useRouter();
-  const url = "https://forms.office.com/r/TdDGFDkFPP";
+  const url = "https://forms.office.com/r/WF6j3N1v76";
 
   useEffect(() => {
     // var iframe = document.getElementById("iframeID");
