@@ -6,7 +6,7 @@ import styles from "./index.module.css";
 
 function Page() {
   const router = useRouter();
-  const url = "https://framevr.io/rr-my-family";
+  const url = "https://framevr.io/rr-office";
 
   useEffect(() => {}, []);
 
@@ -21,7 +21,7 @@ function Page() {
         title="Rodney Rinaldi Advogado"
         descrition="Minha família"
         image="https://adv.rodneyrinaldi.com/card.jpg"
-        url="https://adv.rodneyrinaldi.com/forms/alimentos"
+        url="https://adv.rodneyrinaldi.com/mvs/office"
       />
 
       <a href="https://adv.rodneyrinaldi.com">
@@ -29,7 +29,7 @@ function Page() {
           <h1>Rodney Rinaldi</h1>{" "}
           <span>
             <strong>
-              <i>ADVOGADO</i>
+              <i>LAW OFFICE</i>
             </strong>
           </span>
         </div>
