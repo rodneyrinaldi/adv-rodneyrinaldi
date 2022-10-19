@@ -79,7 +79,7 @@
   position: relative;
   width: 100vw;
   max-width: 600px;
-  height: 1410px;
+  height: 1430px;
   overflow: hidden;
   text-align: center;
 }
@@ -92,6 +92,6 @@
 
 @media (max-width: 600px) {
   .wrapperIframe {
-    height: 1400px;
+    height: 1500px;
   }
 }
