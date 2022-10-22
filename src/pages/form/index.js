@@ -57,6 +57,12 @@ Page.getInitialProps = async ({ query }) => {
 export function getForm(name) {
   let ret = "VTxxF97D0J"; // contato geral
   if (name == "alimentos") ret = "zA7WevPV0r"; // alimentos
+  if (name == "execucaoalimentos") ret = "eqHg8PJ9KU"; // alimentos execucao
+  if (name == "bancario") ret = "TdDGFDkFPP"; // bancario
+  if (name == "inventario") ret = "byyStRGDcb"; // inventario
+  if (name == "aberturainventario") ret = "SYCH4rCiAC"; // inventario abertura
+  if (name == "declaracoesinventario") ret = "pmmWjP9NmP"; // inventario declaracoes
+  if (name == "pesquisa") ret = "WF6j3N1v76"; // pesquisa
 
   return ret;
 }
