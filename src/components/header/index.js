@@ -25,8 +25,8 @@ function Header(props) {
       <div className={styles.container}>
         <div>
           <Image
-            width={40}
-            height={40}
+            width={26}
+            height={26}
             src="/rr-adv.svg"
             alt="rodneyrinaldi"
             className={styles.logo1}
