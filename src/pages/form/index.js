@@ -60,6 +60,7 @@ export function getForm(name) {
   if (name == "alimentos") ret = "zA7WevPV0r"; // alimentos
   if (name == "execucao-alimentos") ret = "eqHg8PJ9KU"; // alimentos execucao
   if (name == "bancario") ret = "TdDGFDkFPP"; // bancario
+  if (name == "consumidor") ret = "9QFcBv2dTi"; // consumidor
   if (name == "inventario") ret = "byyStRGDcb"; // inventario
   if (name == "abertura-inventario") ret = "SYCH4rCiAC"; // inventario abertura
   if (name == "declaracoes-inventario") ret = "pmmWjP9NmP"; // inventario declaracoes
