@@ -2,14 +2,14 @@ import Image from "next/image";
 
 const Section4Testimonials = () => {
   return (
-    <div className="min-h-28 w-full py-8 flex flex-col justify-center items-center border border-white">
-      <div className="h-full w-full flex justify-center items-center border border-white">
-        <p className="border border-white">Testemunhos</p>
+    <div className="min-h-28 w-full py-8 flex flex-col justify-center items-center border">
+      <div className="h-full w-full flex justify-center items-center border">
+        <p className="border">Testemunhos</p>
       </div>
 
-      <div className="w-full py-6 flex justify-center items-center border border-white">
-        <div className="h-full w-7/10 flex border border-white">
-          <div className="w-3/10 flex justify-center items-center border border-white">
+      <div className="w-full py-6 flex justify-center items-center border">
+        <div className="h-full w-7/10 flex border">
+          <div className="w-3/10 flex justify-center items-center border">
             <Image
               src="/vercel.svg"
               alt="Vercel Logo"
@@ -19,12 +19,12 @@ const Section4Testimonials = () => {
               priority
             />
           </div>
-          <div className="h-full w-7/10 flex flex-col justify-center items-center border border-white">
-            <p className="border border-white">O que Nossos Clientes Dizem</p>
-            <p className="border border-white">
+          <div className="h-full w-7/10 flex flex-col justify-center items-center border">
+            <p className="border">O que Nossos Clientes Dizem</p>
+            <p className="border">
               Experiências Reais de Quem Já Foi Atendido por Nossa Equipe
             </p>
-            <p className="border border-white">
+            <p className="border">
               “A equipe foi extremamente competente e atenciosa. Resolvi meu
               caso de forma rápida e eficiente.” - João Silva
             </p>

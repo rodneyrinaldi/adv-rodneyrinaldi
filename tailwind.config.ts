@@ -8,10 +8,14 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      colors: {
+        'background-light': '#f5f5f5', // Fundo branco acinzentado muito claro
+        'title-dark': '#333333',       // Títulos cinza escuro
+        'subtitle-grayblue': '#7b8da4', // Subtítulos azul acinzentado
+        'text-lightblack': '#444444',  // Textos e labels pretos claros
+      },
+      fontFamily: {
+        'sans': ['Helvetica Neue', 'Arial', 'sans-serif'], // Fonte fina e moderna
       },
     },
   },

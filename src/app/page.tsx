@@ -9,7 +9,7 @@ import Section0Main from "./components/sections/Section0Main";
 
 export default function Home() {
   return (
-    <div className="flex justify-center items-center w-screen bg-black text-white">
+    <div className="flex justify-center items-center w-screen">
       <div className="h-full w-full flex flex-col justify-center items-center">
         <Section1Header />
         <Section0Main />

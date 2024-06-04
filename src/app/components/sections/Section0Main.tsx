@@ -11,16 +11,16 @@ const Section0Main = () => {
                 <Image
                   src="/icon1advocacy.svg"
                   alt="Sua advocacia"
-                  className="dark:invert"
+                  className=""
                   width={30}
                   height={30}
                   priority
                 />
               </p>
-              <p className="text-xs font-normal text-center">
+              <p className="text-sm font-bold text-center text-red-900">
                 Sua Voz em Primeiro Lugar
               </p>
-              <p className="mt-2 text-xs font-thin text-center">
+              <p className="mt-2 text-xs font-normal text-center">
                 Nosso compromisso em ouví-lo atentamente e considerar
                 meticulosamente todas as suas necessidades para garantir a sua
                 mais eficaz defesa jurídica.
@@ -39,10 +39,10 @@ const Section0Main = () => {
                 />
               </p>
 
-              <p className="text-xs font-normal text-center">
+              <p className="text-sm font-bold text-center text-red-900">
                 A Voz dos Clientes Fala
               </p>
-              <p className="mt-2 text-xs font-thin text-center">
+              <p className="mt-2 text-xs font-normal text-center">
                 As experiências reais de quem já foi atendido.
               </p>
             </div>
@@ -71,10 +71,10 @@ const Section0Main = () => {
                   priority
                 />
               </p>
-              <p className="text-xs font-normal text-center">
+              <p className="text-sm font-bold text-center text-red-900">
                 Seu Atendimento Responsável
               </p>
-              <p className="mt-2 text-xs font-thin text-center">
+              <p className="mt-2 text-xs font-normal text-center">
                 Nosso atendimento personalizado e especializado, considera cada
                 aspecto de sua necessidade tratado-a com a máxima
                 responsabilidade e excelência jurídica.
@@ -93,10 +93,10 @@ const Section0Main = () => {
                 />
               </p>
 
-              <p className="text-xs font-normal text-center">
+              <p className="text-sm font-bold text-center text-red-900">
                 Entre em Contato
               </p>
-              <p className="mt-2 text-xs font-thin text-center">
+              <p className="mt-2 text-xs font-normal text-center">
                 Marque uma conversa, tire suas dúvidas.
               </p>
             </div>
