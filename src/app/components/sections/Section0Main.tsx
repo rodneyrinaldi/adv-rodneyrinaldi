@@ -2,12 +2,12 @@ import Image from "next/image";
 
 const Section0Main = () => {
   return (
-    <div className="flex justify-center h-screen pt-10">
+    <div className="flex justify-center pt-10">
       <div className="flex flex-col items-center space-y-2">
         <div className="flex justify-center items-center space-x-4">
           <div className="flex flex-col items-center space-y-12">
             <div className="w-80 h-60 flex flex-col justify-center items-center">
-              <p className="mb-4">
+              <p className="mb-4 border">
                 <Image
                   src="/icon1advocacy.svg"
                   alt="Sua advocacia"
@@ -32,7 +32,7 @@ const Section0Main = () => {
                 <Image
                   src="/icon3testimonials.svg"
                   alt="Testimoniais"
-                  className="dark:invert"
+                  className="dark"
                   width={30}
                   height={30}
                   priority
@@ -65,7 +65,7 @@ const Section0Main = () => {
                 <Image
                   src="/icon2performance.svg"
                   alt="Atuação"
-                  className="dark:invert"
+                  className="dark"
                   width={30}
                   height={30}
                   priority
@@ -86,7 +86,7 @@ const Section0Main = () => {
                 <Image
                   src="/icon4contact.svg"
                   alt="Contato"
-                  className="dark:invert"
+                  className="dark"
                   width={30}
                   height={30}
                   priority
