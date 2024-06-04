@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Rodney Rinaldi Advogado",
-  description: "Seu suporte jurídico seguro",
+  description: "Ambiente jurídico amigável e seguro",
 };
 
 export default function RootLayout({
