@@ -3,12 +3,12 @@ import Image from "next/image";
 const SectionMain = () => {
   return (
     <div className="pt-6 px-6 flex justify-center items-center">
-      <div className="flex flex-col justify-center items-center space-y-12">
+      <div className="flex flex-col justify-center items-center space-y-32 max-sm:space-y-8">
         <CompFocus />
         <CompStars />
       </div>
 
-      <div className="flex flex-col justify-center items-center space-y-12">
+      <div className="flex flex-col justify-center items-center space-y-32 max-sm:space-y-8">
         <Image
           src="/black-woman.png"
           alt="Vercel Logo"
@@ -19,7 +19,7 @@ const SectionMain = () => {
         />
       </div>
 
-      <div className="flex flex-col justify-center items-center space-y-12">
+      <div className="flex flex-col justify-center items-center space-y-32 max-sm:space-y-8">
         <CompActing />
         <CompContact />
       </div>
@@ -37,7 +37,7 @@ const CompFocus = () => {
           <Image
             src="/icon1advocacy.svg"
             alt="Sua advocacia"
-            className=""
+            className="mb-2"
             width={30}
             height={30}
             priority
@@ -64,7 +64,7 @@ const CompActing = () => {
           <Image
             src="/icon2performance.svg"
             alt="Sua advocacia"
-            className=""
+            className="mb-2"
             width={30}
             height={30}
             priority
@@ -91,7 +91,7 @@ const CompStars = () => {
           <Image
             src="/icon3testimonials.svg"
             alt="Sua advocacia"
-            className=""
+            className="mb-2"
             width={30}
             height={30}
             priority
@@ -116,7 +116,7 @@ const CompContact = () => {
           <Image
             src="/icon4contact.svg"
             alt="Sua advocacia"
-            className=""
+            className="mb-2"
             width={30}
             height={30}
             priority
