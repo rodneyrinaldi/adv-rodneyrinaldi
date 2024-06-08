@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-const SectionMain = () => {
+const Fold1Main = () => {
   return (
     <div className="pt-6 px-6 flex justify-center items-center">
       <div className="flex flex-col justify-center items-center space-y-32 max-sm:space-y-8">
@@ -10,7 +10,7 @@ const SectionMain = () => {
 
       <div className="flex flex-col justify-center items-center space-y-32 max-sm:space-y-8">
         <Image
-          src="/black-woman.png"
+          src="/images/black-woman.png"
           alt="Vercel Logo"
           className="dark"
           width={368}
@@ -27,7 +27,7 @@ const SectionMain = () => {
   );
 };
 
-export default SectionMain;
+export default Fold1Main;
 
 const CompFocus = () => {
   return (
@@ -35,7 +35,7 @@ const CompFocus = () => {
       <div className="max-w-64 max-sm:max-w-40 flex flex-col justify-center items-center">
         <div className="text-center">
           <Image
-            src="/icon1advocacy.svg"
+            src="/icons/focus.svg"
             alt="Sua advocacia"
             className="mb-2"
             width={30}
@@ -62,7 +62,7 @@ const CompActing = () => {
       <div className="max-w-64 max-sm:max-w-40 flex flex-col justify-center items-center">
         <div className="text-center">
           <Image
-            src="/icon2performance.svg"
+            src="/icons/acting.svg"
             alt="Sua advocacia"
             className="mb-2"
             width={30}
@@ -89,7 +89,7 @@ const CompStars = () => {
       <div className="max-w-64 max-sm:max-w-40 flex flex-col justify-center items-center">
         <div className="text-center">
           <Image
-            src="/icon3testimonials.svg"
+            src="/icons/stars.svg"
             alt="Sua advocacia"
             className="mb-2"
             width={30}
@@ -114,7 +114,7 @@ const CompContact = () => {
       <div className="max-w-64 max-sm:max-w-40 flex flex-col justify-center items-center">
         <div className="text-center">
           <Image
-            src="/icon4contact.svg"
+            src="/icons/contact.svg"
             alt="Sua advocacia"
             className="mb-2"
             width={30}

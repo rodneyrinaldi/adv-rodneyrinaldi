@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-const Section1Header = () => {
+const Fold0Header = () => {
   return (
     <div className="pt-8 flex flex-col justify-center items-center">
       <div className="flex flex-col justify-center items-center">
@@ -15,4 +15,4 @@ const Section1Header = () => {
   );
 };
 
-export default Section1Header;
+export default Fold0Header;
