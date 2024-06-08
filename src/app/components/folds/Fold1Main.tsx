@@ -29,7 +29,14 @@ const Fold1Main = () => {
 
 export default Fold1Main;
 
+const isMobileDevice = () => {
+  const screenWidth = window.innerWidth;
+  const isMobileWidth = screenWidth < 640;
+  return isMobileWidth;
+};
+
 const CompFocus = () => {
+  const lenght = window.screen.width < 640;
   return (
     <>
       <div className="max-w-64 max-sm:max-w-40 flex flex-col justify-center items-center">
@@ -38,13 +45,13 @@ const CompFocus = () => {
             src="/icons/focus.svg"
             alt="Sua advocacia"
             className="mb-2"
-            width={30}
+            width={(isMobileDevice()?20:30)}
             height={30}
             priority
           />
         </div>
         <div className="py-1 text-sm max-sm:text-xs font-bold max-sm:font-normal text-center text-red-900 max-sm:text-stone-950">
-          Sua Voz em Primeiro Lugar
+          Você em Primeiro Plano!
         </div>
         <div className="leading-4 max-sm:hidden text-center text-xs font-normal">
           Nosso compromisso em ouví-lo atentamente e considerar meticulosamente
@@ -71,7 +78,7 @@ const CompActing = () => {
           />
         </div>
         <div className="py-1 text-sm max-sm:text-xs font-bold max-sm:font-normal text-center text-red-900 max-sm:text-stone-950">
-          Seu Atendimento Responsável
+          Atendimento Responsável
         </div>
         <div className="leading-4 max-sm:hidden text-center text-xs font-normal">
           Nosso atendimento personalizado e especializado, considera cada
@@ -98,7 +105,7 @@ const CompStars = () => {
           />
         </div>
         <div className="py-1 text-sm max-sm:text-xs font-bold max-sm:font-normal text-center text-red-900 max-sm:text-stone-950">
-          A Voz dos Clientes Fala
+          Opiniões dos clientes
         </div>
         <div className="leading-4 max-sm:hidden text-center text-xs font-normal">
           As experiências de quem já foi atendido.
@@ -123,7 +130,7 @@ const CompContact = () => {
           />
         </div>
         <div className="py-1 text-sm max-sm:text-xs font-bold max-sm:font-normal text-center text-red-900 max-sm:text-stone-950">
-          Entre em Contato
+          Canal de comunicação
         </div>
         <div className="leading-4 max-sm:hidden text-center text-xs font-normal">
           Marque uma conversa, tire suas dúvidas.

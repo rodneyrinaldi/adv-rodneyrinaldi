@@ -30,7 +30,7 @@ const Fold2Focus = () => {
 
       <div className="max-w-80 max-sm:max-w-20 flex flex-col justify-center items-center space-y-12">
         <Image
-          src="/worried-man.png"
+          src="/images/worried-man.png"
           alt="menu logo"
           className="dark"
           width={640}
