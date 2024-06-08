@@ -28,7 +28,7 @@ const Fold2Focus = () => {
         </p>
       </div>
 
-      <div className="max-w-80 max-sm:max-w-20 flex flex-col justify-center items-center space-y-12">
+      {/* <div className="max-w-80 max-sm:max-w-20 flex flex-col justify-center items-center space-y-12">
         <Image
           src="/images/worried-man.png"
           alt="menu logo"
@@ -37,7 +37,7 @@ const Fold2Focus = () => {
           height={825}
           priority
         />
-      </div>
+      </div> */}
     </div>
   );
 };
