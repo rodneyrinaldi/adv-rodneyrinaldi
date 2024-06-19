@@ -1,8 +1,9 @@
 "use client";
 
 import React, { ReactNode } from "react";
-import CTAButton from "../layout/CTAButton";
 import Image from "next/image";
+import CTAButton from "../layout/CTAButton";
+import WAButton from "../layout/WAButton";
 
 interface SectionProps {
   imageName: string;
@@ -56,7 +57,7 @@ const Fold1Main = () => {
         />
       </div>
 
-      <div className="flex flex-col justify-center items-center space-y-32 max-sm:space-y-8">
+      <div className="flex flex-col justify-center items-center space-y-0 max-sm:space-y-0">
         <Image
           src="/images/black-woman.png"
           alt="Vercel Logo"
@@ -65,8 +66,8 @@ const Fold1Main = () => {
           height={551}
           priority
         />
-        <p className="max-w-96 pt-4 max-sm:pt-2 text-xl max-sm:text-xs text-center">
-          <CTAButton text="Fale com um advogado" onClick={handleClick} />
+        <p className="mt-[-100px]">
+          <WAButton />
         </p>
       </div>
 
