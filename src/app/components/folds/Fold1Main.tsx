@@ -2,7 +2,6 @@
 
 import React, { ReactNode } from "react";
 import Image from "next/image";
-import CTAButton from "../layout/CTAButton";
 import WAButton from "../layout/WAButton";
 
 interface SectionProps {
@@ -27,7 +26,7 @@ const Area: React.FC<SectionProps> = ({
             priority
           />
         </div>
-        <div className="pt-2 pb-1 font-sans text-xs sm:text-base font-normal sm:font-bold text-center text-red-900 max-sm:text-stone-950">
+        <div className="pt-2 pb-1 font-sans text-xs sm:text-base font-bold text-center text-red-900 max-sm:text-stone-950">
           {titleText}
         </div>
         <div className="leading-4 max-sm:hidden text-center text-xs font-normal">
@@ -71,16 +70,16 @@ const Fold1Main = () => {
 
         <div className="flex flex-col justify-center items-center space-y-32 max-sm:space-y-8">
           <Area
+            imageName="/icons/contact.svg"
+            titleText="comunicação"
+            subtitleText="Marque uma conversa, tire suas dúvidas."
+          />
+          <Area
             imageName="/icons/acting.svg"
             titleText="responsabilidade"
             subtitleText="Nosso atendimento personalizado e especializado, considera cada
           aspecto de sua necessidade tratado-a com a máxima responsabilidade e
           excelência jurídica."
-          />
-          <Area
-            imageName="/icons/contact.svg"
-            titleText="comunicação"
-            subtitleText="Marque uma conversa, tire suas dúvidas."
           />
         </div>
       </div>
