@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   sodipodi:docname="lawyer-w-logo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.76969697"
+     inkscape:cx="42.874016"
+     inkscape:cy="563.20866"
+     inkscape:window-width="1920"
+     inkscape:window-height="1051"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <rect
+       x="163.70079"
+       y="624.92126"
+       width="324.80315"
+       height="198.77953"
+       id="rect298" />
+    <rect
+       x="171.49606"
+       y="355.98425"
+       width="637.91339"
+       height="189.68504"
+       id="rect242" />
+    <rect
+       x="201.37795"
+       y="472.91339"
+       width="275.43306"
+       height="53.267717"
+       id="rect236" />
+  </defs>
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,58.78125,-67.71875)"
+       id="text234"
+       style="font-size:32px;font-family:'Lucida Sans';-inkscape-font-specification:'Lucida Sans';white-space:pre;shape-inside:url(#rect236);fill:#ffffff;fill-opacity:0.956835;fill-rule:evenodd"><tspan
+         x="201.37891"
+         y="502.1907"
+         id="tspan1695"><tspan
+           style="font-family:'Lucida Sans Typewriter';-inkscape-font-specification:'Lucida Sans Typewriter';fill:#cccccc"
+           id="tspan1693">ADVOGADO</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-14.78125,-62.21875)"
+       id="text240"
+       style="font-size:74.6667px;font-family:'Lucida Sans';-inkscape-font-specification:'Lucida Sans';white-space:pre;shape-inside:url(#rect242);fill:#ffffff;fill-opacity:0.956835;fill-rule:evenodd"><tspan
+         x="171.49609"
+         y="424.29656"
+         id="tspan1699"><tspan
+           style="font-family:'Viner Hand ITC';-inkscape-font-specification:'Viner Hand ITC'"
+           id="tspan1697">Rodney Rinaldi</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text296"
+       style="fill:#ffffff;-inkscape-font-specification:'Lucida Sans';font-family:'Lucida Sans';font-size:16px;fill-opacity:0.95683455;fill-rule:evenodd;white-space:pre;shape-inside:url(#rect298)" />
+  </g>
+</svg>

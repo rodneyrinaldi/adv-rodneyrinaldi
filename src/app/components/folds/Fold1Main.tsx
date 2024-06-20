@@ -46,12 +46,12 @@ const Fold1Main = () => {
       <div className="pt-2 px-6 flex justify-center items-center">
         <div className="flex flex-col justify-center items-center space-y-32 max-sm:space-y-8">
           <Area
-            imageName="/icons/focus.svg"
+            imageName="/icons/care.svg"
             titleText="acolhimento"
             subtitleText="Nosso compromisso em ouví-lo atentamente e considerar meticulosamente todas as suas necessidades para garantir a sua mais eficaz defesa jurídica."
           />
           <Area
-            imageName="/icons/stars.svg"
+            imageName="/icons/focus.svg"
             titleText="humanização"
             subtitleText="As experiências de quem já foi atendido."
           />

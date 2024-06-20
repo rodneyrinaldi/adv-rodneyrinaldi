@@ -6,10 +6,10 @@ const Fold0Header = () => {
       <div className="flex flex-col justify-center items-center">
         <p className="w-[200px] sm:w-[320px] mt-2 sm:mt-2 mb-0 sm:mb-2 font-serif font-bold text-xl sm:text-3xl text-black text-opacity-80">
           <Image
-            src="/images/advlogo.png"
+            src="/images/rrblaw.png"
             alt="Rodney Rinaldi Logo"
-            width={300}
-            height={72}
+            width={560}
+            height={132}
             priority
           />
         </p>
