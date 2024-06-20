@@ -43,47 +43,50 @@ const Fold1Main = () => {
     alert("CTA Button Clicked!");
   };
   return (
-    <div className="pt-6 px-6 flex justify-center items-center">
-      <div className="flex flex-col justify-center items-center space-y-32 max-sm:space-y-8">
-        <Area
-          imageName="/icons/focus.svg"
-          titleText="você primeiro"
-          subtitleText="Nosso compromisso em ouví-lo atentamente e considerar meticulosamente todas as suas necessidades para garantir a sua mais eficaz defesa jurídica."
-        />
-        <Area
-          imageName="/icons/stars.svg"
-          titleText="opiniões clientes"
-          subtitleText="As experiências de quem já foi atendido."
-        />
-      </div>
+    <div className="flex flex-col justify-center items-center">
+      <div className="pt-2 px-6 flex justify-center items-center">
+        <div className="flex flex-col justify-center items-center space-y-32 max-sm:space-y-8">
+          <Area
+            imageName="/icons/focus.svg"
+            titleText="acolhimento"
+            subtitleText="Nosso compromisso em ouví-lo atentamente e considerar meticulosamente todas as suas necessidades para garantir a sua mais eficaz defesa jurídica."
+          />
+          <Area
+            imageName="/icons/stars.svg"
+            titleText="humanização"
+            subtitleText="As experiências de quem já foi atendido."
+          />
+        </div>
 
-      <div className="flex flex-col justify-center items-center space-y-0 max-sm:space-y-0">
-        <Image
-          src="/images/black-woman.png"
-          alt="Vercel Logo"
-          className="dark"
-          width={368}
-          height={551}
-          priority
-        />
-        <p className="mt-[-100px]">
-          <WAButton />
-        </p>
-      </div>
+        <div className="flex flex-col justify-center items-center space-y-0 max-sm:space-y-0">
+          <Image
+            src="/images/black-woman.png"
+            alt="Vercel Logo"
+            className="dark"
+            width={368}
+            height={551}
+            priority
+          />
+        </div>
 
-      <div className="flex flex-col justify-center items-center space-y-32 max-sm:space-y-8">
-        <Area
-          imageName="/icons/acting.svg"
-          titleText="atendimento responsável"
-          subtitleText="Nosso atendimento personalizado e especializado, considera cada
+        <div className="flex flex-col justify-center items-center space-y-32 max-sm:space-y-8">
+          <Area
+            imageName="/icons/acting.svg"
+            titleText="responsabilidade"
+            subtitleText="Nosso atendimento personalizado e especializado, considera cada
           aspecto de sua necessidade tratado-a com a máxima responsabilidade e
           excelência jurídica."
-        />
-        <Area
-          imageName="/icons/contact.svg"
-          titleText="canal comunicação"
-          subtitleText="Marque uma conversa, tire suas dúvidas."
-        />
+          />
+          <Area
+            imageName="/icons/contact.svg"
+            titleText="comunicação"
+            subtitleText="Marque uma conversa, tire suas dúvidas."
+          />
+        </div>
+      </div>
+
+      <div className="mt-[-10px] pt-2 px-6 flex justify-center items-center">
+        <WAButton />
       </div>
     </div>
   );

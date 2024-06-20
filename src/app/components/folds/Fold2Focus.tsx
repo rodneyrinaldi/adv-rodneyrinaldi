@@ -9,7 +9,7 @@ const Fold2Focus = () => {
   };
 
   return (
-    <div className="w-screen py-16 max-sm:py-8 px-40 max-sm:px-6 flex justify-center items-center">
+    <div className="bg-indigo-50 w-screen mt-[-14px] py-16 max-sm:py-8 px-40 max-sm:px-6 flex justify-center items-center">
       <div className="pl-20 max-sm:pl-4 flex flex-col justify-center items-center space-y-2">
         <p className="max-w-96 text-xl max-sm:text-xs font-bold text-center">
           Seu Direito, Nossa Prioridade
